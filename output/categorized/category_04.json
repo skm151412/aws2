@@ -1,0 +1,878 @@
+{
+  "categoryId": 4,
+  "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)",
+  "count": 67,
+  "items": [
+    {
+      "sourceIndex": 4,
+      "question": "A cloud practitioner has a data analysis workload that is infrequently executed and can be interrupted without harm. To optimize for cost, which Amazon EC2 purchasing option should be used?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Reserved Instances",
+        "C": "Spot Instances",
+        "D": "Dedicated Hosts"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 6,
+      "question": "A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS. What is the MOST appropriate response?",
+      "options": {
+        "A": "Inform the user that AWS pricing allows for on-demand pricing.",
+        "B": "Direct the user to the AWS Simple Monthly Calculator for an estimate.",
+        "C": "Use Amazon QuickSight to analyze current spending on-premises.",
+        "D": "Use Amazon AppStream 2.0 for real-time pricing analytics."
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 10,
+      "question": "A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions. What is the most suitable and cost-effective option for this task?",
+      "options": {
+        "A": "On-Demand Instance",
+        "B": "Reserved Instance",
+        "C": "Dedicated Host",
+        "D": "Spot Instance"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 24,
+      "question": "A company has an application workload that is stateless be design and can sustain occasional downtime. The application performs massively parallel computations. Which Amazon EC2 pricing model should the company choose for its application to reduce cost?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Spot Instances",
+        "C": "Reserved Instances",
+        "D": "Dedicated Instances"
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 31,
+      "question": "A company has existing software licenses that it wants to bring to AWS, but the licensing model requires licensing physical cores. How can the company meet this requirement in the AWS Cloud?",
+      "options": {
+        "A": "Launch an Amazon EC2 instance with default tenancy.",
+        "B": "Launch an Amazon EC2 instance on a Dedicated Host.",
+        "C": "Create an On-Demand Capacity Reservation.",
+        "D": "Purchase Dedicated Reserved Instances."
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 54,
+      "question": "A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility. Which Amazon EC2 instance type should the company use to meet these requirements?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Spot Instances",
+        "C": "Reserved Instances",
+        "D": "Dedicated Hosts"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 60,
+      "question": "A company is migrating an application that is running non-interruptible workloads for a three-year time frame. Which pricing construct would provide the MOST cost-effective solution?",
+      "options": {
+        "A": "Amazon EC2 Spot Instances",
+        "B": "Amazon EC2 Dedicated Instances",
+        "C": "Amazon EC2 On-Demand Instances",
+        "D": "Amazon EC2 Reserved Instances"
+      },
+      "answer": "D",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 62,
+      "question": "A company is moving its development and test environments to AWS to increase agility and reduce cost. Because these are not production workloads and the servers are not fully utilized, occasional unavailability is acceptable. What is the MOST cost-effective Amazon EC2 pricing model that will meet these requirements?",
+      "options": {
+        "A": "Reserved Instances",
+        "B": "On-Demand Instances",
+        "C": "Spot Instances",
+        "D": "Dedicated Instances"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 66,
+      "question": "A company is piloting a new customer-facing application on Amazon Elastic Compute Cloud (Amazon EC2) for one month. What pricing model is appropriate?",
+      "options": {
+        "A": "Reserved Instances",
+        "B": "Spot Instances",
+        "C": "On-Demand Instances",
+        "D": "Dedicated Hosts"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 107,
+      "question": "A company uses Amazon EC2 infrastructure to host steady-state workloads and needs to achieve significant cost savings. Which EC2 instance pricing model should the company select?",
+      "options": {
+        "A": "Reserved Instances",
+        "B": "On-Demand Instances",
+        "C": "Spot Instances",
+        "D": "Dedicated Hosts"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 151,
+      "question": "ble start and end times. Which Amazon EC2 pricing model will be the MOST cost-effective?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Spot Instances",
+        "C": "Reserved Instances",
+        "D": "Dedicated Hosts"
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 160,
+      "question": "A customer runs an On-Demand Amazon Linux EC2 instance for 3 hours, 5 minutes, and 6 seconds. For how much time will the customer be billed?",
+      "options": {
+        "A": "3 hours, 5 minutes",
+        "B": "3 hours, 5 minutes, and 6 seconds",
+        "C": "3 hours, 6 minutes",
+        "D": "4 hours"
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 183,
+      "question": "A user has a stateful workload that will run on Amazon EC2 for the next 3 years. What is the MOST cost-effective pricing model for this workload?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Reserved Instances",
+        "C": "Dedicated Instances",
+        "D": "Spot Instances"
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 184,
+      "question": "A user has a stateless and restartable application that will run on an Amazon EC2 instance for 2 hours at a time. Which purchase option is the MOST cost-effective?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Reserved Instances",
+        "C": "Dedicated Instances",
+        "D": "Spot Instances"
+      },
+      "answer": "D",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 191,
+      "question": "A user is planning to launch two additional Amazon EC2 instances to increase availability. Which action should the user take?",
+      "options": {
+        "A": "Launch the instances across multiple Availability Zones in a single AWS Region.",
+        "B": "Launch the instances as EC2 Reserved Instances in the same AWS Region and the same Availability Zone.",
+        "C": "Launch the instances in multiple AWS Regions, but in the same Availability Zone.",
+        "D": "Launch the instances as EC2 Spot Instances in the same AWS Region, but in different Availability Zones."
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 194,
+      "question": "A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. Which Amazon EC2 instance pricing option will meet these requirements?",
+      "options": {
+        "A": "Dedicated Hosts",
+        "B": "Dedicated Instances",
+        "C": "Spot Instances",
+        "D": "Reserved Instances"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 209,
+      "question": "A workload on AWS will run for the foreseeable future by using a consistent number of Amazon EC2 instances. What pricing model will minimize cost while ensuring that compute resources remain available?",
+      "options": {
+        "A": "Dedicated Hosts",
+        "B": "On-Demand Instances",
+        "C": "Spot Instances",
+        "D": "Reserved Instances"
+      },
+      "answer": "D",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 222,
+      "question": "After selecting an Amazon EC2 Dedicated Host reservation, which pricing option would provide the largest discount?",
+      "options": {
+        "A": "No upfront payment",
+        "B": "Hourly on-demand payment",
+        "C": "Partial upfront payment",
+        "D": "All upfront payment"
+      },
+      "answer": "D",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 228,
+      "question": "An Amazon EC2 instance runs only when needed yet must remain active for the duration of the process. What is the most appropriate purchasing option?",
+      "options": {
+        "A": "Dedicated Instances",
+        "B": "Spot Instances",
+        "C": "On-Demand Instances",
+        "D": "Reserved Instances"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 229,
+      "question": "An application deployed in the AWS Cloud has unpredictable usage patterns and is running workloads that cannot be interrupted. What is the MOST cost-effective Amazon EC2 pricing option for this application?",
+      "options": {
+        "A": "Dedicated Instances",
+        "B": "Spot Instances",
+        "C": "Reserved Instances",
+        "D": "On-Demand Instances"
+      },
+      "answer": "D",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 267,
+      "question": "How does AWS MOST effectively reduce computing costs for a growing start up company?",
+      "options": {
+        "A": "It provides on-demand resources for peak usage.",
+        "B": "It automates the provisioning of individual developer environments.",
+        "C": "It automates customer relationship management.",
+        "D": "It implements a fixed monthly computing budget."
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 283,
+      "question": "One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
+      "options": {
+        "A": "the ability to bid for a lower hourly cost.",
+        "B": "paying a daily rate regardless of time used.",
+        "C": "paying only for time used.",
+        "D": "pre-paying for instances and paying a lower hourly rate."
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 338,
+      "question": "What is a characteristic of Convertible Reserved Instances (RIs)?",
+      "options": {
+        "A": "Users can exchange Convertible RIs for other Convertible RIs from a different instance family.",
+        "B": "Users can exchange Convertible RIs for other Convertible RIs in different AWS Regions.",
+        "C": "Users can sell and buy Convertible RIs on the AWS Marketplace.",
+        "D": "Users can shorten the term of their Convertible RIs by merging them with other Convertible RIs."
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 380,
+      "question": "When a user wants to utilize their existing per-socket, per-core, or per virtual machine software licenses for a Microsoft Windows server running on AWS, which Amazon EC2 instance type is required?",
+      "options": {
+        "A": "Spot Instances",
+        "B": "Dedicated Instances",
+        "C": "Dedicated Hosts",
+        "D": "Reserved Instances"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 385,
+      "question": "When is it beneficial for a company to use a Spot Instance?",
+      "options": {
+        "A": "When there is flexibility in when an application needs to run.",
+        "B": "When there are mission-critical workloads.",
+        "C": "When dedicated capacity is needed.",
+        "D": "When an instance should not be stopped."
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 396,
+      "question": "Which Amazon EC2 instance pricing model can provide discounts of up to 90%?",
+      "options": {
+        "A": "Reserved Instances",
+        "B": "On-Demand",
+        "C": "Dedicated Hosts",
+        "D": "Spot Instances"
+      },
+      "answer": "D",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 397,
+      "question": "Which Amazon EC2 pricing model adjusts based on supply and demand of EC2 instances?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Reserved Instances",
+        "C": "Spot Instances",
+        "D": "Convertible Reserved Instances"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 398,
+      "question": "Which Amazon EC2 pricing model is the MOST cost efficient for an uninterruptible workload that runs once a year for 24 hours?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Reserved Instances",
+        "C": "Spot Instances",
+        "D": "Dedicated Instances"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 399,
+      "question": "Which Amazon EC2 pricing model offers the MOST significant discount when compared to On-Demand Instances?",
+      "options": {
+        "A": "Partial Upfront Reserved Instances for a 1-year term",
+        "B": "All Upfront Reserved Instances for a 1-year term",
+        "C": "All Upfront Reserved Instances for a 3-year term",
+        "D": "No Upfront Reserved Instances for a 3-year term"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 400,
+      "question": "Which Amazon EC2 pricing model should be used to comply with per-core software license requirements?",
+      "options": {
+        "A": "Dedicated Hosts",
+        "B": "On-Demand Instances",
+        "C": "Spot Instances",
+        "D": "Reserved Instances"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 401,
+      "question": "Which Amazon EC2 pricing option is best suited for applications with short-term, spiky, or unpredictable workloads that cannot be interrupted?",
+      "options": {
+        "A": "Spot Instances",
+        "B": "Dedicated Hosts",
+        "C": "On-Demand Instances",
+        "D": "Reserved Instances"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 411,
+      "question": "Which AWS benefit is demonstrated by on-demand technology services that enable companies to replace upfront fixed expenses with variable expenses?",
+      "options": {
+        "A": "High availability",
+        "B": "Economies of scale",
+        "C": "Pay-as-you-go pricing",
+        "D": "Global reach"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 436,
+      "question": "Which AWS service allows customers to purchase unused Amazon EC2 capacity at an often discounted rate?",
+      "options": {
+        "A": "Reserved Instances",
+        "B": "On-Demand Instances",
+        "C": "Dedicated Instances",
+        "D": "Spot Instances"
+      },
+      "answer": "D",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 559,
+      "question": "Which benefit is available for Convertible Reserved Instances but NOT Standard Reserved Instances?",
+      "options": {
+        "A": "The instances can be exchanged for instances of a different instance size.",
+        "B": "The instances can be exchanged for instances of a different instance family.",
+        "C": "The instances can be changed to a different Availability Zone.",
+        "D": "The instances can be changed to a different AWS Region."
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 590,
+      "question": "Which of the following Amazon EC2 pricing models allow customers to use existing server-bound software licenses?",
+      "options": {
+        "A": "Spot Instances",
+        "B": "Reserved Instances",
+        "C": "Dedicated Hosts",
+        "D": "On-Demand Instances"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 635,
+      "question": "Which of the following Reserved Instance (RI) pricing models provides the highest average savings compared to On- Demand pricing?",
+      "options": {
+        "A": "One-year, No Upfront, Standard RI pricing",
+        "B": "One-year, All Upfront, Convertible RI pricing",
+        "C": "Three-year, All Upfront, Standard RI pricing",
+        "D": "Three-year, No Upfront, Convertible RI pricing"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 647,
+      "question": "Which of the Reserved Instance (RI) pricing models can change the attributes of the RI as long as the exchange results in the creation of RIs of equal or greater value?",
+      "options": {
+        "A": "Dedicated RIs",
+        "B": "Scheduled RIs",
+        "C": "Convertible RIs",
+        "D": "Standard RIs"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 653,
+      "question": "Which pricing model will interrupt a running Amazon EC2 instance if capacity becomes temporarily unavailable?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Standard Reserved Instances",
+        "C": "Spot Instances",
+        "D": "Convertible Reserved Instances"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 722,
+      "question": "A company is currently using an On-Demand EC2 instance for their application which they plan to migrate to a Reserved EC2 Instance to save on cost. Which of the following is the most cost-effective option if the application being hosted would be used for more than 3 years?",
+      "options": {
+        "A": "All Upfront, Standard Reserved Instance pricing for a 3-year term.",
+        "B": "No Upfront Standard Reserved Instance pricing for a 1-year term that is renewed every year.",
+        "C": "No Upfront Convertible Reserved Instance pricing for a 3-year term.",
+        "D": "All Upfront Convertible Reserved Instance pricing for a 1-year term."
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 723,
+      "question": "Which of the following is the most cost-effective payment option when you purchase either a Standard or Convertible Reserved Instance for a 1-year term?",
+      "options": {
+        "A": "All Upfront",
+        "B": "Partial Upfront",
+        "C": "Deferred",
+        "D": "No Upfront"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 733,
+      "question": "Which of the following is the most cost-effective payment option when you purchase either a Standard or Convertible Reserved Instance for a 1-year term?",
+      "options": {
+        "A": "All Upfront",
+        "B": "Partial Upfront",
+        "C": "Deferred",
+        "D": "No Upfront"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 734,
+      "question": "A company is currently using an On-Demand EC2 instance for their application which they plan to migrate to a Reserved EC2 Instance to save on cost. Which of the following is the most cost-effective option if the application being hosted would be used for more than 3 years?",
+      "options": {
+        "A": "All Upfront, Standard Reserved Instance pricing for a 3-year term.",
+        "B": "No Upfront Standard Reserved Instance pricing for a 1-year term that is renewed every year.",
+        "C": "No Upfront Convertible Reserved Instance pricing for a 3-year term.",
+        "D": "All Upfront Convertible Reserved Instance pricing for a 1-year term."
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 792,
+      "question": "Which of the following best describes what happens when you purchase an EC2 reserved instance?",
+      "options": {
+        "A": "Charges for any instances you run matching the reserved instance type will be covered by the reservation.",
+        "B": "Capacity matching the reserved definition will be guaranteed to be available whenever you request it.",
+        "C": "Your account will immediately and automatically be billed for the full reservation amount.",
+        "D": "An EC2 instance matching your reservation will automatically be launched in the selected AWS Region."
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 793,
+      "question": "Which of the following best describes what happens when you purchase an EC2 reserved instance?",
+      "options": {
+        "A": "Charges for any instances you run matching the reserved instance type will be covered by the reservation.",
+        "B": "Capacity matching the reserved definition will be guaranteed to be available whenever you request it.",
+        "C": "Your account will immediately and automatically be billed for the full reservation amount.",
+        "D": "An EC2 instance matching your reservation will automatically be launched in the selected AWS Region."
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 796,
+      "question": "Which of the following describes an EC2 dedicated instance?",
+      "options": {
+        "A": "An EC2 instance running on a physical host reserved for the exclusive use of a single AWS account",
+        "B": "An EC2 instance running on a physical host reserved for and controlled by a single AWS account",
+        "C": "An EC2 AMI that can be launched only on an instance within a single AWS account",
+        "D": "An EC2 instance optimized for a particular compute role"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 797,
+      "question": "Which of the following describes an EC2 dedicated instance?",
+      "options": {
+        "A": "An EC2 instance running on a physical host reserved for the exclusive use of a single AWS account",
+        "B": "An EC2 instance running on a physical host reserved for and controlled by a single AWS account",
+        "C": "An EC2 AMI that can be launched only on an instance within a single AWS account",
+        "D": "An EC2 instance optimized for a particular compute role"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 800,
+      "question": "Your web application experiences periodic spikes in demand that require the provisioning of extra instances. Which of the following pricing models would make the most sense for those extra instances?",
+      "options": {
+        "A": "Spot",
+        "B": "On-demand",
+        "C": "Reserved",
+        "D": "Dedicated"
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 801,
+      "question": "Your web application experiences periodic spikes in demand that require the provisioning of extra instances. Which of the following pricing models would make the most sense for those extra instances?",
+      "options": {
+        "A": "Spot",
+        "B": "On-demand",
+        "C": "Reserved",
+        "D": "Dedicated"
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 802,
+      "question": "Your web application experiences periodic spikes in demand that require the provisioning of extra instances. Which of the following pricing constantly?",
+      "options": {
+        "A": "Spot",
+        "B": "On-demand",
+        "C": "Spot fleet",
+        "D": "Reserved"
+      },
+      "answer": "D",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 803,
+      "question": "Your web application experiences periodic spikes in demand that require the provisioning of extra instances. Which of the following pricing constantly?",
+      "options": {
+        "A": "Spot",
+        "B": "On-demand",
+        "C": "Spot fleet",
+        "D": "Reserved"
+      },
+      "answer": "D",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 892,
+      "question": "Which of the following options allows customers to find, buy, and immediately start using the software and services that run on AWS?",
+      "options": {
+        "A": "AWS Marketplace",
+        "B": "Reserved Instance Marketplace",
+        "C": "AWS IQ",
+        "D": "AWS Partner Network"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 919,
+      "question": "Which of the following options allows customers to find, buy, and immediately start using the software and services that run on AWS?",
+      "options": {
+        "A": "AWS Marketplace",
+        "B": "Reserved Instance Marketplace",
+        "C": "AWS IQ",
+        "D": "AWS Partner Network"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1011,
+      "question": "A cloud practitioner has a data analysis workload that is infrequently executed and can be interrupted without harm. To optimize for cost, which Amazon EC2 purchasing option should be used?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Reserved Instances",
+        "C": "Spot Instances",
+        "D": "Dedicated Hosts"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1012,
+      "question": "A cloud practitioner has a data analysis workload that is infrequently executed and can be interrupted without harm. To optimize for cost, which Amazon EC2 purchasing option should be used?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Reserved Instances",
+        "C": "Spot Instances",
+        "D": "Dedicated Hosts"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1015,
+      "question": "A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS. What is the MOST appropriate response?",
+      "options": {
+        "A": "Inform the user that AWS pricing allows for on-demand pricing.",
+        "B": "Direct the user to the AWS Simple Monthly Calculator for an estimate.",
+        "C": "Use Amazon QuickSight to analyze current spending on-premises.",
+        "D": "Use Amazon AppStream 2.0 for real-time pricing analytics."
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1016,
+      "question": "A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS. What is the MOST appropriate response?",
+      "options": {
+        "A": "Inform the user that AWS pricing allows for on-demand pricing.",
+        "B": "Direct the user to the AWS Simple Monthly Calculator for an estimate.",
+        "C": "Use Amazon QuickSight to analyze current spending on-premises.",
+        "D": "Use Amazon AppStream 2.0 for real-time pricing analytics."
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1023,
+      "question": "A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions. What is the most suitable and cost-effective option for this task?",
+      "options": {
+        "A": "On-Demand Instance",
+        "B": "Reserved Instance",
+        "C": "Dedicated Host",
+        "D": "Spot Instance"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1024,
+      "question": "A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions. What is the most suitable and cost-effective option for this task?",
+      "options": {
+        "A": "On-Demand Instance",
+        "B": "Reserved Instance",
+        "C": "Dedicated Host",
+        "D": "Spot Instance"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1051,
+      "question": "A company has an application workload that is stateless be design and can sustain occasional downtime. The application performs massively parallel computations. Which Amazon EC2 pricing model should the company choose for its application to reduce cost?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Spot Instances",
+        "C": "Reserved Instances",
+        "D": "Dedicated Instances"
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1052,
+      "question": "A company has an application workload that is stateless be design and can sustain occasional downtime. The application performs massively parallel computations. Which Amazon EC2 pricing model should the company choose for its application to reduce cost?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Spot Instances",
+        "C": "Reserved Instances",
+        "D": "Dedicated Instances"
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1065,
+      "question": "A company has existing software licenses that it wants to bring to AWS, but the licensing model requires licensing physical cores. How can the company meet this requirement in the AWS Cloud?",
+      "options": {
+        "A": "Launch an Amazon EC2 instance with default tenancy.",
+        "B": "Launch an Amazon EC2 instance on a Dedicated Host.",
+        "C": "Create an On-Demand Capacity Reservation.",
+        "D": "Purchase Dedicated Reserved Instances."
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1066,
+      "question": "A company has existing software licenses that it wants to bring to AWS, but the licensing model requires licensing physical cores. How can the company meet this requirement in the AWS Cloud?",
+      "options": {
+        "A": "Launch an Amazon EC2 instance with default tenancy.",
+        "B": "Launch an Amazon EC2 instance on a Dedicated Host.",
+        "C": "Create an On-Demand Capacity Reservation.",
+        "D": "Purchase Dedicated Reserved Instances."
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1108,
+      "question": "A cloud practitioner has a data analysis workload that is infrequently executed and can be interrupted without harm. To optimize for cost, which Amazon EC2 purchasing option should be used?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Reserved Instances",
+        "C": "Spot Instances",
+        "D": "Dedicated Hosts"
+      },
+      "answer": "C",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1110,
+      "question": "A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS. What is the MOST appropriate response?",
+      "options": {
+        "A": "Inform the user that AWS pricing allows for on-demand pricing.",
+        "B": "Direct the user to the AWS Simple Monthly Calculator for an estimate.",
+        "C": "Use Amazon QuickSight to analyze current spending on-premises.",
+        "D": "Use Amazon AppStream 2.0 for real-time pricing analytics."
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1114,
+      "question": "A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions. What is the most suitable and cost-effective option for this task?",
+      "options": {
+        "A": "On-Demand Instance",
+        "B": "Reserved Instance",
+        "C": "Dedicated Host",
+        "D": "Spot Instance"
+      },
+      "answer": "A",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1128,
+      "question": "A company has an application workload that is stateless be design and can sustain occasional downtime. The application performs massively parallel computations. Which Amazon EC2 pricing model should the company choose for its application to reduce cost?",
+      "options": {
+        "A": "On-Demand Instances",
+        "B": "Spot Instances",
+        "C": "Reserved Instances",
+        "D": "Dedicated Instances"
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    },
+    {
+      "sourceIndex": 1135,
+      "question": "A company has existing software licenses that it wants to bring to AWS, but the licensing model requires licensing physical cores. How can the company meet this requirement in the AWS Cloud?",
+      "options": {
+        "A": "Launch an Amazon EC2 instance with default tenancy.",
+        "B": "Launch an Amazon EC2 instance on a Dedicated Host.",
+        "C": "Create an On-Demand Capacity Reservation.",
+        "D": "Purchase Dedicated Reserved Instances."
+      },
+      "answer": "B",
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)"
+    }
+  ]
+}

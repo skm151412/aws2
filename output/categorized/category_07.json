@@ -1,0 +1,943 @@
+{
+  "categoryId": 7,
+  "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)",
+  "count": 72,
+  "items": [
+    {
+      "sourceIndex": 9,
+      "question": "A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. Which AWS service can fulfill this requirement?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "AWS VPN",
+        "C": "Amazon Connect",
+        "D": "AWS Data Pipeline"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 14,
+      "question": "A company has a 500 TB image repository that needs to be transported to AWS for processing. Which AWS service can import this data MOST cost effectively?",
+      "options": {
+        "A": "AWS Snowball",
+        "B": "AWS Direct Connect",
+        "C": "AWS VPN",
+        "D": "Amazon S3"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 98,
+      "question": "A company previously lost data that was stored in an on-premises data center. To protect against future loss of data, the company wants to use AWS to automatically launch thousands of its machines in a fully provisioned state in minutes, in a format that supports data restoration. Which AWS service should the company use to meet these requirements?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "AWS Storage Gateway",
+        "C": "CloudEndure Disaster Recovery",
+        "D": "AWS Backup"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 100,
+      "question": "A company requires a dedicated network connection between its on-premises servers and the AWS Cloud. Which AWS service should be used?",
+      "options": {
+        "A": "AWS VPN",
+        "B": "AWS Direct Connect",
+        "C": "Amazon API Gateway",
+        "D": "Amazon Connect"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 101,
+      "question": "A company requires an isolated environment within AWS for security purposes. Which action can be taken to accomplish this?",
+      "options": {
+        "A": "Create a separate Availability Zone to host the resources.",
+        "B": "Create a separate VPC to host the resources.",
+        "C": "Create a placement group to host the resources.",
+        "D": "Create an AWS Direct Connect connection between the company and AWS."
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 120,
+      "question": "A company wants to distribute its incoming traffic across multiple Amazon EC2 instances. Which AWS service or feature should be used to meet this requirement?",
+      "options": {
+        "A": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "B": "AWS Application Load Balancer",
+        "C": "AWS Managed VPN",
+        "D": "AWS Direct Connect"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 125,
+      "question": "A company wants to establish a private network connection between AWS and its corporate network. Which AWS service or feature will meet this requirement?",
+      "options": {
+        "A": "Amazon Connect",
+        "B": "Amazon Route 53",
+        "C": "AWS Direct Connect",
+        "D": "VPC peering"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 137,
+      "question": "A company wants to route its traffic directly and privately to a VPC without going over the public internet. Which connectivity option provides this capability?",
+      "options": {
+        "A": "AWS VPN",
+        "B": "AWS Direct Connect",
+        "C": "VPC NAT gateway",
+        "D": "VPC internet gateway"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 138,
+      "question": "A company wants to securely access an Amazon S3 bucket from an Amazon EC2 instance without accessing the internet. What should the company use to accomplish this goal?",
+      "options": {
+        "A": "VPN connection",
+        "B": "Internet gateway",
+        "C": "VPC endpoint",
+        "D": "NAT gateway"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 144,
+      "question": "A company wants to use Amazon Elastic Compute Cloud (Amazon EC2) to deploy a global commercial application. The deployment solution should be built with the highest redundancy and fault tolerance. Based on this situation, the Amazon EC2 instances should be deployed:",
+      "options": {
+        "A": "in a single Availability Zone in one AWS Region",
+        "B": "with multiple Elastic Network Interfaces belonging to different subnets",
+        "C": "across multiple Availability Zones in one AWS Region",
+        "D": "across multiple Availability Zones in two AWS Regions"
+      },
+      "answer": "D",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 169,
+      "question": "A network engineer needs to establish a dedicated 10 Gbps network connection from an on-premises environment to AWS. Which AWS service or feature should the engineer use?",
+      "options": {
+        "A": "Amazon Route 53",
+        "B": "AWS Direct Connect",
+        "C": "AWS PrivateLink",
+        "D": "AWS VPN"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 170,
+      "question": "A new service using AWS must be highly available. Yet, due to regulatory requirements, all of its Amazon EC2 instances must be located in a single geographic area. According to best practices, to meet these requirements, the EC2 instances must be placed in at least two:",
+      "options": {
+        "A": "AWS Regions",
+        "B": "Availability Zones",
+        "C": "subnets",
+        "D": "placement groups"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 171,
+      "question": "A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect. Which AWS service or feature should the company use to help simplify management and reduce operational costs?",
+      "options": {
+        "A": "VPC endpoint",
+        "B": "AWS Direct Connect",
+        "C": "AWS Transit Gateway",
+        "D": "VPC peering"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 174,
+      "question": "A security officer wants to enable IPsec communications to securely connect users from on-premises networks to AWS. Which AWS service or feature should the officer use?",
+      "options": {
+        "A": "Amazon VPC",
+        "B": "AWS VPN",
+        "C": "AWS Direct Connect",
+        "D": "Amazon Connect"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 208,
+      "question": "A web developer has limited knowledge of AWS networking services such as Amazon VPC, Elastic Load Balancing, and Auto Scaling, but wants to host a highly available web application. Which AWS service would automatically handle the deployment and reduce the complexity for the developer?",
+      "options": {
+        "A": "AWS CodeDeploy",
+        "B": "AWS Resource Access Manager",
+        "C": "AWS Elastic Beanstalk",
+        "D": "AWS CloudFormation"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 238,
+      "question": "An independent software vendor (ISV) wants to deploy its application on AWS. The ISV's customers must be able to access the application securely from their own AWS accounts. Which AWS service or feature can the ISV use to securely provide access to its application?",
+      "options": {
+        "A": "Virtual private gateway",
+        "B": "AWS Client VPN",
+        "C": "Internet gateway",
+        "D": "AWS PrivateLink"
+      },
+      "answer": "D",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 369,
+      "question": "What is the most efficient way to establish network connectivity from on premises to multiple VPCs in different AWS Regions?",
+      "options": {
+        "A": "Use AWS Direct Connect",
+        "B": "Use AWS VPN",
+        "C": "Use AWS Client VPN",
+        "D": "Use an AWS Transit Gateway"
+      },
+      "answer": "D",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 371,
+      "question": "What is the purpose of having an internet gateway within a VPC?",
+      "options": {
+        "A": "To create a VPN connection to the VPC",
+        "B": "To allow communication between the VPC and the Internet",
+        "C": "To impose bandwidth constraints on internet traffic",
+        "D": "To load balance traffic from the Internet across Amazon EC2 instances"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 374,
+      "question": "What should users do if they want to install an application in geographically isolated locations?",
+      "options": {
+        "A": "Install the application using multiple internet gateways.",
+        "B": "Deploy the application to an Amazon VPC.",
+        "C": "Deploy the application to multiple AWS Regions.",
+        "D": "Configure the application using multiple NAT gateways."
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 387,
+      "question": "When using Amazon RDS, what is the customer responsible for?",
+      "options": {
+        "A": "Patching and maintenance of the underlying operating system.",
+        "B": "Managing automatic backups of the database.",
+        "C": "Controlling network access through security groups.",
+        "D": "Replacing failed instances in the event of a hardware failure."
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 405,
+      "question": "Which Amazon Virtual Private Cloud (Amazon VPC) feature enables users to connect two VPCs together?",
+      "options": {
+        "A": "Amazon VPC endpoints",
+        "B": "Amazon Elastic Compute Cloud (Amazon EC2) ClassicLink",
+        "C": "Amazon VPC peering",
+        "D": "AWS Direct Connect"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 424,
+      "question": "Which AWS feature should a customer leverage to achieve high availability of an application?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "Availability Zones",
+        "C": "Data centers",
+        "D": "Amazon Virtual Private Cloud (Amazon VPC)"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 426,
+      "question": "applications to seamlessly use AWS Cloud storage?",
+      "options": {
+        "A": "AWS Backup",
+        "B": "Amazon Connect",
+        "C": "AWS Direct Connect",
+        "D": "AWS Storage Gateway"
+      },
+      "answer": "D",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 427,
+      "question": "Which AWS hybrid storage service enables your on-premises applications to seamlessly use AWS Cloud storage through standard file-storage protocols?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "AWS Snowball",
+        "C": "AWS Storage Gateway",
+        "D": "AWS Snowball Edge"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 430,
+      "question": "Which AWS managed service can be used to distribute traffic between one or more Amazon EC2 instances?",
+      "options": {
+        "A": "NAT gateway",
+        "B": "Elastic Load Balancing",
+        "C": "Amazon Athena",
+        "D": "AWS PrivateLink"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 435,
+      "question": "Which AWS service allows companies to connect an Amazon VPC to an on premises data center?",
+      "options": {
+        "A": "AWS VPN",
+        "B": "Amazon RedshiftC. API Gateway",
+        "C": "Amazon Connect",
+        "D": ""
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 451,
+      "question": "Which AWS service can be used to provide an on-demand, cloud-based contact center?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "Amazon Connect",
+        "C": "AWS Support Center",
+        "D": "AWS Managed Services"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 460,
+      "question": "Which AWS service can serve a static website?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon Route 53",
+        "C": "Amazon QuickSight",
+        "D": "AWS X-Ray"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 467,
+      "question": "Which AWS service enables users to securely connect to AWS resources over the public internet?",
+      "options": {
+        "A": "Amazon VPC peering",
+        "B": "AWS Direct Connect",
+        "C": "AWS VPN",
+        "D": "Amazon Pinpoint"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 493,
+      "question": "Which AWS service or feature allows a user to establish a dedicated network connection between a company's on-premises data center and the AWS Cloud?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "VPC peering",
+        "C": "AWS VPN",
+        "D": "Amazon Route 53"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 495,
+      "question": "Which AWS service or feature allows the user to manager cross-region application traffic?",
+      "options": {
+        "A": "Amazon AppStream 2.0",
+        "B": "Amazon VPC",
+        "C": "Elastic Load Balancer",
+        "D": "Amazon Route 53"
+      },
+      "answer": "D",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 499,
+      "question": "Which AWS service or feature can simplify the management of hundreds of VPC connections across AWS Regions worldwide?",
+      "options": {
+        "A": "AWS Transit Gateway",
+        "B": "Amazon Connect",
+        "C": "Security groups",
+        "D": "VPC peering"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 512,
+      "question": "Which AWS service or feature requires an internet service provider (ISP) and a colocation facility to be implemented?",
+      "options": {
+        "A": "AWS VPN",
+        "B": "Amazon Connect",
+        "C": "AWS Direct Connect",
+        "D": "Internet gateway"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 516,
+      "question": "Which AWS service or tool gives a company the ability to release application changes in an automated way?",
+      "options": {
+        "A": "Amazon AppFlow",
+        "B": "AWS CodeDeploy",
+        "C": "AWS PrivateLink",
+        "D": "Amazon EKS Distro"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 531,
+      "question": "Which AWS service provides the ability to manage infrastructure as code?",
+      "options": {
+        "A": "AWS CodePipeline",
+        "B": "AWS CodeDeploy",
+        "C": "AWS Direct Connect",
+        "D": "AWS CloudFormation"
+      },
+      "answer": "D",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 539,
+      "question": "Which AWS service should be used to migrate a compa database to Amazon RDS?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "AWS Server Migration Service (AWS SMS)",
+        "C": "AWS Database Migration Service (AWS DMS)",
+        "D": "AWS Schema Conversion Tool (AWS SCT)"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 565,
+      "question": "Which component must be attached to a VPC to enable inbound Internet access?",
+      "options": {
+        "A": "NAT gateway",
+        "B": "VPC endpoint",
+        "C": "VPN connection",
+        "D": "Internet gateway"
+      },
+      "answer": "D",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 568,
+      "question": "Which design principle should be considered when architecting in the AWS Cloud?",
+      "options": {
+        "A": "Think of servers as non-disposable resources",
+        "B": "Use synchronous integration of services",
+        "C": "Design loosely coupled components",
+        "D": "Implement the least permissive rules for security groups"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 589,
+      "question": "Which of the following allows users to provision a dedicated network connection from their internal network to AWS?",
+      "options": {
+        "A": "AWS CloudHSM",
+        "B": "AWS Direct Connect",
+        "C": "AWS VPN",
+        "D": "Amazon Connect"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 591,
+      "question": "Which of the following AWS Cloud services can be used to run a customer managed relational database?",
+      "options": {
+        "A": "Amazon EC2",
+        "B": "Amazon Route 53",
+        "C": "Amazon ElastiCache",
+        "D": "Amazon DynamoDB"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 593,
+      "question": "Which of the following AWS services can be used to run a self-managed database?",
+      "options": {
+        "A": "Amazon Route 53",
+        "B": "AWS X-Ray",
+        "C": "AWS Snowmobile",
+        "D": "Amazon Elastic Compute Cloud (Amazon EC2)"
+      },
+      "answer": "D",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 624,
+      "question": "Which of the following is an AWS managed Domain Name System (DNS) web service?",
+      "options": {
+        "A": "Amazon Route 53",
+        "B": "Amazon Neptune",
+        "C": "Amazon SageMaker",
+        "D": "Amazon Lightsail"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 632,
+      "question": "Which of th RDS?",
+      "options": {
+        "A": "Patching the operating system of underlying hardware",
+        "B": "Controlling traffic to and from the database through security groups",
+        "C": "Running backups that enable point-in-time recovery of a DB instance",
+        "D": "Replacing failed DB instances"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 642,
+      "question": "Which of the following services will automatically scale with an expected increase in web traffic?",
+      "options": {
+        "A": "AWS CodePipeline",
+        "B": "Elastic Load Balancing",
+        "C": "Amazon EBS",
+        "D": "AWS Direct Connect"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 646,
+      "question": "Which of the following technologies provides a secure network connection from on-premises to AWS?",
+      "options": {
+        "A": "Virtual Private Network",
+        "B": "AWS Snowball",
+        "C": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "D": "AWS Mobile Hub"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 667,
+      "question": "Which service provides a user the ability to warehouse data in the AWS Cloud?",
+      "options": {
+        "A": "Amazon EFS",
+        "B": "Amazon Redshift",
+        "C": "Amazon RDS",
+        "D": "Amazon VPC"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 672,
+      "question": "Which service would provide network connectivity in a hybrid architecture that includes the AWS Cloud?",
+      "options": {
+        "A": "Amazon VPC",
+        "B": "AWS Direct Connect",
+        "C": "AWS Directory Service",
+        "D": "Amazon API Gateway"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 679,
+      "question": "Which statement is true about AWS global infrastructure?",
+      "options": {
+        "A": "Availability Zones can span multiple AWS Regions.",
+        "B": "A VPC can have different subnets in different AWS Regions.",
+        "C": "AWS Regions consist of multiple Availability Zones.",
+        "D": "A single subnet can span multiple Availability Zones."
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 694,
+      "question": "Which VPC component provides a layer of security at the subnet level?",
+      "options": {
+        "A": "Security groups",
+        "B": "Network ACLs",
+        "C": "NAT gateways",
+        "D": "Route tables"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 756,
+      "question": "Which AWS service lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources?",
+      "options": {
+        "A": "Amazon EC2",
+        "B": "Amazon VPC",
+        "C": "Internet gateway",
+        "D": "AWS Elastic Beanstalk"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 757,
+      "question": "Which AWS service lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources?",
+      "options": {
+        "A": "Amazon EC2",
+        "B": "Amazon VPC",
+        "C": "Internet gateway",
+        "D": "AWS Elastic Beanstalk"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 770,
+      "question": "Which AWS service lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources?",
+      "options": {
+        "A": "Amazon EC2",
+        "B": "Amazon VPC",
+        "C": "Internet gateway",
+        "D": "AWS Elastic Beanstalk"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 771,
+      "question": "Which AWS service lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources?",
+      "options": {
+        "A": "Amazon EC2",
+        "B": "Amazon VPC",
+        "C": "Internet gateway",
+        "D": "AWS Elastic Beanstalk"
+      },
+      "answer": "B",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 834,
+      "question": "A company is using Amazon S3 to store their static media contents such as photos and videos. Which of the following should you use to provide specific users access to the bucket?",
+      "options": {
+        "A": "Bucket Policy",
+        "B": "SSH key",
+        "C": "Security Group",
+        "D": "Network Access Control List"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 871,
+      "question": "A company is using Amazon S3 to store their static media contents such as photos and videos. Which of the following should you use to provide specific users access to the bucket?",
+      "options": {
+        "A": "Bucket Policy",
+        "B": "SSH key",
+        "C": "Security Group",
+        "D": "Network Access Control List"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 882,
+      "question": "A customer in North Virginia, USA is doing some drone work and collecting environmental data. Which of the following services allows him to easily obtain terabytes of data storage for use in a space-constrained environment and allows him to transfer these data to AWS?",
+      "options": {
+        "A": "AWS Snowcone",
+        "B": "AWS Transit Gateway",
+        "C": "AWS Snowmobile",
+        "D": "AWS Data Pipeline"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 888,
+      "question": "__________ lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.",
+      "options": {
+        "A": "Amazon VPC",
+        "B": "Amazon WorkSpaces",
+        "C": "Amazon Lightsail",
+        "D": "Virtual Private Gateway"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 903,
+      "question": "Which of the following services should you provision if your local data center requires additional storage space without having to migrate data?",
+      "options": {
+        "A": "AWS Storage Gateway",
+        "B": "AWS Backup",
+        "C": "AWS Snowball Edge",
+        "D": "AWS Direct Connect"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 907,
+      "question": "Which of the following is not required when launching an EBS-backed EC2 instance?",
+      "options": {
+        "A": "Elastic IP address",
+        "B": "Security group",
+        "C": "EBS Root volume",
+        "D": "VPC and subnet specification"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 909,
+      "question": "Which of the following services should you provision if your local data center requires additional storage space without having to migrate data?",
+      "options": {
+        "A": "AWS Storage Gateway",
+        "B": "AWS Backup",
+        "C": "AWS Snowball Edge",
+        "D": "AWS Direct Connect"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 922,
+      "question": "Which of the following is not required when launching an EBS-backed EC2 instance?",
+      "options": {
+        "A": "Elastic IP address",
+        "B": "Security group",
+        "C": "EBS Root volume",
+        "D": "VPC and subnet specification"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 923,
+      "question": "__________ lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.",
+      "options": {
+        "A": "Amazon VPC",
+        "B": "Amazon WorkSpaces",
+        "C": "Amazon Lightsail",
+        "D": "Virtual Private Gateway"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 929,
+      "question": "A customer in North Virginia, USA is doing some drone work and collecting environmental data. Which of the following services allows him to easily obtain terabytes of data storage for use in a space-constrained environment and allows him to transfer these data to AWS?",
+      "options": {
+        "A": "AWS Snowcone",
+        "B": "AWS Transit Gateway",
+        "C": "AWS Snowmobile",
+        "D": "AWS Data Pipeline"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 978,
+      "question": "When you request a new virtual machine instance in EC2, your instance will automatically launch into the currently selected value of which of the following?",
+      "options": {
+        "A": "Service",
+        "B": "Subnet",
+        "C": "Availability Zone",
+        "D": "Region"
+      },
+      "answer": "D",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 986,
+      "question": "Which of the following most accurately describes a subnet within the AWS ecosystem?",
+      "options": {
+        "A": "The virtual limits imposed on the network access permitted to a resource instance",
+        "B": "The block of IP addresses assigned for use within a single region",
+        "C": "The block of IP addresses assigned for use within a single Availability Zone",
+        "D": "The networking hardware used within a single Availability Zone"
+      },
+      "answer": "C",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 1021,
+      "question": "A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. Which AWS service can fulfill this requirement?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "AWS VPN",
+        "C": "Amazon Connect",
+        "D": "AWS Data Pipeline"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 1022,
+      "question": "A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. Which AWS service can fulfill this requirement?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "AWS VPN",
+        "C": "Amazon Connect",
+        "D": "AWS Data Pipeline"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 1031,
+      "question": "A company has a 500 TB image repository that needs to be transported to AWS for processing. Which AWS service can import this data MOST cost effectively?",
+      "options": {
+        "A": "AWS Snowball",
+        "B": "AWS Direct Connect",
+        "C": "AWS VPN",
+        "D": "Amazon S3"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 1032,
+      "question": "A company has a 500 TB image repository that needs to be transported to AWS for processing. Which AWS service can import this data MOST cost effectively?",
+      "options": {
+        "A": "AWS Snowball",
+        "B": "AWS Direct Connect",
+        "C": "AWS VPN",
+        "D": "Amazon S3"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 1113,
+      "question": "A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. Which AWS service can fulfill this requirement?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "AWS VPN",
+        "C": "Amazon Connect",
+        "D": "AWS Data Pipeline"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 1118,
+      "question": "A company has a 500 TB image repository that needs to be transported to AWS for processing. Which AWS service can import this data MOST cost effectively?",
+      "options": {
+        "A": "AWS Snowball",
+        "B": "AWS Direct Connect",
+        "C": "AWS VPN",
+        "D": "Amazon S3"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    },
+    {
+      "sourceIndex": 1159,
+      "question": "A company is using Amazon S3 to store their static media contents such as photos and videos. Which of the following should you use to provide specific users access to the bucket?",
+      "options": {
+        "A": "Bucket Policy",
+        "B": "Network Access Control List",
+        "C": "SSH key",
+        "D": "Security Group"
+      },
+      "answer": "A",
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)"
+    }
+  ]
+}

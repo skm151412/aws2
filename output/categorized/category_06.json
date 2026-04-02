@@ -1,0 +1,1346 @@
+{
+  "categoryId": 6,
+  "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)",
+  "count": 103,
+  "items": [
+    {
+      "sourceIndex": 1,
+      "question": "A bank needs to store recordings of calls made to its contact center for 6 years. The recordings must be accessible within 48 hours from the time they are requested. Which AWS service will provide a secure and cost effective solution for retaining these files?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon S3 Glacier",
+        "C": "Amazon Connect",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 12,
+      "question": "A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements. Which AWS service will meet this requirement at the LOWEST cost?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "AWS Snowball",
+        "C": "Amazon Redshift",
+        "D": "Amazon S3 Glacier"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 15,
+      "question": "A company has a business-critical Amazon RDS for MySQL DB instance that resides in a single Availability Zone. Which solution will improve the availability of the DB instance?",
+      "options": {
+        "A": "Convert the DB instance into a multi-Region deployment.",
+        "B": "Create an Amazon Simple Queue Service (Amazon SQS) queue in the same AWS Region to manage writes to the DB instance.",
+        "C": "Convert the DB instance into a Multi-AZ deployment.",
+        "D": "Create an Amazon Simple Queue Service (Amazon SQS) queue in a different AWS Region to manage writes to the DB instance."
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 21,
+      "question": "A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage. Which set of tasks would meet this requirement?",
+      "options": {
+        "A": "Add an Application Load Balancer in front of the EC2 instance",
+        "B": "Configure EC2 Auto Recovery to move the instance to another Availability Zone",
+        "C": "Migrate to Amazon RDS and enable Multi-AZ",
+        "D": "Enable termination protection for the EC2 instance to avoid outages"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 35,
+      "question": "A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. Which AWS service can be used to meet this requirement?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Redshift",
+        "C": "Amazon Athena",
+        "D": "Amazon QuickSight"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 44,
+      "question": "A company is building a business intelligence solution and wants to use dashboards for reporting purposes. Which AWS service can be used?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon Elasticsearch Service (Amazon ES)",
+        "C": "Amazon QuickSight",
+        "D": "Amazon Athena"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 45,
+      "question": "A company is building a mobile app to provide shopping recommendations to its customers. The company wants to use a graph database as part of the shopping recommendation engine. Which AWS database service should the company choose?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Aurora",
+        "C": "Amazon Neptune",
+        "D": "Amazon DocumentDB (with MongoDB compatibility)"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 51,
+      "question": "A company is considering using AWS for a self-hosted database that requires a nightly shutdown for maintenance and costsaving purposes. Which service should the company use?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Elastic Compute Cloud (Amazon EC2) with Amazon EC2 instance store",
+        "D": "Amazon EC2 with Amazon Elastic Block Store (Amazon EBS)"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 58,
+      "question": "A company is looking for a scalable data warehouse solution. Which of the",
+      "options": {
+        "A": "Amazon Simple Storage Service (Amazon S3)",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Kinesis",
+        "D": "Amazon Redshift"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 64,
+      "question": "A company is moving its on-premises key-value database to the AWS Cloud. Which AWS service will support this use case?",
+      "options": {
+        "A": "Amazon RDS",
+        "B": "Amazon ElastiCache",
+        "C": "Amazon DynamoDB",
+        "D": "Amazon Redshift"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 70,
+      "question": "A company is running a Microsoft SQL Server instance on premises and is migrating its application to AWS. The company lacks the resources need to refactor the application, but management wants to reduce operational overhead as part of the migration.Which database service would MOST effectively support these requirements?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Redshift",
+        "C": "Microsoft SQL Server on Amazon EC2",
+        "D": "Amazon RDS for SQL Server"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 71,
+      "question": "A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs. Which option should the company use to maximize savings over a 3 year term?",
+      "options": {
+        "A": "EC2 Dedicated Instances",
+        "B": "EC2 Spot Instances",
+        "C": "EC2 Reserved Instances",
+        "D": "EC2 On-Demand Instances"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 73,
+      "question": "A company is running and managing its own Docker environment on Amazon EC2 instances. The company wants to alternate to help manage cluster size, scheduling, and environment maintenance. Which AWS service meets these requirements?",
+      "options": {
+        "A": "AWS Lambda",
+        "B": "Amazon RDS",
+        "C": "AWS Fargate",
+        "D": "Amazon Athena"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 78,
+      "question": "A company must process a large amount of data from social media accounts by making graphical queries with high throughput. Which AWS service will help the company design a cloud architecture that will meet these requirements?",
+      "options": {
+        "A": "Amazon RDS",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Neptune",
+        "D": "Amazon Redshift"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 102,
+      "question": "A company runs its business-critical web application on Amazon Elastic Container Service (Amazon ECS) and Amazon DynamoDB. The workload spikes up to 10 times the normal workload multiple times during the day. Which AWS Cloud feature enables the company to meet these changes in demand?",
+      "options": {
+        "A": "Agility",
+        "B": "Global reach",
+        "C": "Scalability",
+        "D": "Security"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 111,
+      "question": "A company wants to analyze streaming user data and respond to customer queries in real time. Which AWS service can meet these requirements?",
+      "options": {
+        "A": "Amazon QuickSight",
+        "B": "Amazon Redshift",
+        "C": "Amazon Kinesis Data Analytics",
+        "D": "AWS Data Pipeline"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 132,
+      "question": "A company wants to migrate a small website and database quickly from on premises infrastructure to the AWS Cloud. The company has limited operational knowledge to perform the migration. Which AWS service supports this use case?",
+      "options": {
+        "A": "Amazon EC2",
+        "B": "Amazon Lightsail",
+        "C": "Amazon S3",
+        "D": "AWS Lambda"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 136,
+      "question": "A company wants to reduce the physical compute footprint that developers use to run code. Which service would meet that need by enabling serverless architectures?",
+      "options": {
+        "A": "Amazon Elastic Compute Cloud (Amazon EC2)",
+        "B": "AWS Lambda",
+        "C": "Amazon DynamoDB",
+        "D": "AWS CodeCommit"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 150,
+      "question": "A company would like to host its MySQL databases on AWS and maintain full control over the operating system, database installation, and configuration. Which AWS service should the company use to host the databases?",
+      "options": {
+        "A": "Amazon RDS",
+        "B": "Amazon EC2",
+        "C": "Amazon DynamoDB",
+        "D": "Amazon Aurora"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 159,
+      "question": "A customer needs to run a MySQL database that easily scales. Which AWS service should they use?",
+      "options": {
+        "A": "Amazon Aurora",
+        "B": "Amazon Redshift",
+        "C": "Amazon DynamoDB",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 166,
+      "question": "A global company is building a simple time-tracking mobile app. The app needs to operate globally and must store collected data in a database. Data must be accessible from the AWS Region that is closest to the user. What should the company do to meet these data storage requirements with the LEAST amount of operational overhead?",
+      "options": {
+        "A": "Use Amazon EC2 in multiple Regions to host separate databases.",
+        "B": "Use Amazon RDS cross-Region replication.",
+        "C": "Use Amazon DynamoDB global tables.",
+        "D": "Use AWS Database Migration Service (AWS DMS)."
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 182,
+      "question": "A user deploys an Amazon RDS DB instance in multiple Availability Zones.This strategy involves which pillar of the AWS Well-Architected Framework?",
+      "options": {
+        "A": "Performance efficiency",
+        "B": "Reliability",
+        "C": "Cost optimization",
+        "D": "Security"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 200,
+      "question": "A user needs to quickly deploy a non-relational database on AWS. The user does not want to manage the underlying hardware or the database software. Which AWS service can be used to accomplish this?",
+      "options": {
+        "A": "Amazon RDS",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Aurora",
+        "D": "Amazon Redshift"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 203,
+      "question": "A user wants to move legacy applications to the AWS Cloud to reduce the total cost. Which option is the MOST cost-effective according to best practices?",
+      "options": {
+        "A": "Rewrite the legacy applications in an open-source language, such as Python.",
+        "B": "Right-size the Amazon EC2 instances to prevent over-provisioning in terms of compute and memory.",
+        "C": "Migrate relational databases to Amazon DynamoDB.",
+        "D": "Reserve a data center facility with an upfront payment, which provides an additional discount."
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 224,
+      "question": "Amazon Relational Database Service (Amazon RDS) offers which of the following benefits over traditional database management?",
+      "options": {
+        "A": "AWS manages the data stored in Amazon RDS tables.",
+        "B": "AWS manages the maintenance of the operating system.",
+        "C": "AWS automatically scales up instance types on demand.",
+        "D": "AWS manages the database type."
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 266,
+      "question": "How does AWS charge for AWS Lambda?",
+      "options": {
+        "A": "Users bid on the maximum price they are willing to pay per hour.",
+        "B": "Users choose a 1-, 3- or 5-year upfront payment term.",
+        "C": "Users pay for the required permanent storage on a file system or in a database",
+        "D": "Users pay based on the number of requests and consumed compute resources."
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 293,
+      "question": "The pay-as-you-go pricing model for AWS services:",
+      "options": {
+        "A": "reduces capital expenditures.",
+        "B": "requires payment up front for AWS services.",
+        "C": "is relevant only for Amazon EC2, Amazon S3, and Amazon RDS.",
+        "D": "reduces operational expenditures."
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 333,
+      "question": "What feature of Amazon RDS helps to create globally redundant databases?",
+      "options": {
+        "A": "Snapshots",
+        "B": "Automatic patching and updating",
+        "C": "Cross-Region read replicas",
+        "D": "Provisioned IOPS"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 349,
+      "question": "What is an example of a decoupled, scalable, cloud-based application?",
+      "options": {
+        "A": "A mail and log application that runs on a single Amazon EC2 instance",
+        "B": "A webpage that is hosted on Amazon S3 and uses AWS Lambda to update an Amazon DynamoDB database",
+        "C": "An Application Load Balancer, web server, and database server that support a monolithic application.",
+        "D": "A legacy database server that is running on the maximum instance size supported by its license"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 354,
+      "question": "What is one of the advantages of the Amazon Relational Database Service (Amazon RDS)?",
+      "options": {
+        "A": "It simplifies relational database administration tasks.",
+        "B": "It provides 99.99999999999% reliability and durability.",
+        "C": "It automatically scales databases for loads.",
+        "D": "It enables users to dynamically adjust CPU and RAM resources."
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 364,
+      "question": "What is the lowest-cost, durable storage option for retaining database backups for immediate retrieval?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon Glacier",
+        "C": "Amazon EBS",
+        "D": "Amazon EC2 Instance Store"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 407,
+      "question": "Which architectural principle is used when deploying an Amazon Relational Database Service (Amazon RDS) instance in Multiple Availability Zone mode?",
+      "options": {
+        "A": "Implement loose coupling.",
+        "B": "Design for failure.",
+        "C": "Automate everything that can be automated.",
+        "D": "Use services, not servers."
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 442,
+      "question": "Which AWS service can a company use to create a relational database in the AWS Cloud?",
+      "options": {
+        "A": "Amazon RDS",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon ElastiCache",
+        "D": "Amazon S3"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 458,
+      "question": "Which AWS service can run a managed PostgreSQL database that provides online transaction processing (OLTP)?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Athena",
+        "C": "Amazon RDS",
+        "D": "Amazon EMR"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 477,
+      "question": "Which AWS service is a managed NoSQL database?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Aurora",
+        "D": "Amazon RDS for MariaDB"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 478,
+      "question": "Which AWS service is a relational database compatible with MySQL and PostgreSQL?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Aurora",
+        "D": "Amazon Neptune"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 480,
+      "question": "Which AWS service is an in-memory data store service?",
+      "options": {
+        "A": "Amazon Aurora",
+        "B": "Amazon RDS",
+        "C": "Amazon DynamoDB",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 489,
+      "question": "Which AWS service offers persistent storage for a file system?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon EC2 instance store",
+        "C": "Amazon Elastic Block Store (Amazon EBS)",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 506,
+      "question": "Which AWS service or feature is highly available by default?",
+      "options": {
+        "A": "Amazon EC2",
+        "B": "Amazon Aurora",
+        "C": "NAT instances",
+        "D": "Amazon RDS"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 514,
+      "question": "Which AWS service or resource is serverless?",
+      "options": {
+        "A": "AWS Lambda",
+        "B": "Amazon EC2 instances",
+        "C": "Amazon Lightsail",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 518,
+      "question": "Which AWS service providers automated backups of data by default?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon Aurora",
+        "C": "Amazon ElastiCache for Memcached",
+        "D": "Amazon Elastic File System (Amazon EFS)"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 530,
+      "question": "Which AWS service provides the ability to host a NoSQL database in the AWS Cloud?",
+      "options": {
+        "A": "Amazon Aurora",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon RDS",
+        "D": "Amazon Redshift"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 532,
+      "question": "Which AWS service provides the ability to quickly run one-time queries on data in Amazon S3?",
+      "options": {
+        "A": "Amazon EMR",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Redshift",
+        "D": "Amazon Athena"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 537,
+      "question": "Which AWS service should be used for long-term, low-cost storage of data backups?",
+      "options": {
+        "A": "Amazon RDS",
+        "B": "Amazon Glacier",
+        "C": "AWS Snowball",
+        "D": "AWS EBS"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 610,
+      "question": "Which of the following is a cloud architectural design principle?",
+      "options": {
+        "A": "Scale up, not out.",
+        "B": "Loosely couple components.",
+        "C": "Build monolithic systems.",
+        "D": "Use commercial database software."
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 614,
+      "question": "Which of the following is a fast and reliable NoSQL database service?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon RDS",
+        "C": "Amazon DynamoDB",
+        "D": "Amazon S3"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 623,
+      "question": "Which of the following is an AWS database service?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon Elastic Block Store (Amazon EBS)",
+        "C": "Amazon S3 Glacier",
+        "D": "AWS Snowball"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 626,
+      "question": "Which of the following is an AWS-managed compute service?",
+      "options": {
+        "A": "Amazon SWF",
+        "B": "Amazon EC2",
+        "C": "AWS Lambda",
+        "D": "Amazon Aurora"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 638,
+      "question": "Which of the following services falls under the responsibility of the customer to maintain operating system configuration, security patching, and networking?",
+      "options": {
+        "A": "Amazon RDS",
+        "B": "Amazon EC2",
+        "C": "Amazon ElastiCache",
+        "D": "AWS Fargate"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 639,
+      "question": "Which of the following services is a MySQL-compatible database that automatically grows storage as needed?",
+      "options": {
+        "A": "Amazon Elastic Compute Cloud (Amazon EC2)",
+        "B": "Amazon Relational Database Service (Amazon RDS) for MySQL",
+        "C": "Amazon Lightsail",
+        "D": "Amazon Aurora"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 654,
+      "question": "Which pricing model would result in maximum Amazon Elastic Compute Cloud (Amazon EC2) savings for a database server that must be online for one year?",
+      "options": {
+        "A": "Spot Instance",
+        "B": "On-Demand Instance",
+        "C": "Partial Upfront Reserved Instance",
+        "D": "No Upfront Reserved Instance"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 664,
+      "question": "Which service is an AWS-managed Hadoop framework that makes it easy, fast, and cost-effective to process large amounts of data across dynamically scalable Amazon EC2 instances?",
+      "options": {
+        "A": "Amazon EMR",
+        "B": "Amazon EC2",
+        "C": "AWS Elastic Beanstalk",
+        "D": "Amazon Redshift"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 665,
+      "question": "Which service is best for storing common database query results, which helps to alleviate database access load?",
+      "options": {
+        "A": "Amazon Machine Learning",
+        "B": "Amazon SQS",
+        "C": "Amazon ElastiCache",
+        "D": "Amazon EC2 Instance Store"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 668,
+      "question": "Which service provides a virtually unlimited amount of online highly durable object storage?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon Elastic File System (Amazon EFS)",
+        "C": "Amazon Elastic Container Service (Amazon ECS)",
+        "D": "Amazon S3"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 680,
+      "question": "Which storage service can be used as a low-cost option for hosting static websites?",
+      "options": {
+        "A": "Amazon Glacier",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon Elastic File System (Amazon EFS)",
+        "D": "Amazon Simple Storage Service (Amazon S3)"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 681,
+      "question": "Which task is an AWS responsibility when a workload is running in Amazon RDS?",
+      "options": {
+        "A": "Creating the database table",
+        "B": "Updating the database schema",
+        "C": "Installing the database engine",
+        "D": "Dropping the database records"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 684,
+      "question": "responsibility model?",
+      "options": {
+        "A": "Maintain the security of the AWS Cloud.",
+        "B": "Configure firewalls and networks.",
+        "C": "Patch the operating system of Amazon RDS instances.",
+        "D": "Implement physical and environmental controls."
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 696,
+      "question": "Who is responsible for patching the guest operating system for Amazon RDS?",
+      "options": {
+        "A": "The AWS Product team",
+        "B": "The customer Database Administrator",
+        "C": "Managed partners",
+        "D": "AWS Support"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 740,
+      "question": "Which of the following is a fully managed database in AWS that can be used to store JSON documents?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Redshift",
+        "C": "Amazon ElastiCache",
+        "D": "Amazon Aurora"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 747,
+      "question": "Which of the following is a fully managed database in AWS that can be used to store JSON documents?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Redshift",
+        "C": "Amazon ElastiCache",
+        "D": "Amazon Aurora"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 751,
+      "question": "What service provides the lowest-cost storage option for retaining database backups which also allows occasional data retrieval in minutes?",
+      "options": {
+        "A": "Amazon S3 Glacier Flexible Retrieval",
+        "B": "Amazon EFS",
+        "C": "Amazon EBS",
+        "D": "Amazon S3"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 760,
+      "question": "A company wants to launch a Microsoft SQL Server database in AWS. The accessible via RDP. A standard license for SQL Server is required but the company is not yet sure how much CPU and memory to allocate to the database. Which option gives the most convenience and flexibility to determine the best database size while still being cost-effective?",
+      "options": {
+        "A": "Use a Windows Server with SQL Server Standa need to buy and manage your own license.",
+        "B": "Launch an RDS instance that runs MS SQL Server Standard. Purchase a Standard MSSQL license and store it in the AWS Managed Services (AMS).",
+        "C": "Launch an Amazon Aurora database that runs MS SQL Server. Buy a Standard MSSQL license from the AWS License Manager service.",
+        "D": "Launch an EC2 instance and install MS SQL Server. Purchase a Standard MSSQL license from Microsoft and apply it to the database you installed."
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 767,
+      "question": "A company wants to launch a Microsoft SQL Server database in AWS. The accessible via RDP. A standard license for SQL Server is required but the company is not yet sure how much CPU and memory to allocate to the database. Which option gives the most convenience and flexibility to determine the best database size while still being cost-effective?",
+      "options": {
+        "A": "Use a Windows Server with SQL Server Standard need to buy and manage your own license.",
+        "B": "Launch an RDS instance that runs MS SQL Server Standard. Purchase a Standard MSSQL license and store it in the AWS Managed Services (AMS).",
+        "C": "Launch an Amazon Aurora database that runs MS SQL Server. Buy a Standard MSSQL license from the AWS License Manager service.",
+        "D": "Launch an EC2 instance and install MS SQL Server. Purchase a Standard MSSQL license from Microsoft and apply it to the database you installed."
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 775,
+      "question": "What service provides the lowest-cost storage option for retaining database backups which also allows occasional data retrieval in minutes?",
+      "options": {
+        "A": "Amazon S3 Glacier Flexible Retrieval",
+        "B": "Amazon EFS",
+        "C": "Amazon EBS",
+        "D": "Amazon S3"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 798,
+      "question": "Which of the following services bills at a flat rate regardless of how",
+      "options": {
+        "A": "Lightsail",
+        "B": "Elastic Beanstalk",
+        "C": "Elastic Compute Cloud",
+        "D": "Relational Database Service"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 799,
+      "question": "Which of the following services bills at a flat rate regardless of how",
+      "options": {
+        "A": "Lightsail",
+        "B": "Elastic Beanstalk",
+        "C": "Elastic Compute Cloud",
+        "D": "Relational Database Service"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 887,
+      "question": "Which of the following will allow you to create a data warehouse in AWS for your business intelligence needs?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon S3",
+        "C": "Amazon RDS",
+        "D": "Amazon DynamoDB"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 891,
+      "question": "A company plans to migrate their on-premises MySQL database to Amazon RDS. Which AWS service should they use for this task?",
+      "options": {
+        "A": "AWS Database Migration Service (AWS DMS)",
+        "B": "AWS Schema Conversion Tool (AWS SCT)",
+        "C": "AWS Glue",
+        "D": "AWS Server Migration Service"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 893,
+      "question": "You have a fleet of on-premises servers that require a centralized scalable and durable file storage. It should be able to support massive parallel access. Which of the following is the most appropriate service to use?",
+      "options": {
+        "A": "Amazon EFS",
+        "B": "Amazon S3",
+        "C": "Amazon Storage Gateway",
+        "D": "Amazon Redshift"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 894,
+      "question": "File Gateway Which service in AWS supports various business intelligence tools such as Apache Spark so that you may perform data transformation workloads (ETL) and analytics at a low cost?",
+      "options": {
+        "A": "Amazon EMR",
+        "B": "Amazon RDS",
+        "C": "Amazon OpenSearch",
+        "D": "Amazon Redshift"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 896,
+      "question": "How can you easily and securely copy your infrastructure to another AWS Region?",
+      "options": {
+        "A": "Create a CloudFormation template and deploy it in the new region",
+        "B": "Create a golden AMI which you can use to redeploy your instances to the new region",
+        "C": "Enable RDS multi-AZ to have a similar database instance running in the new region",
+        "D": "Take an EBS snapshot on all your storage devices and copy them to the new region"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 899,
+      "question": "A customer has a popular website that has millions of viewers from all over the world and has read-heavy database workloads. Which of the following is the best option to use to increase the read throughput on their database?",
+      "options": {
+        "A": "Enable Amazon RDS Read Replicas",
+        "B": "Enable Amazon RDS Standby Replicas",
+        "C": "Use SQS to queue up the requests",
+        "D": "Enable Multi-AZ deployments"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 913,
+      "question": "A customer has a popular website that has millions of viewers from all over the world and has read-heavy database workloads. Which of the following is the best option to use to increase the read throughput on their database?",
+      "options": {
+        "A": "Enable Amazon RDS Read Replicas",
+        "B": "Enable Amazon RDS Standby Replicas",
+        "C": "Use SQS to queue up the requests",
+        "D": "Enable Multi-AZ deployments"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 915,
+      "question": "How can you easily and securely copy your infrastructure to another AWS Region?",
+      "options": {
+        "A": "Create a CloudFormation template and deploy it in the new region",
+        "B": "Create a golden AMI which you can use to redeploy your instances to the new region",
+        "C": "Enable RDS multi-AZ to have a similar database instance running in the new region",
+        "D": "Take an EBS snapshot on all your storage devices and copy them to the new region"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 916,
+      "question": "Which service in AWS supports various business intelligence tools such as Apache Spark so that you may perform data transformation workloads (ETL) and analytics at a low cost?",
+      "options": {
+        "A": "Amazon EMR",
+        "B": "Amazon RDS",
+        "C": "Amazon OpenSearch",
+        "D": "Amazon Redshift"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 917,
+      "question": "You have a fleet of on-premises servers that require a centralized scalable and durable file storage. It should be able to support massive parallel access. Which of the following is the most appropriate service to use?",
+      "options": {
+        "A": "Amazon EFS",
+        "B": "Amazon S3",
+        "C": "Amazon Storage Gateway",
+        "D": "Amazon Redshift"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 920,
+      "question": "A company plans to migrate their on-premises MySQL database to Amazon RDS. Which AWS service should they use for this task?",
+      "options": {
+        "A": "AWS Database Migration Service (AWS DMS)",
+        "B": "AWS Schema Conversion Tool (AWS SCT)",
+        "C": "AWS Glue",
+        "D": "AWS Server Migration Service"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 924,
+      "question": "Which of the following will allow you to create a data warehouse in AWS for your business intelligence needs?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon S3",
+        "C": "Amazon RDS",
+        "D": "Amazon DynamoDB"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 987,
+      "question": "Which of the following would be a valid endpoint your developers could running in the Northern Virginia region?",
+      "options": {
+        "A": "us-east-1.amazonaws.com.rds",
+        "B": "ecs.eu-west-3.amazonaws.com",
+        "C": "rds.us-east-1.amazonaws.com",
+        "D": "rds.amazonaws.com.us-east-1"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1001,
+      "question": "Which of the following services allow you to purchase reserved instances to save money?",
+      "options": {
+        "A": "Amazon Relational Database Service (RDS)",
+        "B": "Lambda",
+        "C": "S3",
+        "D": "AWS Fargate"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1005,
+      "question": "A bank needs to store recordings of calls made to its contact center for 6 years. The recordings must be accessible within 48 hours from the time they are requested. Which AWS service will provide a secure and cost effective solution for retaining these files?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon S3 Glacier",
+        "C": "Amazon Connect",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1006,
+      "question": "A bank needs to store recordings of calls made to its contact center for 6 years. The recordings must be accessible within 48 hours from the time they are requested. Which AWS service will provide a secure and cost effective solution for retaining these files?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon S3 Glacier",
+        "C": "Amazon Connect",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1027,
+      "question": "A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements. Which AWS service will meet this requirement at the LOWEST cost?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "AWS Snowball",
+        "C": "Amazon Redshift",
+        "D": "Amazon S3 Glacier"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1028,
+      "question": "A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements. Which AWS service will meet this requirement at the LOWEST cost?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "AWS Snowball",
+        "C": "Amazon Redshift",
+        "D": "Amazon S3 Glacier"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1033,
+      "question": "A company has a business-critical Amazon RDS for MySQL DB instance that resides in a single Availability Zone. Which solution will improve the availability of the DB instance?",
+      "options": {
+        "A": "Convert the DB instance into a multi-Region deployment.",
+        "B": "Create an Amazon Simple Queue Service (Amazon SQS) queue in the same AWS Region to manage writes to the DB instance.",
+        "C": "Convert the DB instance into a Multi-AZ deployment.",
+        "D": "Create an Amazon Simple Queue Service (Amazon SQS) queue in a different AWS Region to manage writes to the DB instance."
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1034,
+      "question": "A company has a business-critical Amazon RDS for MySQL DB instance that resides in a single Availability Zone. Which solution will improve the availability of the DB instance?",
+      "options": {
+        "A": "Convert the DB instance into a multi-Region deployment.",
+        "B": "Create an Amazon Simple Queue Service (Amazon SQS) queue in the same AWS Region to manage writes to the DB instance.",
+        "C": "Convert the DB instance into a Multi-AZ deployment.",
+        "D": "Create an Amazon Simple Queue Service (Amazon SQS) queue in a different AWS Region to manage writes to the DB instance."
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1045,
+      "question": "A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage. Which set of tasks would meet this requirement?",
+      "options": {
+        "A": "Add an Application Load Balancer in front of the EC2 instance",
+        "B": "Configure EC2 Auto Recovery to move the instance to another Availability Zone",
+        "C": "Migrate to Amazon RDS and enable Multi-AZ",
+        "D": "Enable termination protection for the EC2 instance to avoid outages"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1046,
+      "question": "A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage. Which set of tasks would meet this requirement?",
+      "options": {
+        "A": "Add an Application Load Balancer in front of the EC2 instance",
+        "B": "Configure EC2 Auto Recovery to move the instance to another Availability Zone",
+        "C": "Migrate to Amazon RDS and enable Multi-AZ",
+        "D": "Enable termination protection for the EC2 instance to avoid outages"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1073,
+      "question": "A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. Which AWS service can be used to meet this requirement?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Redshift",
+        "C": "Amazon Athena",
+        "D": "Amazon QuickSight"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1074,
+      "question": "A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. Which AWS service can be used to meet this requirement?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Redshift",
+        "C": "Amazon Athena",
+        "D": "Amazon QuickSight"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1091,
+      "question": "A company is building a business intelligence solution and wants to use dashboards for reporting purposes. Which AWS service can be used?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon Elasticsearch Service (Amazon ES)",
+        "C": "Amazon QuickSight",
+        "D": "Amazon Athena"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1092,
+      "question": "A company is building a business intelligence solution and wants to use dashboards for reporting purposes. Which AWS service can be used?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon Elasticsearch Service (Amazon ES)",
+        "C": "Amazon QuickSight",
+        "D": "Amazon Athena"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1093,
+      "question": "A company is building a mobile app to provide shopping recommendations to its customers. The company wants to use a graph database as part of the shopping recommendation engine. Which AWS database service should the company choose?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Aurora",
+        "C": "Amazon Neptune",
+        "D": "Amazon DocumentDB (with MongoDB compatibility)"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1094,
+      "question": "A company is building a mobile app to provide shopping recommendations to its customers. The company wants to use a graph database as part of the shopping recommendation engine. Which AWS database service should the company choose?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Aurora",
+        "C": "Amazon Neptune",
+        "D": "Amazon DocumentDB (with MongoDB compatibility)"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1105,
+      "question": "A bank needs to store recordings of calls made to its contact center for 6 years. The recordings must be accessible within 48 hours from the time they are requested. Which AWS service will provide a secure and cost effective solution for retaining these files?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon S3 Glacier",
+        "C": "Amazon Connect",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1116,
+      "question": "A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements. Which AWS service will meet this requirement at the LOWEST cost?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "AWS Snowball",
+        "C": "Amazon Redshift",
+        "D": "Amazon S3 Glacier"
+      },
+      "answer": "D",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1119,
+      "question": "A company has a business-critical Amazon RDS for MySQL DB instance that resides in a single Availability Zone. Which solution will improve the availability of the DB instance?",
+      "options": {
+        "A": "Convert the DB instance into a multi-Region deployment.",
+        "B": "Create an Amazon Simple Queue Service (Amazon SQS) queue in the same AWS Region to manage writes to the DB instance.",
+        "C": "Convert the DB instance into a Multi-AZ deployment.",
+        "D": "Create an Amazon Simple Queue Service (Amazon SQS) queue in a different AWS Region to manage writes to the DB instance."
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1125,
+      "question": "A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage. Which set of tasks would meet this requirement?",
+      "options": {
+        "A": "Add an Application Load Balancer in front of the EC2 instance",
+        "B": "Configure EC2 Auto Recovery to move the instance to another Availability Zone",
+        "C": "Migrate to Amazon RDS and enable Multi-AZ",
+        "D": "Enable termination protection for the EC2 instance to avoid outages"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1139,
+      "question": "A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. Which AWS service can be used to meet this requirement?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Redshift",
+        "C": "Amazon Athena",
+        "D": "Amazon QuickSight"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1148,
+      "question": "A company is building a business intelligence solution and wants to use dashboards for reporting purposes. Which AWS service can be used?",
+      "options": {
+        "A": "Amazon Redshift",
+        "B": "Amazon Elasticsearch Service (Amazon ES)",
+        "C": "Amazon QuickSight",
+        "D": "Amazon Athena"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1149,
+      "question": "A company is building a mobile app to provide shopping recommendations to its customers. The company wants to use a graph database as part of the shopping recommendation engine. Which AWS database service should the company choose?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon Aurora",
+        "C": "Amazon Neptune",
+        "D": "Amazon DocumentDB (with MongoDB compatibility)"
+      },
+      "answer": "C",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1165,
+      "question": "Which AWS service provides a way to train machine learning models using SQL commands and utilize the trained model within their data warehouse for data forecasting purposes?",
+      "options": {
+        "A": "Amazon MemoryDB for Redis",
+        "B": "Amazon Redshift ML",
+        "C": "Amazon Quantum Ledger Database (QLDB)",
+        "D": "Amazon SageMaker"
+      },
+      "answer": "B",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    },
+    {
+      "sourceIndex": 1174,
+      "question": "A company has enlisted the help of TDojo Consulting Co. to assist them in designing an AWS disaster recovery solution for their on-premises bare metal servers and SQL databases. The implementation has to be robust, fast, and simple to use. It should also prevent any type of data loss from occurring. The company would like to keep track of the status of the migration.Which tool should the team adopt for the DR solution?",
+      "options": {
+        "A": "CloudEndure",
+        "B": "AWS Migration Hub",
+        "C": "AWS Database Migration Service",
+        "D": "AWS Server Migration Service"
+      },
+      "answer": "A",
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)"
+    }
+  ]
+}

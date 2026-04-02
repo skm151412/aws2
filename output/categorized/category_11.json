@@ -1,0 +1,2126 @@
+{
+  "categoryId": 11,
+  "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)",
+  "count": 163,
+  "items": [
+    {
+      "sourceIndex": 8,
+      "question": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. What is the SIMPLEST way to do this?",
+      "options": {
+        "A": "Review the inbound rules for each security group in the Amazon EC2 management console to check for port 0.0.0.0/0.",
+        "B": "Run AWS Trusted Advisor and review the findings.",
+        "C": "Open the AWS IAM console and check the inbound rule filters for open access.",
+        "D": "In AWS Config, create a custom rule that invokes an AWS Lambda function to review rules for inbound access."
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 13,
+      "question": "A company believes an unauthorized user copied data from an Amazon S3 bucket to their own account. Which AWS service will record the actions taken by the user?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS CloudTrail",
+        "C": "AWS Infrastructure Event Management",
+        "D": "AWS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 17,
+      "question": "A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS Secrets Manager",
+        "C": "AWS CloudTrail",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 26,
+      "question": "A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. Which AWS service should the company use?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS WAF",
+        "C": "AWS Trusted Advisor",
+        "D": "Amazon Inspector"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 28,
+      "question": "A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases. What is the MOST efficient way to apply the security patches?",
+      "options": {
+        "A": "Connect to each database instance on a monthly basis, and download and apply the necessary security patches from the vendor.",
+        "B": "Enable automatic patching for the instances using the Amazon RDS console.",
+        "C": "In AWS Config, configure a rule for the instances and the required patch level.",
+        "D": "Use AWS Systems Manager to automate database patching according to a schedule."
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 40,
+      "question": "A company hosts images in an Amazon S3 bucket for a public-facing website that is viewed by millions of users around the globe. Which AWS service will deliver this content with reduced latency?",
+      "options": {
+        "A": "AWS WAF",
+        "B": "Amazon CloudWatch",
+        "C": "Amazon Cloud Front",
+        "D": "AWS CloudFormation"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 57,
+      "question": "A company is launching an e-commerce site that will store and process credit card data. The company requires information about AWS compliance reports and AWS agreements. Which AWS service provides on-demand access to these items?",
+      "options": {
+        "A": "AWS Certificate Manager",
+        "B": "AWS Config",
+        "C": "AWS Artifact",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 74,
+      "question": "A company is undergoing a security audit. The audit includes security validation and compliance validation of the AWS infrastructure and services that the company uses. The auditor needs to locate compliance related information and must download AWS security and compliance documents. These documents include the System and Organization Control (SOC) reports. Which AWS service or group can provide these documents?",
+      "options": {
+        "A": "AWS Abuse team",
+        "B": "AWS Artifact",
+        "C": "AWS Support",
+        "D": "AWS Config"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 77,
+      "question": "A company must keep records of all resource changes that are made through the AWS Management Console and AWS APIs. Which AWS service should the company use to meet this requirement?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS CloudTrail",
+        "C": "AWS X-Ray",
+        "D": "Amazon Inspector"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 83,
+      "question": "A company needs an Amazon S3 bucket that cannot have any public objects due to compliance requirements. How can this be accomplished?",
+      "options": {
+        "A": "Enable S3 Block Public Access from the AWS Management Console.",
+        "B": "Hold a team meeting to discuss the importance if only uploading private S3 objects.",
+        "C": "Require all S3 objects to be manually approved before uploading.",
+        "D": "Create a service to monitor all S3 uploads and remove any public uploads."
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 91,
+      "question": "A company needs to securely store important credentials that an application uses to connect users to a database. Which AWS service can meet this requirement with the MINIMAL amount of operational overhead?",
+      "options": {
+        "A": "AWS Key Management Service (AWS KMS)",
+        "B": "AWS Config",
+        "C": "AWS Secrets Manager",
+        "D": "Amazon GuardDuty"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 93,
+      "question": "A company needs to track the activity in its AWS accounts, and needs to know when an API call is made against its AWS resources. Which AWS tool or service can be used to meet these requirements?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "Amazon Inspector",
+        "C": "AWS Cloud TrailD. AWS IAM",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 99,
+      "question": "A company recently migrated to AWS and wants to enable intelligent threat protection and continuous monitoring across all of its AWS accounts. Which AWS service should the company use to achieve this goal?",
+      "options": {
+        "A": "Amazon Macie",
+        "B": "Amazon GuardDuty",
+        "C": "AWS Shield",
+        "D": "Amazon Detective"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 129,
+      "question": "A company wants to improve its security and audit posture by limiting Amazon EC2 inbound access.What should the company use to access instances remotely instead of opening inbound SSH ports and managing SSH keys?",
+      "options": {
+        "A": "EC2 key pairs",
+        "B": "AWS Systems Manager Session Manager",
+        "C": "AWS Identity and Access Management (IAM)",
+        "D": "Network ACLs"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 145,
+      "question": "A company wants to use an AWS service to monitor the health of application endpoints, with the ability to route traffic to healthy regional endpoints to improve application availability. Which service will support these requirements?",
+      "options": {
+        "A": "Amazon Inspector",
+        "B": "Amazon CloudWatch",
+        "C": "AWS Global Accelerator",
+        "D": "Amazon CloudFront"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 154,
+      "question": "approved Amazon Machine Images (AMIs). Which AWS service should the company use to verify that the EC2 instances are using approved AMIs?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "Amazon Inspector",
+        "C": "AWS Config",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 163,
+      "question": "A developer has an AWS account and needs access to another account's test database. Which AWS service or feature can the developer use to gain access to the test database?",
+      "options": {
+        "A": "Amazon Macie",
+        "B": "Security groups",
+        "C": "IAM roles",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 165,
+      "question": "A financial services company wants to ensure that its AWS account activity is logged to meet regulatory requirements for logging, auditing, and governance. Which AWS service meets these requirements?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS Config",
+        "D": "Amazon CloudWatch"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 173,
+      "question": "A security officer wants a list of any potential vulnerabilities in Amazon EC2 security groups. Which AWS service should the officer use?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS CloudTrail",
+        "D": "AWS Artifact"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 195,
+      "question": "A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances. Which AWS service will provide this assessment report?",
+      "options": {
+        "A": "EC2 security groups",
+        "B": "AWS Config",
+        "C": "Amazon Macie",
+        "D": "Amazon Inspector"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 198,
+      "question": "A user needs to generate a report that outlines the status of key security checks in an AWS account. The report must include: The status of Amazon S3 bucket permissions.Whether multi-factor authentication is enabled for the AWS account root user. If any security groups are configured to allow unrestricted access. Where can all this information be found in one location?",
+      "options": {
+        "A": "Amazon QuickSight dashboard",
+        "B": "AWS CloudTrail trails",
+        "C": "AWS Trusted Advisor report",
+        "D": "IAM credential report"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 201,
+      "question": "A user needs to regularly audit and evaluate the setup of all AWS resources, identify non-compliant accounts, and be notified when a resource changes. Which AWS service can be used to meet these requirements?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "AWS Config",
+        "C": "AWS Resource Access Manager",
+        "D": "AWS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 206,
+      "question": "A user would like to encrypt data that is received, stored, and managed by AWS CloudTrail. Which AWS service will provide this capability?",
+      "options": {
+        "A": "AWS Secrets Manager",
+        "B": "AWS Systems Manager",
+        "C": "AWS Key Management Service (AWS KMS)",
+        "D": "AWS Certificate Manager"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 227,
+      "question": "An Amazon EC2 instance previously used for development is inaccessible and no longer appears in the AWS Management Console. Which AWS service should be used to determine what action made this EC2 instance inaccessible?",
+      "options": {
+        "A": "Amazon CloudWatch Logs",
+        "B": "AWS Security Hub",
+        "C": "Amazon Inspector",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 234,
+      "question": "An ecommerce company anticipates a huge increase in web traffic for two very popular upcoming shopping holidays. Which AWS service or feature can be configured to dynamically adjust resources to meet this change in demand?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "Amazon EC2 Auto Scaling",
+        "C": "Amazon Forecast",
+        "D": "AWS Config"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 237,
+      "question": "An external auditor has requested that a company provide a list of all keys. What it the SIMPLEST way to provide this information?",
+      "options": {
+        "A": "Create an IAM user account for the auditor, granting the auditor administrator permissions. then provide the screenshots to the auditor.",
+        "B": "",
+        "C": "Download the IAM credential report, then provide the report to the auditor.",
+        "D": "Download the AWS Trusted Advisor report, then provide the report to the auditor."
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 240,
+      "question": "An online retail company recently deployed a production web application. The system administrator needs to block common attack patterns such as SQL injection and cross-site scripting. Which AWS service should the administrator use to address these concerns?",
+      "options": {
+        "A": "AWS WAF",
+        "B": "Amazon VPC",
+        "C": "Amazon GuardDuty",
+        "D": "Amazon CloudWatch"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 249,
+      "question": "During a compliance review, one of the auditors requires a copy of the AWS SOC 2 report. Which service should be used to submit this request?",
+      "options": {
+        "A": "AWS Personal Health Dashboard",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS Artifact",
+        "D": "Amazon S3"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 252,
+      "question": "For which auditing process does AWS have sole responsibility?",
+      "options": {
+        "A": "AWS IAM policies",
+        "B": "Physical security",
+        "C": "Amazon S3 bucket policies",
+        "D": "AWS CloudTrail Logs"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 253,
+      "question": "How can a company isolate the costs of production and non-production workloads on AWS?",
+      "options": {
+        "A": "Create Identity and Access Management (IAM) roles for production and non-production workloads.",
+        "B": "Use different accounts for production and non-production expenses.",
+        "C": "Use Amazon EC2 for non-production workloads and other services for production workloads.",
+        "D": "Use Amazon CloudWatch to monitor the use of services."
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 259,
+      "question": "usage changes unpredictably?",
+      "options": {
+        "A": "AWS will refund the cost difference if a customer moves to larger servers.",
+        "B": "The application can be built to scale up or down automatically as resources are neededC. Spot instances will automatically be used if the price is lower than on-demand instances.",
+        "C": "Amazon CloudWatch will automatically predict what resources are needed.",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 272,
+      "question": "How is asset management on AWS easier than asset management in a physical data center?",
+      "options": {
+        "A": "AWS provides a Configuration Management Database that users can maintain.",
+        "B": "AWS performs infrastructur",
+        "C": "Amazon EC2 automatically generates an asset report and places it in",
+        "D": "Users can gather asset metadata reliably with a few API calls."
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 277,
+      "question": "If a customer needs to audit the change management of AWS resources, which of the following AWS services should the customer use?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS Trusted Advisor",
+        "C": "Amazon CloudWatch",
+        "D": "Amazon Inspector"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 296,
+      "question": "To avoid malicious compute activities, a user needs a quick way to determine if any Amazon EC2 instances have ports that allow unrestricted access. Which AWS service will support this requirement?",
+      "options": {
+        "A": "VPC Flow Logs",
+        "B": "AWS WAF",
+        "C": "AWS CloudTrail",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 299,
+      "question": "Treating infrastructure as code in the AWS Cloud allows users to:",
+      "options": {
+        "A": "automate migration of on-premises hardware to AWS data centers.",
+        "B": "let a third party automate an audit of the AWS infrastructure.",
+        "C": "turn over application code to AWS so it can run on the AWS infrastructure.",
+        "D": "automate the infrastructure provisioning process."
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 302,
+      "question": "Under the AWS shared responsibility model, the security and patching of the guest operating system is the responsibility of:",
+      "options": {
+        "A": "AWS Support",
+        "B": "the customer",
+        "C": "AWS Systems Manager",
+        "D": "AWS Config"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 309,
+      "question": "Under the shared responsibility model, which of the following is a shared control between a customer and AWS?",
+      "options": {
+        "A": "Physical controls",
+        "B": "Patch management",
+        "C": "Zone security",
+        "D": "Data center auditing"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 313,
+      "question": "Using AWS Config to record, audit, and evaluate changes to AWS resources to enable traceability is an example of which AWS Well-Architected Framework pillar?",
+      "options": {
+        "A": "Security",
+        "B": "Operational excellence",
+        "C": "Performance efficiency",
+        "D": "Cost optimization"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 342,
+      "question": "What is Amazon CloudWatch?",
+      "options": {
+        "A": "A code repository with customizable build and team commit features.",
+        "B": "A metrics repository with customizable notification thresholds and channels.",
+        "C": "A security configuration repository with threat analytics.",
+        "D": "A rule repository of a web application firewall with automated vulnerability prevention features."
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 344,
+      "question": "What is an advantage of using the AWS Cloud over a traditional on premises solution?",
+      "options": {
+        "A": "Users do not have to guess about future capacity needs.",
+        "B": "Users can utilize existing hardware contracts for purchases.",
+        "C": "Users can fix costs no matter what their traffic is.",
+        "D": "Users can avoid audits by using reports from AWS."
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 359,
+      "question": "What is the benefit of using AWS managed services, such as Amazon ElastiCache and Amazon Relational Database Service (Amazon RDS)?",
+      "options": {
+        "A": "They require the customer to monitor and replace failing instances.",
+        "B": "They have better performance than customer-managed services.",
+        "C": "They simplify patching and updating underlying OSs.",
+        "D": "They do not require the customer to optimize instance type or size selections."
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 368,
+      "question": "What is the MOST effective resource for staying up to date on AWS security announcements?",
+      "options": {
+        "A": "AWS Personal Health Dashboard",
+        "B": "AWS Secrets Manager",
+        "C": "AWS Security Bulletins",
+        "D": "Amazon Inspector"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 381,
+      "question": "When an Amazon EC2 instance is terminated, which AWS service can identify the user that made the API call?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS CloudTrail",
+        "C": "AWS X-Ray",
+        "D": "AWS Identity and Access Management (IAM)"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 388,
+      "question": "Where are AWS compliance documents, such as an SOC 1 report, located?",
+      "options": {
+        "A": "Amazon Inspector",
+        "B": "AWS CloudTrail",
+        "C": "AWS Artifact",
+        "D": "AWS Certificate Manager"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 394,
+      "question": "Which action will provide documentation to help a company evaluate whether its use of the AWS Cloud is compliant with local regulatory standards?",
+      "options": {
+        "A": "Running Amazon GuardDuty",
+        "B": "Using AWS Artifact",
+        "C": "Creating an AWS Support ticket",
+        "D": "Evaluating AWS CloudTrail logs"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 402,
+      "question": "Which Amazon RDS feature can be used to achieve high availability?",
+      "options": {
+        "A": "Multiple Availability Zones",
+        "B": "Amazon Reserved Instances",
+        "C": "Provisioned IOPS storage",
+        "D": "Enhanced monitoring"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 406,
+      "question": "Which Amazon VPC feature enables users to capture information about the IP traffic that reaches Amazon EC2 instances?",
+      "options": {
+        "A": "Security groups",
+        "B": "Elastic network interfaces",
+        "C": "Network ACLs",
+        "D": "VPC Flow Logs"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 417,
+      "question": "Which AWS Cloud service provides performance recommendations for an AWS account?",
+      "options": {
+        "A": "Amazon Inspector",
+        "B": "AWS Trusted Advisor",
+        "C": "Amazon CloudWatch",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 420,
+      "question": "Which AWS dashboard displays relevant and timely information to help users manage events in progress, and provides proactive notifications to help plan for scheduled activities?",
+      "options": {
+        "A": "AWS Service Health Dashboard",
+        "B": "AWS Personal Health Dashboard",
+        "C": "AWS Trusted Advisor dashboard",
+        "D": "Amazon CloudWatch dashboard"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 423,
+      "question": "Which AWS feature or service can be used to capture information about incoming and outgoing traffic in an AWS VPC infrastructure?",
+      "options": {
+        "A": "AWS Config",
+        "B": "VPC Flow Logs",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 439,
+      "question": "56 Which AWS service allows users to identify the changes made to a resource over time?",
+      "options": {
+        "A": "Amazon Inspector",
+        "B": "AWS Config",
+        "C": "AWS Service Catalog",
+        "D": "AWS IAM"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 440,
+      "question": "Which AWS service allows users to provision resources using a consistent and repeatable process?",
+      "options": {
+        "A": "AWS Systems Manager",
+        "B": "AWS CloudFormation",
+        "C": "AWS Batch",
+        "D": "AWS Config"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 441,
+      "question": "Which AWS service automatically handles application health monitoring?",
+      "options": {
+        "A": "Amazon API Gateway",
+        "B": "AWS Elastic Beanstalk",
+        "C": "AWS Lambda",
+        "D": "AWS Config"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 445,
+      "question": "Which AWS service can be used to automatically scale an application up and down without making capacity planning decisions?",
+      "options": {
+        "A": "Amazon AutoScaling",
+        "B": "Amazon Redshift",
+        "C": "AWS CloudTrail",
+        "D": "AWS Lambda"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 446,
+      "question": "Which AWS service can be used to decouple applications?",
+      "options": {
+        "A": "AWS Config",
+        "B": "Amazon Simple Queue Service (Amazon SQS)",
+        "C": "AWS Batch",
+        "D": "Amazon Simple Email Service (Amazon SES)"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 448,
+      "question": "Which AWS service can be used to generate alerts based on an estimated monthly bill?",
+      "options": {
+        "A": "AWS Config",
+        "B": "Amazon CloudWatch",
+        "C": "AWS X-Ray",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 454,
+      "question": "Which AWS service can be used to track resource changes and establish compliance?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS Config",
+        "C": "AWS CloudTrail",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 455,
+      "question": "Which AWS service can be used to track unauthorized API calls?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS CloudTrail",
+        "C": "AWS Trusted Advisor",
+        "D": "Amazon Inspector"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 457,
+      "question": "Which AWS service can help a company detect an outage of its website servers and redirect users to alternate servers?",
+      "options": {
+        "A": "Amazon CloudFront",
+        "B": "Amazon GuardDuty",
+        "C": "Amazon Route 53",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 459,
+      "question": "Which AWS service can send an alert when personally identifiable information (PII) is stored within an Amazon S3 bucket?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "Amazon Macie",
+        "C": "Amazon Inspector",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 461,
+      "question": "Which AWS service does AWS Snowball Edge natively support?",
+      "options": {
+        "A": "AWS Server Migration Service (AWS SMS)",
+        "B": "Amazon Aurora",
+        "C": "AWS Trusted Advisor",
+        "D": "Amazon EC2"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 462,
+      "question": "Which AWS service enables risk auditing of an AWS account by tracking and recording user actions and source IP addresses?",
+      "options": {
+        "A": "AWS X-Ray",
+        "B": "AWS Shield",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 464,
+      "question": "Which AWS service enables users to create copies of resources across AWS Regions?",
+      "options": {
+        "A": "Amazon ElastiCache",
+        "B": "AWS CloudFormation",
+        "C": "AWS CloudTrail",
+        "D": "AWS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 466,
+      "question": "Which AWS service enables users to monitor for specific phrases, values, or patterns and set up alarms based on metrics?",
+      "options": {
+        "A": "AWS IQ",
+        "B": "Amazon Comprehend",
+        "C": "AWS CloudTrail",
+        "D": "Amazon CloudWatch Logs"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 468,
+      "question": "Which AWS service gives users on-demand, self-service access to AWS compliance control reports?",
+      "options": {
+        "A": "AWS Config",
+        "B": "Amazon GuardDuty",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS Artifact"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 469,
+      "question": "Which AWS service handles the deployment details of capacity provisioning, load balancing, Auto Scaling, and application health monitoring?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS Elastic Beanstalk",
+        "C": "Amazon Route 53",
+        "D": "Amazon CloudFront"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 470,
+      "question": "Which AWS service helps identify malicious or unauthorized activities in AWS accounts and workloads?",
+      "options": {
+        "A": "Amazon Rekognition",
+        "B": "AWS Trusted Advisor",
+        "C": "Amazon GuardDuty",
+        "D": "Amazon CloudWatch"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 472,
+      "question": "Which AWS service identifies security groups that allow unrestricted",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "AWS Trusted Advisor",
+        "C": "Amazon CloudWatch",
+        "D": "Amazon Inspector"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 483,
+      "question": "Which AWS service is used to automate configuration management using Chef and Puppet?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS OpsWorks",
+        "C": "AWS CloudFormation",
+        "D": "AWS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 485,
+      "question": "Which AWS service is used to provide encryption for Amazon EBS?",
+      "options": {
+        "A": "AWS Certificate Manager",
+        "B": "AWS Systems Manager",
+        "C": "AWS KMS",
+        "D": "AWS Config"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 487,
+      "question": "Which AWS service needs to be enabled to track all user account changes within the AWS Management Console?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "Amazon Simple Notification Service (Amazon SNS)",
+        "C": "VPC Flow Logs",
+        "D": "AWS CloudHSM"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 488,
+      "question": "Which AWS service offers on-demand access to AWS security and compliance reports?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "AWS Artifact",
+        "C": "AWS Health",
+        "D": "Amazon CloudWatch"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 496,
+      "question": "Which AWS service or feature can be used to find availability status information on all AWS services?",
+      "options": {
+        "A": "AWS Personal Health Dashboard",
+        "B": "AWS CloudTrail",
+        "C": "AWS Service Health Dashboard",
+        "D": "Amazon CloudWatch"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 498,
+      "question": "Which AWS service or feature can help a company determine if it has Amazon S3 buckets that are publicly available?",
+      "options": {
+        "A": "AWS Service Health Dashboard",
+        "B": "Amazon CloudWatch Logs",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS Service Catalog"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 507,
+      "question": "Which AWS service or feature is used to send both text and email messages from distributed applications?",
+      "options": {
+        "A": "Amazon Simple Notification Service (Amazon SNS)",
+        "B": "Amazon Simple Email Service (Amazon SES)",
+        "C": "Amazon CloudWatch alerts",
+        "D": "Amazon Simple Queue Service (Amazon SQS)"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 508,
+      "question": "Which AWS service or feature is used to troubleshoot network connectivity issues between Amazon EC2 instances?",
+      "options": {
+        "A": "AWS Certificate Manager (ACM)",
+        "B": "Internet gateway",
+        "C": "VPC Flow Logs",
+        "D": "AWS CloudHSM"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 510,
+      "question": "Which AWS service or feature provides information about ongoing or upcoming scheduled events that can affect an AWS account?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS Systems Manager",
+        "C": "AWS Personal Health Dashboard",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 515,
+      "question": "Which AWS service or tool creates an audit log of all AWS resources that have been created?",
+      "options": {
+        "A": "Amazon CloudFront",
+        "B": "Amazon CloudWatch",
+        "C": "AWS CloudTrail",
+        "D": "AWS Application Migration Service (CloudEndure Migration)"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 519,
+      "question": "Which AWS service provides a customized view of the health of specific",
+      "options": {
+        "A": "AWS Service Health Dashboard",
+        "B": "AWS X-Ray",
+        "C": "AWS Personal Health Dashboard",
+        "D": "Amazon CloudWatch"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 522,
+      "question": "Which AWS service provides a self-service portal for on-demand access to AWS compliance reports?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS Certificate Manager",
+        "C": "Amazon Inspector",
+        "D": "AWS Artifact"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 524,
+      "question": "Which AWS service provides a simple way to set up a new multi-account AWS environment and govern it at scale?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "AWS Security Hub",
+        "C": "AWS Control Tower",
+        "D": "AWS Resource Access Manager"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 525,
+      "question": "Which AWS service provides alerts when an AWS event may impact a",
+      "options": {
+        "A": "AWS Personal Health Dashboard",
+        "B": "AWS Service Health Dashboard",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS Infrastructure Event Management"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 527,
+      "question": "Which AWS service provides on-demand of AWS security and compliance documentation?",
+      "options": {
+        "A": "AWS Directory Service",
+        "B": "AWS Artifact",
+        "C": "AWS Trusted Advisor",
+        "D": "Amazon Inspector"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 528,
+      "question": "Which AWS service provides recommendations for rightsizing AWS resources such as Amazon EC2 instances, Amazon Elastic Block Store (Amazon EBS) volumes, and Amazon RDS databases to help users reduce costs?",
+      "options": {
+        "A": "Amazon Inspector",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS Service Health Dashboard",
+        "D": "Amazon Forecast"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 534,
+      "question": "Which AWS service should a cloud practitioner use to identify security vulnerabilities of an AWS account?",
+      "options": {
+        "A": "AWS Secrets Manager",
+        "B": "Amazon Cognito",
+        "C": "Amazon Macie",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 536,
+      "question": "Which AWS service should a company use to decouple large monolithic applications into smaller microservices components?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "Amazon Lightsail",
+        "C": "Amazon Simple Queue Service (Amazon SQS)",
+        "D": "Amazon CloudWatch"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 543,
+      "question": "Which AWS service will help a company identify the user who deleted an Amazon EC2 instance yesterday?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS CloudTrail",
+        "D": "Amazon Inspector"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 544,
+      "question": "Which AWS service will help users determine if an application running on an Amazon EC2 instance has sufficient CPU capacity?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS Config",
+        "C": "AWS CloudTrail",
+        "D": "Amazon Inspector"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 545,
+      "question": "Which AWS service will track user activity on AWS?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS CloudTrail",
+        "D": "Amazon CloudWatch"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 547,
+      "question": "Which AWS service would identify if unrestricted access to a resource has been allowed by a security group?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "Amazon CloudWatch",
+        "C": "VPC Flow Logs",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 557,
+      "question": "Which AWS Trusted Advisor check is available to all AWS users?",
+      "options": {
+        "A": "Core checks",
+        "B": "All checks",
+        "C": "Cost optimization checks",
+        "D": "Fault tolerance checks"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 582,
+      "question": "Which managed AWS service provides real-time guidance on AWS security best practices?",
+      "options": {
+        "A": "AWS X-Ray",
+        "B": "AWS Trusted Advisor",
+        "C": "Amazon CloudWatch",
+        "D": "AWS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 583,
+      "question": "Which mechanism allows developers to access AWS services from application code?",
+      "options": {
+        "A": "AWS Software Development Kit",
+        "B": "AWS Management Console",
+        "C": "AWS CodePipeline",
+        "D": "AWS Config"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 597,
+      "question": "Which of the following can be used to identify a specific user who stopped an Amazon EC2 instance?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "Amazon Inspector",
+        "C": "Amazon CloudWatch",
+        "D": "VPC Flow Logs"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 604,
+      "question": "Which of the following enables users to leverage the power of AWS services programmatically?",
+      "options": {
+        "A": "AWS Command Line Interface (AWS CLI)",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS CodeDeploy",
+        "D": "AWS Management Console"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 612,
+      "question": "Which of the following is a component of the shared responsibility model managed entirely by AWS?",
+      "options": {
+        "A": "Patching operating system software",
+        "B": "Encrypting data",
+        "C": "Enforcing multi-factor authentication",
+        "D": "Auditing physical data center assets"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 620,
+      "question": "Which of the following is an advantage of using AWS?",
+      "options": {
+        "A": "AWS audits user data.",
+        "B": "Data is automatically secure.",
+        "C": "There is no guessing on capacity needs.",
+        "D": "AWS manages compliance needs."
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 636,
+      "question": "Which of the following security-related actions are available at no cost?",
+      "options": {
+        "A": "Calling AWS Support",
+        "B": "Contacting AWS Professional Services to request a workshop",
+        "C": "Accessing forums, blogs, and whitepapers",
+        "D": "Attending AWS classes at a local university"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 660,
+      "question": "Which service can be used to monitor and receive alerts for AWS account root user AWS Management Console sign-in events?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS Config",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS IAM"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 661,
+      "question": "Which service enables customers to audit and monitor changes in AWS resources?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "Amazon GuardDuty",
+        "C": "Amazon Inspector",
+        "D": "AWS Config"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 662,
+      "question": "Which service enables customers to audit API calls in their AWS accounts?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "AWS Trusted Advisor",
+        "C": "Amazon Inspector",
+        "D": "AWS X-Ray"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 663,
+      "question": "Which service enables risk auditing by continuously monitoring and logging account activity, including user actions in the AWS Management Console and AWS SDKs?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS CloudTrail",
+        "C": "AWS ConfigD. AWS Health",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 676,
+      "question": "Which solution provides the FASTEST application response times to frequently accessed data to users in multiple AWS Regions?",
+      "options": {
+        "A": "AWS CloudTrail across multiple Availability Zones",
+        "B": "Amazon CloudFront to edge locations",
+        "C": "AWS CloudFormation in multiple regions",
+        "D": "A virtual private gateway over AWS Direct Connect"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 700,
+      "question": "What is a hypervisor?",
+      "options": {
+        "A": "Hardware device used to provide an interface between storage and compute modules",
+        "B": "Hardware device used to provide an interface between networking and compute modules",
+        "C": "Software used to log and monitor virtualized operations",
+        "D": "Software used to administrate virtualized resources run on physical infrastructure"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 701,
+      "question": "What is a hypervisor?",
+      "options": {
+        "A": "Hardware device used to provide an interface between storage and compute modules",
+        "B": "Hardware device used to provide an interface between networking and compute modules",
+        "C": "Software used to log and monitor virtualized operations",
+        "D": "Software used to administrate virtualized resources run on physical infrastructure"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 744,
+      "question": "The IT Security team of your company needs to conduct a vulnerability analysis on your application servers to ensure that the EC2 instances comply with the annual security IT audit. You need to set up an automated security assessment service to improve the security and compliance of your applications. The solution should automatically assess applications for exposure, vulnerabilities, and deviations from the AWS best practices.Which of the following options would you implement to satisfy this requirement?",
+      "options": {
+        "A": "AWS Inspector",
+        "B": "AWS Snowball",
+        "C": "AWS WAF",
+        "D": "Amazon CloudFront"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 748,
+      "question": "The IT Security team of your company needs to conduct a vulnerability analysis on your application servers to ensure that the EC2 instances comply with the annual security IT audit. You need to set up an automated security assessment service to improve the security and compliance of your applications. The solution should automatically assess applications for exposure, vulnerabilities, and deviations from the AWS best practices.Which of the following options would you implement to satisfy this requirement?",
+      "options": {
+        "A": "AWS Inspector",
+        "B": "AWS Snowball",
+        "C": "AWS WAF",
+        "D": "Amazon CloudFront"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 778,
+      "question": "The IT Security team of your company needs to conduct a vulnerability analysis on your application servers to ensure that the EC2 instances comply with the annual security IT audit. You need to set up an automated security assessment service to improve the security and compliance of your applications. The solution should automatically assess applications for exposure, vulnerabilities, and deviations from the AWS best practices.Which of the following options would you implement to satisfy this requirement?",
+      "options": {
+        "A": "AWS Inspector",
+        "B": "Amazon CloudFront",
+        "C": "AWS Snowball",
+        "D": "AWS WAF"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 779,
+      "question": "Which of the following is a key use case of AWS Control Tower?",
+      "options": {
+        "A": "An easy way to establish a landing zone that implements an AWS well architected, multi-account environment and applies the AWS best practices.",
+        "B": "A fast monitoring engine used to detect if any of your AWS accounts deviate from the AWS best practices.",
+        "C": "A centralized logging service for all types of log files.",
+        "D": "A way for customers to send instructions to an AWS account on how to deploy popular technologies such as WordPress."
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 780,
+      "question": "Which of the following is a key use case of AWS Control Tower?",
+      "options": {
+        "A": "An easy way to establish a landing zone that implements an AWS well architected, multi-account environment and applies the AWS best practices.",
+        "B": "A fast monitoring engine used to detect if any of your AWS accounts deviate from the AWS best practices.",
+        "C": "A centralized logging service for all types of log files.",
+        "D": "A way for customers to send instructions to an AWS account on how to deploy popular technologies such as WordPress."
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 781,
+      "question": "The IT Security team of your company needs to conduct a vulnerability analysis on your application servers to ensure that the EC2 instances comply with the annual security IT audit. You need to set up an automated security assessment service to improve the security and compliance of your applications. The solution should automatically assess applications for exposure, vulnerabilities, and deviations from the AWS best practices.Which of the following options would you implement to satisfy this requirement?",
+      "options": {
+        "A": "AWS Inspector",
+        "B": "Amazon CloudFront",
+        "C": "AWS Snowball",
+        "D": "AWS WAF"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 786,
+      "question": "What role can the Python programming language play in AWS Lambda?",
+      "options": {
+        "A": "Python cannot be used for Lambda.",
+        "B": "It is the primary language for API calls to administrate Lambda remotely.",
+        "C": "It is used as the underlying code driving the service.",
+        "D": "It can be set as the runtime environment for a function."
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 787,
+      "question": "What role can the Python programming language play in AWS Lambda?",
+      "options": {
+        "A": "Python cannot be used for Lambda.",
+        "B": "It is the primary language for API calls to administrate Lambda remotely.",
+        "C": "It is used as the underlying code driving the service.",
+        "D": "It can be set as the runtime environment for a function."
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 838,
+      "question": "For security audit purposes, a company needs to download compliance related documents in AWS such as ISO certifications, Payment Card Industry (PCI), and Service Organization Control (SOC) reports. Where can they retrieve these files?",
+      "options": {
+        "A": "AWS Artifact",
+        "B": "AWS Certificate Manager",
+        "C": "AWS CloudTrail",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 840,
+      "question": "What is the best way to keep track of all activities made in your AWS account?",
+      "options": {
+        "A": "Create a multi-region trail in AWS CloudTrail",
+        "B": "Use LDAP authentication on your AWS account",
+        "C": "Set up MFA logging to know who is currently in your environment",
+        "D": "Use Amazon CloudWatch Logs to log all activities"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 841,
+      "question": "Which among the services below can you use to test and troubleshoot IAM and resource-based policies?",
+      "options": {
+        "A": "IAM Policy Simulator",
+        "B": "AWS Config",
+        "C": "Systems Manager",
+        "D": "Amazon Inspector"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 844,
+      "question": "Which of the following statements is true for AWS CloudTrail?",
+      "options": {
+        "A": "When you create a trail in the AWS Management Console, the trail applies to all AWS Regions by default",
+        "B": "CloudTrail charges you for every management event trail created",
+        "C": "CloudTrail is disabled by default for newly created AWS accounts",
+        "D": "CloudTrail is able to capture application error logs from your EC2 instances"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 849,
+      "question": "A customer needs to identify the IAM user who terminated their production EC2 instance in AWS. Which service should they use in this situation?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "AWS Systems Manager",
+        "C": "Amazon CloudWatch",
+        "D": "Amazon AppStream 2.0"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 851,
+      "question": "Which service lets you create rules to filter web traffic based on conditions that include IP addresses, HTTP headers, or custom URIs?",
+      "options": {
+        "A": "AWS WAF",
+        "B": "Network ACLs",
+        "C": "Security Group",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 853,
+      "question": "A customer has recently experienced an SQL injection attack on their web to AWS. What should be the response from AWS?",
+      "options": {
+        "A": "AWS should reiterate that the customer is responsible for the security of their applications in the Cloud.",
+        "B": "AWS should not be liable for the damages since the customer should have properly patched the EC2 instance.",
+        "C": "AWS should secure their infrastructure better to reduce these kinds of incidents.",
+        "D": "AWS and the customer should contact a third party auditor to verify the incident."
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 855,
+      "question": "Which of the following is a threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts and workloads?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS WAF",
+        "C": "Amazon Macie",
+        "D": "AWS Shield"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 857,
+      "question": "Which of the following is typically used to secure your VPC subnets?",
+      "options": {
+        "A": "Network ACL",
+        "B": "AWS Config",
+        "C": "AWS IAM",
+        "D": "Security Group"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 858,
+      "question": "Which of the following statements is true for AWS CloudTrail?",
+      "options": {
+        "A": "When you create a trail in the AWS Management Console, the trail applies to all AWS Regions by default",
+        "B": "CloudTrail charges you for every management event trail created",
+        "C": "CloudTrail is disabled by default for newly created AWS accounts",
+        "D": "CloudTrail is able to capture application error logs from your EC2 instances"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 860,
+      "question": "Which of the following is typically used to secure your VPC subnets?",
+      "options": {
+        "A": "Network ACL",
+        "B": "AWS Config",
+        "C": "AWS IAM",
+        "D": "Security Group"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 862,
+      "question": "Which of the following is a threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts and workloads?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS WAF",
+        "C": "Amazon Macie",
+        "D": "AWS Shield"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 864,
+      "question": "A customer has recently experienced an SQL injection attack on their web to AWS. What should be the response from AWS?",
+      "options": {
+        "A": "AWS should reiterate that the customer is responsible for the security of their applications in the Cloud.",
+        "B": "AWS should not be liable for the damages since the customer should have properly patched the EC2 instance.",
+        "C": "AWS should secure their infrastructure better to reduce these kinds of incidents.",
+        "D": "AWS and the customer should contact a third party auditor to verify the incident."
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 866,
+      "question": "Which service lets you create rules to filter web traffic based on conditions that include IP addresses, HTTP headers, or custom URIs?",
+      "options": {
+        "A": "AWS WAF",
+        "B": "Network ACLs",
+        "C": "Security Group",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 868,
+      "question": "A customer needs to identify the IAM user who terminated their production EC2 instance in AWS. Which service should they use in this situation?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "AWS Systems Manager",
+        "C": "Amazon CloudWatch",
+        "D": "Amazon AppStream 2.0"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 876,
+      "question": "Which among the services below can you use to test and troubleshoot IAM and resource-based policies?",
+      "options": {
+        "A": "IAM Policy Simulator",
+        "B": "AWS Config",
+        "C": "Systems Manager",
+        "D": "Amazon Inspector"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 878,
+      "question": "For security audit purposes, a company needs to download compliance related documents in AWS such as ISO certifications, Payment Card Industry (PCI), and Service Organization Control (SOC) reports. Where can they retrieve these files?",
+      "options": {
+        "A": "AWS Artifact",
+        "B": "AWS Certificate Manager",
+        "C": "AWS CloudTrail",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 881,
+      "question": "What is the best way to keep track of all activities made in your AWS account?",
+      "options": {
+        "A": "Create a multi-region trail in AWS CloudTrail",
+        "B": "Use LDAP authentication on your AWS account",
+        "C": "Set up MFA logging to know who is currently in your environment",
+        "D": "Use Amazon CloudWatch Logs to log all activities"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 897,
+      "question": "What service allows you to create alarms that notify you when EC2 CPU Utilization thresholds are breached?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "Amazon SNS",
+        "C": "AWS Config",
+        "D": "AWS Auto Scaling"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 914,
+      "question": "What service allows you to create alarms that notify you when EC2 CPU Utilization thresholds are breached?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "Amazon SNS",
+        "C": "AWS Config",
+        "D": "AWS Auto Scaling"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 958,
+      "question": "these Trusted Advisor categories?",
+      "options": {
+        "A": "Fault Tolerance",
+        "B": "Performance",
+        "C": "Security",
+        "D": "Cost Optimization"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 960,
+      "question": "Instances that are running (mostly) idle should be identified by which of these Trusted Advisor categories?",
+      "options": {
+        "A": "Performance",
+        "B": "Cost Optimization",
+        "C": "Service Limits",
+        "D": "Replication"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 966,
+      "question": "Which of the following is not a Trusted Advisor category?",
+      "options": {
+        "A": "Performance",
+        "B": "Service Limits",
+        "C": "Replication",
+        "D": "Fault Tolerance"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 967,
+      "question": "Within the context of Trusted Advisor, what is a false positive?",
+      "options": {
+        "A": "An alert for a service state that was actually intentional",
+        "B": "A green OK icon for a service state that is failed or failing",
+        "C": "A single status icon indicating that your account is completely compliant",
+        "D": "Textual indication of a failed state"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 975,
+      "question": "What determines the order by which subnets/AZ options are displayed in EC2 configuration dialogs?",
+      "options": {
+        "A": "Alphabetical order",
+        "B": "They (appear) to be displayed in random order.",
+        "C": "Numerical order",
+        "D": "By order of capacity, with largest capacity first"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 979,
+      "question": "Where will you find information on the limits AWS imposes on the ways you can use your account resources?",
+      "options": {
+        "A": "AWS User Agreement Policy",
+        "B": "AWS Acceptable Use Policy",
+        "C": "AWS Acceptable Use Monitor",
+        "D": "AWS Acceptable Use Dashboard"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 990,
+      "question": "After installing the AWS Command Line Interface, what should you do before using it to securely manage your AWS resources?",
+      "options": {
+        "A": "Issue the aws --version command.",
+        "B": "Issue the aws configure command.",
+        "C": "Reboot.",
+        "D": "Generate a new access key ID and secret access key for the root user."
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 991,
+      "question": "For which of the following scenarios can you create a CloudWatch alarm to send a notification?",
+      "options": {
+        "A": "",
+        "B": "Termination of an EC2 instance",
+        "C": "The presence of a specific IP address in a web server log",
+        "D": "A metric that exceeds a given threshold"
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 993,
+      "question": "What is a benefit of using CloudTrail log file integrity validation?",
+      "options": {
+        "A": "It lets you assert that no CloudTrail log files have been deleted from CloudWatch.",
+        "B": "It lets you assert that no CloudTrail log files have been deleted from S3.",
+        "C": "It prevents unauthorized users from deleting CloudTrail log files.",
+        "D": "It tells you how a CloudTrail log file has been tampered with."
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 994,
+      "question": "days of management API events on your AWS account?",
+      "options": {
+        "A": "Use CloudTrail event history.",
+        "B": "Create a trail.",
+        "C": "Stream CloudTrail logs to CloudWatch.",
+        "D": "Use CloudWatch Events."
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 996,
+      "question": "Which of the following CloudWatch features store performance data from AWS services?",
+      "options": {
+        "A": "Logs",
+        "B": "Metrics",
+        "C": "Events",
+        "D": "Metric filters E) Alarms"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1019,
+      "question": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. What is the SIMPLEST way to do this?",
+      "options": {
+        "A": "Review the inbound rules for each security group in the Amazon EC2 management console to check for port 0.0.0.0/0.",
+        "B": "Run AWS Trusted Advisor and review the findings.",
+        "C": "Open the AWS IAM console and check the inbound rule filters for open access.",
+        "D": "In AWS Config, create a custom rule that invokes an AWS Lambda function to review rules for inbound access."
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1020,
+      "question": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. What is the SIMPLEST way to do this?",
+      "options": {
+        "A": "Review the inbound rules for each security group in the Amazon EC2 management console to check for port 0.0.0.0/0.",
+        "B": "Run AWS Trusted Advisor and review the findings.",
+        "C": "Open the AWS IAM console and check the inbound rule filters for open access.",
+        "D": "In AWS Config, create a custom rule that invokes an AWS Lambda function to review rules for inbound access."
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1029,
+      "question": "A company believes an unauthorized user copied data from an Amazon S3 bucket to their own account. Which AWS service will record the actions taken by the user?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS CloudTrail",
+        "C": "AWS Infrastructure Event Management",
+        "D": "AWS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1030,
+      "question": "A company believes an unauthorized user copied data from an Amazon S3 bucket to their own account. Which AWS service will record the actions taken by the user?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS CloudTrail",
+        "C": "AWS Infrastructure Event Management",
+        "D": "AWS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1037,
+      "question": "A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS Secrets Manager",
+        "C": "AWS CloudTrail",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1038,
+      "question": "A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS Secrets Manager",
+        "C": "AWS CloudTrail",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1055,
+      "question": "A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. Which AWS service should the company use?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS WAF",
+        "C": "AWS Trusted Advisor",
+        "D": "Amazon Inspector"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1056,
+      "question": "A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. Which AWS service should the company use?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS WAF",
+        "C": "AWS Trusted Advisor",
+        "D": "Amazon Inspector"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1059,
+      "question": "A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases. What is the MOST efficient way to apply the security patches?",
+      "options": {
+        "A": "Connect to each database instance on a monthly basis, and download and apply the necessary security patches from the vendor.",
+        "B": "Enable automatic patching for the instances using the Amazon RDS console.",
+        "C": "In AWS Config, configure a rule for the instances and the required patch level.",
+        "D": "Use AWS Systems Manager to automate database patching according to a schedule."
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1060,
+      "question": "A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases. What is the MOST efficient way to apply the security patches?",
+      "options": {
+        "A": "Connect to each database instance on a monthly basis, and download and apply the necessary security patches from the vendor.",
+        "B": "Enable automatic patching for the instances using the Amazon RDS console.",
+        "C": "In AWS Config, configure a rule for the instances and the required patch level.",
+        "D": "Use AWS Systems Manager to automate database patching according to a schedule."
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1083,
+      "question": "A company hosts images in an Amazon S3 bucket for a public-facing website that is viewed by millions of users around the globe. Which AWS service will deliver this content with reduced latency?",
+      "options": {
+        "A": "AWS WAF",
+        "B": "Amazon CloudWatch",
+        "C": "Amazon Cloud Front",
+        "D": "AWS CloudFormation"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1084,
+      "question": "A company hosts images in an Amazon S3 bucket for a public-facing website that is viewed by millions of users around the globe. Which AWS service will deliver this content with reduced latency?",
+      "options": {
+        "A": "AWS WAF",
+        "B": "Amazon CloudWatch",
+        "C": "Amazon Cloud Front",
+        "D": "AWS CloudFormation"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1112,
+      "question": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. What is the SIMPLEST way to do this?",
+      "options": {
+        "A": "Review the inbound rules for each security group in the Amazon EC2 management console to check for port 0.0.0.0/0.",
+        "B": "Run AWS Trusted Advisor and review the findings.",
+        "C": "Open the AWS IAM console and check the inbound rule filters for open access.",
+        "D": "In AWS Config, create a custom rule that invokes an AWS Lambda function to review rules for inbound access."
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1117,
+      "question": "A company believes an unauthorized user copied data from an Amazon S3 bucket to their own account. Which AWS service will record the actions taken by the user?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "AWS CloudTrail",
+        "C": "AWS Infrastructure Event Management",
+        "D": "AWS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1121,
+      "question": "A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS Config",
+        "B": "AWS Secrets Manager",
+        "C": "AWS CloudTrail",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1130,
+      "question": "A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. Which AWS service should the company use?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS WAF",
+        "C": "AWS Trusted Advisor",
+        "D": "Amazon Inspector"
+      },
+      "answer": "B",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1132,
+      "question": "A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases. What is the MOST efficient way to apply the security patches?",
+      "options": {
+        "A": "Connect to each database instance on a monthly basis, and download and apply the necessary security patches from the vendor.",
+        "B": "Enable automatic patching for the instances using the Amazon RDS console.",
+        "C": "In AWS Config, configure a rule for the instances and the required patch level.",
+        "D": "Use AWS Systems Manager to automate database patching according to a schedule."
+      },
+      "answer": "D",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1144,
+      "question": "A company hosts images in an Amazon S3 bucket for a public-facing website that is viewed by millions of users around the globe. Which AWS service will deliver this content with reduced latency?",
+      "options": {
+        "A": "AWS WAF",
+        "B": "Amazon CloudWatch",
+        "C": "Amazon Cloud Front",
+        "D": "AWS CloudFormation"
+      },
+      "answer": "C",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    },
+    {
+      "sourceIndex": 1168,
+      "question": "Which of the following best describes what CloudWatch can be used for?",
+      "options": {
+        "A": "A repository for metrics and logs",
+        "B": "An audit service that records all API calls made in your AWS account",
+        "C": "A repository for compliance rules",
+        "D": "An automated security assessment service"
+      },
+      "answer": "A",
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)"
+    }
+  ]
+}

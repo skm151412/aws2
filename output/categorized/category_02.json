@@ -1,0 +1,345 @@
+{
+  "categoryId": 2,
+  "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)",
+  "count": 26,
+  "items": [
+    {
+      "sourceIndex": 126,
+      "question": "A company wants to expand from one AWS Region into a second AWS Region. What does the company need to do to start supporting the new Region?",
+      "options": {
+        "A": "Contact an AWS Account Manager to sign a new contract",
+        "B": "Move an Availability Zone to the new Region",
+        "C": "Begin deploying resources in the second Region",
+        "D": "Download the AWS Management Console for the new Region"
+      },
+      "answer": "C",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 139,
+      "question": "A company wants to set up a highly available workload in AWS with a disaster recovery plan that will allow the company to recover in case of a regional service interruption. Which configuration will meet these requirements?",
+      "options": {
+        "A": "Run on two Availability Zones in one AWS Region, using the additional Availability Zones in the AWS Region for the disaster recovery site.",
+        "B": "Run on two Availability Zones in one AWS Region, using another AWS Region for the disaster recovery site.",
+        "C": "Run on two Availability Zones in one AWS Region, using a local AWS Region for the disaster recovery site.",
+        "D": "Run across two AWS Regions, using a third AWS Region for the disaster recovery site."
+      },
+      "answer": "B",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 230,
+      "question": "An application designed to span multiple Availability Zones is described as:",
+      "options": {
+        "A": "being highly available",
+        "B": "having global reach",
+        "C": "using an economy of scale",
+        "D": "having elasticity"
+      },
+      "answer": "A",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 248,
+      "question": "Distributing workloads across multiple Availability Zones supports which cloud architecture design principle?",
+      "options": {
+        "A": "Implement automation.",
+        "B": "Design for agility.",
+        "C": "Design for failure.",
+        "D": "Implement elasticity."
+      },
+      "answer": "C",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 256,
+      "question": "How can a user achieve high availability for a web application hosted on AWS?",
+      "options": {
+        "A": "Use a Classic Load Balancer across multiple AWS Regions.",
+        "B": "Use an Application Load Balancer across multiple Availability Zones in one AWS Region.",
+        "C": "Set up automatic scaling and load balancing with another application instance running on premises.",
+        "D": "Use the AWS Region with the highest number of Availability Zones."
+      },
+      "answer": "B",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 273,
+      "question": "How many Availability Zones should compute resources be provisioned across to achieve high availability?",
+      "options": {
+        "A": "A minimum of one",
+        "B": "A minimum of two",
+        "C": "A minimum of three",
+        "D": "A minimum of four or more"
+      },
+      "answer": "B",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 288,
+      "question": "",
+      "options": {
+        "A": "agility.",
+        "B": "global infrastructure.",
+        "C": "elasticity.",
+        "D": "pay-as-you-go pricing."
+      },
+      "answer": "B",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 292,
+      "question": "The continual reduction of AWS Cloud pricing is due to:",
+      "options": {
+        "A": "pay-as-you go pricing",
+        "B": "the AWS global infrastructure",
+        "C": "economies of scale",
+        "D": "reserved storage pricing"
+      },
+      "answer": "C",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 351,
+      "question": "What is an example of high availability in the AWS Cloud?",
+      "options": {
+        "A": "Consulting AWS technical support at any time day or night",
+        "B": "Ensuring an application remains accessible, even if a resource fails",
+        "C": "Making any AWS service available for use by paying on demand",
+        "D": "Deploying in any part of the world using AWS Regions"
+      },
+      "answer": "B",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 358,
+      "question": "What is the benefit of elasticity in the AWS Cloud?",
+      "options": {
+        "A": "Ensure web traffic is automatically spread across multiple AWS Regions.",
+        "B": "Minimize storage costs by automatically archiving log data.",
+        "C": "Enable AWS to automatically select the most cost-effective services.",
+        "D": "Automatically adjust the required compute capacity to maintain consistent performance."
+      },
+      "answer": "D",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 379,
+      "question": "When a company provisions web servers in multiple AWS Regions, what is being increased?",
+      "options": {
+        "A": "Coupling",
+        "B": "Availability",
+        "C": "Security",
+        "D": "Durability"
+      },
+      "answer": "B",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 409,
+      "question": "Which aspect of AWS infrastructure enables global deployment of compute and storage?",
+      "options": {
+        "A": "Availability Zones",
+        "B": "Regions",
+        "C": "Tags",
+        "D": "Resource groups"
+      },
+      "answer": "B",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 413,
+      "question": "Which AWS Cloud benefit eliminates the need for users to try estimating future infrastructure usage?",
+      "options": {
+        "A": "Easy and fast deployment of applications in multiple Regions around the world",
+        "B": "Security of the AWS Cloud",
+        "C": "Elasticity of the AWS Cloud",
+        "D": "Lower variable costs due to massive economies of scale"
+      },
+      "answer": "C",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 562,
+      "question": "Which cloud computing advantage is a company applying when it uses AWS Regions to increase application availability to users in different countries?",
+      "options": {
+        "A": "Pay-as-you-go pricing",
+        "B": "Capacity forecasting",
+        "C": "Economies of scale",
+        "D": "Global reach"
+      },
+      "answer": "D",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 564,
+      "question": "Which cloud design principle aligns with AWS Cloud best practices?",
+      "options": {
+        "A": "Create fixed dependencies among application components",
+        "B": "Aggregate services on a single instance",
+        "C": "Deploy applications in a single Availability Zone",
+        "D": "Distribute the compute load across multiple resources"
+      },
+      "answer": "D",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 625,
+      "question": "Which of the following is an AWS Well-Architected Framework design principle related to reliability?",
+      "options": {
+        "A": "Deployment to a single Availability Zone",
+        "B": "Ability to recover from failure",
+        "C": "Design for cost optimization",
+        "D": "Perform operations as code"
+      },
+      "answer": "B",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 628,
+      "question": "Which of the following is an important architectural design principle when designing cloud applications?",
+      "options": {
+        "A": "Use multiple Availability Zones.",
+        "B": "Use tightly coupled components.",
+        "C": "Use open source software.",
+        "D": "Provision extra capacity."
+      },
+      "answer": "A",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 648,
+      "question": "Which phase describes agility as a benefit of building in the AWS Cloud?",
+      "options": {
+        "A": "The ability to pay only when computing resources are consumed, based on the volume of resources that are consumed",
+        "B": "The ability to eliminate guessing about infrastructure capacity needs",
+        "C": "The ability to support innovation through a reduction in the time that is required to make IT resources available to developersD. The ability to deploy an application in multiple AWS Regions around the world in minutes",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 678,
+      "question": "Which statement explains the benefit of agility in the AWS Cloud?",
+      "options": {
+        "A": "Agility gives users the ability to host applications in multiple AWS Regions around the world.",
+        "B": "Agility gives users the ability to pay upfront to reduce cost.",
+        "C": "Agility provides customizable physical hardware at the lowest possible cost.",
+        "D": "Agility provides the means for users to provision resources in minutes."
+      },
+      "answer": "D",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 714,
+      "question": "Which of the following does not contribute significantly to the operational value of a large cloud provider like AWS?",
+      "options": {
+        "A": "Multiregional presence",
+        "B": "Highly experienced teams of security engineers",
+        "C": "Deep experience in the retail sphere",
+        "D": "Metered, pay-per-use pricing"
+      },
+      "answer": "C",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 715,
+      "question": "Which of the following does not contribute significantly to the operational value of a large cloud provider like AWS?",
+      "options": {
+        "A": "Multiregional presence",
+        "B": "Highly experienced teams of security engineers",
+        "C": "Deep experience in the retail sphere",
+        "D": "Metered, pay-per-use pricing"
+      },
+      "answer": "C",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 942,
+      "question": "Which of the following best describes one possible reason for AWS service limits?",
+      "options": {
+        "A": "To prevent individual customers from accidentally launching a crippling level of resource consumption",
+        "B": "To more equally distribute available resources between customers from different regions",
+        "C": "To allow customers to more gradually increase their deployments",
+        "D": "Because there are logical limits to the ability of AWS resources to scale upward"
+      },
+      "answer": "A",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 943,
+      "question": "Which of the following best describes one possible reason for AWS service limits?",
+      "options": {
+        "A": "To prevent individual customers from accidentally launching a crippling level of resource consumption",
+        "B": "To more equally distribute available resources between customers from different regions",
+        "C": "To allow customers to more gradually increase their deployments",
+        "D": "Because there are logical limits to the ability of AWS resources to scale upward"
+      },
+      "answer": "A",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 981,
+      "question": "Which of the following designations would refer to the AWS US West (Oregon) region?",
+      "options": {
+        "A": "us-east-1",
+        "B": "us-west-2",
+        "C": "us-west-2a",
+        "D": "us-west-2b"
+      },
+      "answer": "B",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 982,
+      "question": "Which of the following is an AWS Region for which customer access is restricted?",
+      "options": {
+        "A": "AWS Admin",
+        "B": "US-DOD",
+        "C": "Asia Pacific (Tokyo)",
+        "D": "AWS GovCloud"
+      },
+      "answer": "D",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    },
+    {
+      "sourceIndex": 984,
+      "question": "Which of the following is the most accurate description of an AWS Availability Zone?",
+      "options": {
+        "A": "One or more independently powered data centers running a wide range of hardware host types",
+        "B": "One or more independently powered data centers running a uniform hardware host type",
+        "C": "All the data centers located within a broad geographic area",
+        "D": "The infrastructure running within a single physical data center"
+      },
+      "answer": "A",
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)"
+    }
+  ]
+}

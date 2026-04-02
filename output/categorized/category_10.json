@@ -1,0 +1,1697 @@
+{
+  "categoryId": 10,
+  "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)",
+  "count": 130,
+  "items": [
+    {
+      "sourceIndex": 11,
+      "question": "A cloud practitioner needs to obtain AWS compliance reports before migrating an environment to the AWS Cloud. How can these reports be generated?",
+      "options": {
+        "A": "Contact the AWS Compliance team",
+        "B": "Download the reports from AWS Artifact",
+        "C": "Open a case with AWS Support",
+        "D": "Generate the reports with Amazon Macie"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 20,
+      "question": "A company has a managed IAM policy that does not grant the necessary permissions for users to accomplish required tasks. How can this be resolved?",
+      "options": {
+        "A": "Enable AWS Shield Advanced",
+        "B": "Create a custom IAM policy",
+        "C": "Use a third-party web application firewall (WAF) managed rule from the AWS Marketplace",
+        "D": "Use AWS Key Management Service (AWS KMS) to create a customer-managed key"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 25,
+      "question": "A company has an AWS environment that consists of a VPC, multiple subnets, and many Amazon EC2 instances in the subnets. An engineer wants to restrict inbound traffic to one particular EC2 instance without affecting the other EC2 instances. Which AWS service or feature should the engineer use to meet this requirement?",
+      "options": {
+        "A": "Network ACLs",
+        "B": "Security groups",
+        "C": "Amazon GuardDuty",
+        "D": "AWS Shield"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 39,
+      "question": "A company hosts an application on multiple Amazon EC2 instances. The application uses Amazon Simple Notification Service (Amazon SNS) to send messages. Which AWS service or feature will give the application permission to access required AWS services?",
+      "options": {
+        "A": "AWS Certificate Manager (ACM)",
+        "B": "IAM roles",
+        "C": "AWS Security Hub",
+        "D": "Amazon GuardDuty"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 59,
+      "question": "A company is looking for a way to encrypt data stored on Amazon S3. Which AWS managed service can be used to help to accomplish this?",
+      "options": {
+        "A": "AWS Certificate Manager (ACM)",
+        "B": "AWS Secrets Manager",
+        "C": "AWS Resource Access Manager",
+        "D": "AWS Key Management Service (AWS KMS)"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 63,
+      "question": "A company is moving its office and must establish an encrypted connection to AWS. Which AWS service will help meet this requirement?",
+      "options": {
+        "A": "AWS VPN",
+        "B": "Amazon Route 53",
+        "C": "Amazon API Gateway",
+        "D": "Amazon Connect"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 82,
+      "question": "A company needs a firewall that will control network connections to and from a single Amazon EC2 instance. This firewall will not control network connections to and from other instances that are in the same subnet. Which AWS service or feature can the company use to meet these requirements?",
+      "options": {
+        "A": "Network ACL",
+        "B": "AWS WAF",
+        "C": "Route table",
+        "D": "Security group"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 84,
+      "question": "A company needs protection from expanded distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events. Which AWS managed service will meet these requirements?",
+      "options": {
+        "A": "AWS Shield Advanced",
+        "B": "AWS Firewall Manager",
+        "C": "AWS WAF",
+        "D": "Amazon GuardDuty"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 97,
+      "question": "A company plans to store sensitive data in an Amazon S3 bucket. Which task is the responsibility of AWS?",
+      "options": {
+        "A": "Activate encryption at rest for the data.",
+        "B": "Provide security for the physical infrastructure.",
+        "C": "Train the company's employees about cloud security.",
+        "D": "Remove personally identifiable information (PII) from the data."
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 106,
+      "question": "A company uses a database that has a simple sign-up page to create users, and a basic login form to authenticate users so they can access the database. The company wants to give users the ability to store personal information, but the user access must be controlled in a more secure and reliable way. Which AWS service or feature will meet these requirements?",
+      "options": {
+        "A": "Security groups",
+        "B": "Amazon GuardDuty",
+        "C": "AWS Secrets Manager",
+        "D": "Amazon Cognito"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 140,
+      "question": "A company wants to store data with high availability, encrypt the data at rest, and have direct access to the data over the internet. Which AWS service will meet these requirements MOST cost-effectively?",
+      "options": {
+        "A": "Amazon Elastic Block Store (Amazon EBS)",
+        "B": "Amazon S3",
+        "C": "Amazon Elastic File System (Amazon EFS)",
+        "D": "AWS Storage Gateway"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 164,
+      "question": "A director has been tasked with investigating hybrid cloud architecture. The company currently accesses AWS over the public internet. Which service will facilitate private hybrid connectivity?",
+      "options": {
+        "A": "Amazon Virtual Private Cloud (Amazon VPC) NAT Gateway",
+        "B": "AWS Direct Connect",
+        "C": "Amazon Simple Storage Service (Amazon S3) Transfer Acceleration",
+        "D": "AWS Web Application Firewall (AWS WAF)"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 178,
+      "question": "A solutions architect needs to maintain a fleet of Amazon EC2 instances so that any impaired instances are replaced with new ones. Which AWS service should the solutions architect use?",
+      "options": {
+        "A": "Amazon Elastic Container Service (Amazon ECS)",
+        "B": "Amazon GuardDuty",
+        "C": "AWS Shield",
+        "D": "AWS Auto Scaling"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 197,
+      "question": "A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. Which AWS service can meet these requirements?",
+      "options": {
+        "A": "Amazon Inspector",
+        "B": "Amazon Macie",
+        "C": "Amazon GuardDuty",
+        "D": "AWS Secrets Manager"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 207,
+      "question": "A web application running on AWS has been spammed with malicious requests from a recurring set of IP addresses. Which AWS service can help secure the application and block the malicious traffic?",
+      "options": {
+        "A": "AWS IAM",
+        "B": "Amazon GuardDuty",
+        "C": "Amazon Simple Notification Service (Amazon SNS)",
+        "D": "AWS WAF"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 213,
+      "question": "According to the AWS shared responsibility model, the customer is responsible for applying the latest security updates and patches for which of the following?",
+      "options": {
+        "A": "Amazon DynamoDB",
+        "B": "Amazon EC2 instances",
+        "C": "Amazon RDS instances",
+        "D": "Amazon S3"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 214,
+      "question": "According to the AWS shared responsibility model, what is AWS responsible for?",
+      "options": {
+        "A": "Configuring Amazon VPC",
+        "B": "Managing application code",
+        "C": "Maintaining application traffic",
+        "D": "Managing the network infrastructure"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 215,
+      "question": "According to the AWS shared responsibility model, what is the sole responsibility of AWS?",
+      "options": {
+        "A": "Application security",
+        "B": "Edge location management",
+        "C": "Patch management",
+        "D": "Client-side data"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 216,
+      "question": "According to the AWS shared responsibility model, when using Amazon RDS, who is responsible for scheduling and performing backups?",
+      "options": {
+        "A": "AWS is responsible for both tasks.",
+        "B": "The customer is responsible for scheduling and AWS is responsible for performing backups.",
+        "C": "The customer is responsible for both tasks.",
+        "D": "AWS is responsible for scheduling and the user is responsible for performing backups."
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 217,
+      "question": "According to the AWS shared responsibility model, which of the following is the responsibility of AWS?",
+      "options": {
+        "A": "Data encryption in transit",
+        "B": "Firmware updates on hardware",
+        "C": "Operating system patching on Amazon EC2 instances",
+        "D": "Data encryption at rest"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 218,
+      "question": "According to the AWS shared responsibility model, which task is the responsibility of AWS for workloads running on Amazon EC2?",
+      "options": {
+        "A": "Updating the physical hardware",
+        "B": "Updating the operating system",
+        "C": "Updating the database engine",
+        "D": "Updating the user data"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 219,
+      "question": "According to the AWS shared responsibility model, which task is the customer's responsibility?",
+      "options": {
+        "A": "Maintaining the infrastructure needed to run AWS Lambda",
+        "B": "Updating the operating system of Amazon DynamoDB instances",
+        "C": "Maintaining Amazon S3 infrastructure",
+        "D": "Updating the guest operating system on Amazon EC2 instances"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 220,
+      "question": "According to the AWS shared responsibility model, who is responsible for configuration management?",
+      "options": {
+        "A": "It is solely the responsibility of the customer.",
+        "B": "It is solely the responsibility of AWS.",
+        "C": "It is shared between AWS and the customer.",
+        "D": "It is not part of the AWS shared responsibility model."
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 221,
+      "question": "According to the AWS shared responsibility model, who is responsible for the virtualization layer down to the physical security of the facilities in which AWS services operate?",
+      "options": {
+        "A": "It is the sole responsibility of the customer.",
+        "B": "It is the sole responsibility of AWS.",
+        "C": "It is a shared responsibility between AWS and the customer. configuration.",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 225,
+      "question": "Amazon Route 53 enables users to:",
+      "options": {
+        "A": "encrypt data in transit",
+        "B": "register DNS domain names",
+        "C": "generate and manage SSL certificates",
+        "D": "establish a dedicated network connection to AWS"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 231,
+      "question": "An application is receiving SQL injection attacks from multiple external resources. Which AWS service or feature can help automate mitigation against these attacks?",
+      "options": {
+        "A": "AWS WAF",
+        "B": "Security groups",
+        "C": "Elastic Load Balancer",
+        "D": "Network ACL"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 232,
+      "question": "An application runs on multiple Amazon EC2 instances that access a shared file system simultaneously. Which AWS storage service should be used?",
+      "options": {
+        "A": "Amazon EBS",
+        "B": "Amazon EFS",
+        "C": "Amazon S3",
+        "D": "AWS Artifact"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 242,
+      "question": "As part of the AWS shared responsibility model, which of the following operational controls do users fully inherit from AWS?",
+      "options": {
+        "A": "Security management of data center",
+        "B": "Patch management",
+        "C": "Configuration management",
+        "D": "User and access management"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 246,
+      "question": "Cloud services main proposition is to provide elasticity through What function do security groups serve related to Amazon Elastic Compute Cloud (Amazon EC2) instance security?",
+      "options": {
+        "A": "Act as a virtual firewall for the Amazon EC2 instance.",
+        "B": "Secure AWS user accounts with AWS Identity and Access Management (IAM) policies.",
+        "C": "Provide DDoS protection with AWS Shield.",
+        "D": "Use Amazon CloudFront to protect the Amazon EC2 instance."
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 257,
+      "question": "How can a user protect against AWS service disruptions if a natural disaster affects an entire geographic area?",
+      "options": {
+        "A": "Deploy applications across multiple Availability Zones within an AWS Region.",
+        "B": "Use a hybrid cloud computing deployment model within the geographic area.",
+        "C": "Deploy applications across multiple AWS Regions.",
+        "D": "Store application artifacts using AWS Artifact and replicate them across multiple AWS Regions."
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 300,
+      "question": "Under the AWS shared responsibility model, AWS is responsible for which security-related task?",
+      "options": {
+        "A": "Lifecycle management of IAM credentials",
+        "B": "Physical security of global infrastructure",
+        "C": "Encryption of Amazon EBS volumes",
+        "D": "Firewall configuration"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 301,
+      "question": "Under the AWS shared responsibility model, customer responsibilities include which one of the following?",
+      "options": {
+        "A": "Securing the hardware, software, facilities, and networks that run all products and services.",
+        "B": "Providing certificates, reports, and other documentation directly to AWS customers under NDA.",
+        "C": "Configuring the operating system, network, and firewall.",
+        "D": "Obtaining industry certifications and independent third-party attestations."
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 303,
+      "question": "Under the AWS shared responsibility model, what is the customer's responsibility when using an AWS managed service?",
+      "options": {
+        "A": "Physical security of the data centers",
+        "B": "Server-side encryption",
+        "C": "Customer data",
+        "D": "Operating system patching"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 304,
+      "question": "Under the AWS shared responsibility model, which of the following is a responsibility of AWS?",
+      "options": {
+        "A": "Enabling server-side encryption for objects stored in S3",
+        "B": "Applying AWS IAM security policies",
+        "C": "Patching the operating system on an Amazon EC2 instance",
+        "D": "Applying updates to the hypervisor"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 305,
+      "question": "Under the AWS shared responsibility model, which of the following is a customer responsibility?",
+      "options": {
+        "A": "Installing security patches for the Xen and KVM hypervisors",
+        "B": "Installing operating system patches for Amazon DynamoDB",
+        "C": "Installing operating system security patches for Amazon EC2 database instances",
+        "D": "Installing operating system security patches for Amazon RDS database instances"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 306,
+      "question": "Under the AWS shared responsibility model, which of the following is an example of security in the AWS Cloud?",
+      "options": {
+        "A": "Managing edge locations",
+        "B": "Physical security",
+        "C": "Firewall configuration",
+        "D": "Global infrastructure"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 307,
+      "question": "Under the AWS shared responsibility model, which of the following is the",
+      "options": {
+        "A": "Patching guest OS and applications",
+        "B": "Patching and fixing flaws in the infrastructure",
+        "C": "Physical and environmental controls",
+        "D": "Configuration of AWS infrastructure devices"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 310,
+      "question": "Under the shared responsibility model, which of the following is the customer responsible for?",
+      "options": {
+        "A": "Ensuring that disk drives are wiped after use.",
+        "B": "Ensuring that firmware is updated on hardware devices.",
+        "C": "Ensuring that data is encrypted at rest.",
+        "D": "Ensuring that network cables are category six or higher."
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 323,
+      "question": "What can be used to automate and manage secure, well-architected, multi account AWS environments?",
+      "options": {
+        "A": "AWS shared responsibility model",
+        "B": "AWS Control Tower",
+        "C": "AWS Security Hub",
+        "D": "AWS Well-Architected Tool"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 324,
+      "question": "What can users access from AWS Artifact?",
+      "options": {
+        "A": "AWS security and compliance documents",
+        "B": "A download of configuration management details for all AWS resources",
+        "C": "Training materials for AWS services",
+        "D": "A security assessment of the applications deployed in the AWS Cloud"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 327,
+      "question": "What does AWS Shield Standard provide?",
+      "options": {
+        "A": "WAF rules",
+        "B": "DDoS protection",
+        "C": "Identity and Access Management (IAM) permissions and access to resources",
+        "D": "Data encryption"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 330,
+      "question": "What does the Amazon S3 Intelligent-Tiering storage class offer?",
+      "options": {
+        "A": "Payment flexibility by reserving storage capacity",
+        "B": "Long-term retention of data by copying the data to an encrypted Amazon Elastic Block Store (Amazon EBS) volume",
+        "C": "Automatic cost savings by moving objects between tiers based on access pattern changes.",
+        "D": "Secure, durable, and lowest cost storage for data archival"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 339,
+      "question": "What is a responsibility of AWS in the shared responsibility model?",
+      "options": {
+        "A": "Updating the network ACLs to block traffic to vulnerable ports.",
+        "B": "Patching operating systems running on Amazon EC2 instances.",
+        "C": "Updating the firmware on the underlying EC2 hosts.",
+        "D": "Updating the security group rules to block traffic to the vulnerable ports."
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 352,
+      "question": "What is an IAM best practice for AWS account root user access keys?",
+      "options": {
+        "A": "Delete all root user access keys, if possible.",
+        "B": "Use root user credentials to access sensitive information stored on AWS.",
+        "C": "Allow the system administrator group to use the root user credentials for daily access.",
+        "D": "Use root user credentials to access production database instances."
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 356,
+      "question": "shared responsibility model?",
+      "options": {
+        "A": "Virtualization infrastructure",
+        "B": "Network infrastructure",
+        "C": "Application security",
+        "D": "Physical security of hardware"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 357,
+      "question": "What is the AWS customer responsible for according to the AWS shared responsibility model?",
+      "options": {
+        "A": "Physical access controls",
+        "B": "Data encryption",
+        "C": "Secure disposal of storage devices",
+        "D": "Environmental risk management"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 360,
+      "question": "What is the best resource for a user to find compliance-related information and reports about AWS?",
+      "options": {
+        "A": "AWS Artifact",
+        "B": "AWS Marketplace",
+        "C": "Amazon Inspector",
+        "D": "AWS Support"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 361,
+      "question": "",
+      "options": {
+        "A": "Operating system configuration",
+        "B": "Application management",
+        "C": "Platform management",
+        "D": "Code encryption"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 391,
+      "question": "Where should a company go to search software listings from independent software vendors to find, test, buy and deploy software that runs on AWS?",
+      "options": {
+        "A": "AWS Marketplace",
+        "B": "Amazon Lumberyard",
+        "C": "AWS Artifact",
+        "D": "Amazon CloudSearch"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 392,
+      "question": "Where should users report that AWS resources are being used for malicious purposes?",
+      "options": {
+        "A": "AWS Abuse team",
+        "B": "AWS Shield",
+        "C": "AWS Support",
+        "D": "AWS Developer Forums"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 395,
+      "question": "Which activity is a customer responsibility in the AWS Cloud according to the AWS shared responsibility model?",
+      "options": {
+        "A": "Ensuring network connectivity from AWS to the internet",
+        "B": "Patching and fixing flaws within the AWS Cloud infrastructure",
+        "C": "Ensuring the physical security of cloud data centers",
+        "D": "Ensuring Amazon EBS volumes are backed up"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 431,
+      "question": "Which AWS managed service is used to host databases?",
+      "options": {
+        "A": "AWS Batch",
+        "B": "AWS Artifact",
+        "C": "AWS Data Pipeline",
+        "D": "Amazon RDS"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 432,
+      "question": "Which AWS security service protects applications from distributed denial of service attacks with always-on detection and automatic inline mitigations?",
+      "options": {
+        "A": "Amazon Inspector",
+        "B": "AWS Web Application Firewall (AWS WAF)",
+        "C": "Elastic Load Balancing (ELB)",
+        "D": "AWS Shield"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 434,
+      "question": "Which AWS service aggregates, organizes, and prioritizes security alerts and findings from multiple AWS services?",
+      "options": {
+        "A": "Amazon Detective",
+        "B": "Amazon Inspector",
+        "C": "Amazon Macie",
+        "D": "AWS Security Hub"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 438,
+      "question": "Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS Security Hub",
+        "C": "AWS Artifact",
+        "D": "AWS Shield"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 447,
+      "question": "Which AWS service can be used to encrypt data at rest?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "AWS Shield",
+        "C": "AWS Security Hub",
+        "D": "AWS Key Management Service (AWS KMS)"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 453,
+      "question": "Which AWS service can be used to retrieve compliance reports on demand?",
+      "options": {
+        "A": "AWS Secrets Manager",
+        "B": "AWS Artifact",
+        "C": "AWS Security Hub",
+        "D": "AWS Certificate Manager"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 471,
+      "question": "Which AWS service helps users meet contractual and regulatory compliance requirements for data security by using dedicated hardware appliances within the AWS Cloud?",
+      "options": {
+        "A": "AWS Secrets Manager",
+        "B": "AWS CloudHSM",
+        "C": "AWS Key Management Service (AWS KMS)",
+        "D": "AWS Directory Service"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 490,
+      "question": "Which AWS service or component allows inbound traffic from the internet to access a VPC?",
+      "options": {
+        "A": "Internet gateway",
+        "B": "NAT gateway",
+        "C": "AWS WAF",
+        "D": "VPC peering"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 497,
+      "question": "Which AWS service or feature can be used to prevent SQL injection attacks?",
+      "options": {
+        "A": "Security groups",
+        "B": "Network ACLs",
+        "C": "AWS WAF",
+        "D": "IAM policy"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 500,
+      "question": "Which AWS service or feature enables users to encrypt data at rest in Amazon S3?",
+      "options": {
+        "A": "IAM policies",
+        "B": "Server-side encryption",
+        "C": "Amazon GuardDuty",
+        "D": "Client-side encryption"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 529,
+      "question": "Which AWS service provides the ability to detect inadvertent data leaks of personally identifiable information (PII) and user credential data?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "Amazon Inspector",
+        "C": "Amazon Macie",
+        "D": "AWS Shield"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 548,
+      "question": "Which AWS service would you use to obtain compliance reports and certificates?",
+      "options": {
+        "A": "AWS Artifact",
+        "B": "AWS Lambda",
+        "C": "Amazon Inspector",
+        "D": "AWS Certificate Manager"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 566,
+      "question": "Which controls does the customer fully inherit from AWS in the AWS shared responsibility model?",
+      "options": {
+        "A": "Patch management controls",
+        "B": "Awareness and training controls",
+        "C": "Physical and environmental controls",
+        "D": "Configuration management controls"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 571,
+      "question": "Which duty is a responsibility of AWS under the AWS shared responsibility model?",
+      "options": {
+        "A": "Identity and access management (IAM)",
+        "B": "Server-side encryption (SSE)",
+        "C": "Firewall configuration",
+        "D": "Maintaining physical hardware"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 574,
+      "question": "Which feature can be used to protect Amazon S3 buckets from accidental overwrites or deletes?",
+      "options": {
+        "A": "Lifecycle policy",
+        "B": "Object versioning",
+        "C": "Server-side encryption",
+        "D": "Bucket ACL"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 576,
+      "question": "Which functions can users perform using AWS KMS?",
+      "options": {
+        "A": "Create and manage AWS access keys for the AWS account root user",
+        "B": "Create and manage AWS access keys for an AWS account IAM user",
+        "C": "Create and manage keys for encryption and decryption of data",
+        "D": "Create and manage keys for multi-factor authentication"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 587,
+      "question": "Which of the following allows an application running on an Amazon EC2 instance to securely write data to an Amazon S3 bucket without using long term credentials?",
+      "options": {
+        "A": "Amazon Cognito",
+        "B": "AWS Shield",
+        "C": "AWS IAM role",
+        "D": "AWS IAM user access key"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 598,
+      "question": "Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?",
+      "options": {
+        "A": "A public and private key-pair",
+        "B": "Amazon Inspector",
+        "C": "AWS Identity and Access Management (IAM) policies",
+        "D": "Security Groups"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 599,
+      "question": "Which of the following can limit Amazon Storage Service (Amazon S3) bucket access to specific users?",
+      "options": {
+        "A": "A public and private key-pair",
+        "B": "Amazon Inspector",
+        "C": "AWS Identity and Access Management (IAM) policies",
+        "D": "Security Groups"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 609,
+      "question": "Which of the following is a characteristic of the AWS account root user?",
+      "options": {
+        "A": "The root user is the only user that can be configured with multi factor authentication (MFA).",
+        "B": "The root user is the only user that can access the AWS Management Console.",
+        "C": "The root user is the first sign-in identity that is available when an AWS account is created.",
+        "D": "The root user has a password that cannot be changed."
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 617,
+      "question": "Which of the following is a shared control between the customer and AWS?",
+      "options": {
+        "A": "Providing a key for Amazon S3 client-side encryption",
+        "B": "Configuration of an Amazon EC2 instance",
+        "C": "Environmental controls of physical AWS data centers",
+        "D": "Awareness and training"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 621,
+      "question": "Which of the following is an AWS best practice for managing an AWS account root user?",
+      "options": {
+        "A": "Keep the root user password with the security team.",
+        "B": "Enable multi-factor authentication (MFA) for the root user.",
+        "C": "Create an access key for the root user.",
+        "D": "Keep the root user password consistent for compliance purposes."
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 630,
+      "question": "Which of the following is entirely the responsibility of AWS, according to the AWS shared responsibility model?",
+      "options": {
+        "A": "Patching of the guest operating system",
+        "B": "Security awareness and training",
+        "C": "Physical and environmental controls",
+        "D": "Development of an IAM password policy"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 631,
+      "question": "shared responsibility model?",
+      "options": {
+        "A": "Patching underlying infrastructure",
+        "B": "Physical security",
+        "C": "Patching Amazon EC2 instances",
+        "D": "Patching network infrastructure"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 641,
+      "question": "Which of the following services provides on-demand access to AWS compliance reports?",
+      "options": {
+        "A": "AWS IAM",
+        "B": "AWS Artifact",
+        "C": "Amazon GuardDuty",
+        "D": "AWS KMS"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 643,
+      "question": "Which of the following steps should be taken by a customer when conducting penetration testing on AWS?",
+      "options": {
+        "A": "Conduct penetration testing using Amazon Inspector, and then notify AWS support.",
+        "B": "Request and wait for approval from the cust team, and then conduct testing.",
+        "C": "Notify AWS support, and then conduct testing immediately.",
+        "D": "Request and wait for approval from AWS support, and then conduct testing."
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 644,
+      "question": "Which of the following tasks is required to deploy a PCI-compliant workload on AWS?",
+      "options": {
+        "A": "Use any AWS service and implement PCI controls at the application layer",
+        "B": "Use an AWS service that is in-scope for PCI compliance and raise an AWS support ticket to enable PCI compliance at the application layer",
+        "C": "Use any AWS service and raise an AWS support ticket to enable PCI compliance on that service",
+        "D": "Use an AWS service that is in scope for PCI compliance and apply PCI controls at the application layer"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 645,
+      "question": "Which of the following tasks is the responsibility of AWS?",
+      "options": {
+        "A": "Encrypting client-side data",
+        "B": "Configuring AWS Identity and Access Management (IAM) roles",
+        "C": "Securing the Amazon EC2 hypervisor",
+        "D": "Setting user password policies"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 651,
+      "question": "Which pillar of the AWS Well-Architected Framework includes the AWS shared responsibility model?",
+      "options": {
+        "A": "Operational excellence",
+        "B": "Performance efficiency",
+        "C": "Reliability",
+        "D": "Security"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 656,
+      "question": "Which security credentials are required to run commands by using the AWS Command Line Interface (AWS CLI)?",
+      "options": {
+        "A": "Access Key ID and Secret Access Key",
+        "B": "AWS root user email and password",
+        "C": "Amazon Elastic Compute Cloud (Amazon EC2) key pairs",
+        "D": "AWS Identity and Access Management (IAM) user name and password"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 657,
+      "question": "Which security service automatically recognizes and classifies sensitive data or intellectual property on AWS?",
+      "options": {
+        "A": "Amazon GuardDuty",
+        "B": "Amazon Macie",
+        "C": "Amazon Inspector",
+        "D": "AWS Shield"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 658,
+      "question": "Which security-related task is the responsibility of the customer in the AWS Cloud?",
+      "options": {
+        "A": "Securing infrastructure at data centers",
+        "B": "Maintaining firewall configurations at a hardware level",
+        "C": "Maintaining networking among hardware components",
+        "D": "Maintaining server-side encryption"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 682,
+      "question": "Which task is AWS responsible for in the shared responsibility model for security and compliance?",
+      "options": {
+        "A": "Granting access to individuals and services",
+        "B": "Encrypting data in transit",
+        "C": "Updating Amazon EC2 host firmware",
+        "D": "Updating operating systems"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 683,
+      "question": "Which task is shared between AWS and the customer, according to the AWS shared responsibility model?",
+      "options": {
+        "A": "Physical and environmental controls",
+        "B": "Server hardware management and encryption",
+        "C": "Application security",
+        "D": "Patch management and configuration management"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 695,
+      "question": "Who is responsible for managing IAM user access and secret keys according to the AWS shared responsibility model?",
+      "options": {
+        "A": "IAM access and secret keys are static, so there is no need to rotate them.",
+        "B": "The customer is responsible for rotating keys.",
+        "C": "AWS will rotate the keys whenever required.",
+        "D": "The AWS Support team will rotate keys when requested by the customer."
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 699,
+      "question": "Within the AWS shared responsibility model, who is responsible for security and compliance?",
+      "options": {
+        "A": "The customer is responsible.",
+        "B": "AWS is responsible.",
+        "C": "AWS and the customer share responsibility.",
+        "D": "AWS shares responsibility with the relevant governing body."
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 763,
+      "question": "Which of the following is one of the benefits of migrating your systems from an on-premises data center to AWS Cloud?",
+      "options": {
+        "A": "Enables the customer to focus on business activities rather than on the heavy lifting of racking, stacking, and powering servers",
+        "B": "Completely eliminates the administrative overhead of patching the guest operating system of their EC2 instances",
+        "C": "Eliminates the need for the customer to implement client-side or service-side encryption for their data",
+        "D": "Enables the customer to eliminate high IT infrastructure costs since cloud computing is absolutely free"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 776,
+      "question": "Which of the following is one of the benefits of migrating your systems from an on-premises data center to AWS Cloud?",
+      "options": {
+        "A": "Enables the customer to focus on business activities rather than on the heavy lifting of racking, stacking, and powering servers",
+        "B": "Completely eliminates the administrative overhead of patching the guest operating system of their EC2 instances",
+        "C": "Eliminates the need for the customer to implement client-side or service-side encryption for their data",
+        "D": "Enables the customer to eliminate high IT infrastructure costs since cloud computing is absolutely free"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 806,
+      "question": "What does KMS use to encrypt objects stored on your AWS account?",
+      "options": {
+        "A": "SSH master key",
+        "B": "KMS master key",
+        "C": "Client-side master key",
+        "D": "Customer master key"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 807,
+      "question": "What does KMS use to encrypt objects stored on your AWS account?",
+      "options": {
+        "A": "SSH master key",
+        "B": "KMS master key",
+        "C": "Client-side master key",
+        "D": "Customer master key"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 814,
+      "question": "What is the purpose of the Service Organization Controls (SOC) reports found on AWS Artifact?",
+      "options": {
+        "A": "They can be used to help you design secure and reliable credit card transaction applications.",
+        "B": "They attest to AWS infrastructure compliance with data accountability standards like Sarbanes Oxley.",
+        "C": "They guarantee that all AWS-based applications are, by default, compliant with Sarbanes Oxley standards. -assessment profiler for AWS-based deployments.",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 815,
+      "question": "What is the purpose of the Service Organization Controls (SOC) reports found on AWS Artifact?",
+      "options": {
+        "A": "They can be used to help you design secure and reliable credit card transaction applications.",
+        "B": "They attest to AWS infrastructure compliance with data accountability standards like Sarbanes Oxley.",
+        "C": "They guarantee that all AWS-based applications are, by default, compliant with Sarbanes Oxley standards. -assessment profiler for AWS-based deployments.",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 824,
+      "question": "Which of the following AWS resources cannot be encrypted using KMS?",
+      "options": {
+        "A": "Existing AWS Elastic Block Store volumes",
+        "B": "RDS databases",
+        "C": "S3 buckets",
+        "D": "DynamoDB databases"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 825,
+      "question": "Which of the following AWS resources cannot be encrypted using KMS?",
+      "options": {
+        "A": "Existing AWS Elastic Block Store volumes",
+        "B": "RDS databases",
+        "C": "S3 buckets",
+        "D": "DynamoDB databases"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 826,
+      "question": "Which of the following IAM policies is the best choice for the admin user you create in order to replace the root user for day-to-day administration tasks?",
+      "options": {
+        "A": "AdministratorAccess",
+        "B": "AmazonS3FullAccess",
+        "C": "AmazonEC2FullAccess",
+        "D": "AdminAccess"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 827,
+      "question": "Which of the following IAM policies is the best choice for the admin user you create in order to replace the root user for day-to-day administration tasks?",
+      "options": {
+        "A": "AdministratorAccess",
+        "B": "AmazonS3FullAccess",
+        "C": "AmazonEC2FullAccess",
+        "D": "AdminAccess"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 830,
+      "question": "Which of the following standards governs AWS-based applications processing credit card transactions?",
+      "options": {
+        "A": "SSE-KMS",
+        "B": "FedRAMP",
+        "C": "PCI DSS",
+        "D": "ARPA"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 831,
+      "question": "Which of the following standards governs AWS-based applications processing credit card transactions?",
+      "options": {
+        "A": "SSE-KMS",
+        "B": "FedRAMP",
+        "C": "PCI DSS",
+        "D": "ARPA"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 832,
+      "question": "Which of the following will encrypt your data while in transit between your office and Amazon S3?",
+      "options": {
+        "A": "DynamoDB",
+        "B": "SSE-S3",
+        "C": "A client-side master key",
+        "D": "SSE-KMS"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 833,
+      "question": "Which of the following will encrypt your data while in transit between your office and Amazon S3?",
+      "options": {
+        "A": "DynamoDB",
+        "B": "SSE-S3",
+        "C": "A client-side master key",
+        "D": "SSE-KMS"
+      },
+      "answer": "C",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 835,
+      "question": "In the AWS Shared Responsibility Model, whose responsibility is it to patch the host operating system of an Amazon EC2 instance?",
+      "options": {
+        "A": "AWS",
+        "B": "Customer",
+        "C": "Neither AWS nor the customer",
+        "D": "Both AWS and the customer"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 837,
+      "question": "Which service in AWS protects your resources from common DDoS attacks in a proactive manner?",
+      "options": {
+        "A": "AWS Shield",
+        "B": "Security groups",
+        "C": "Amazon Inspector",
+        "D": "AWS WAF"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 843,
+      "question": "Which of the following is true if you store your data in AWS?",
+      "options": {
+        "A": "You are the owner of the data you store in AWS",
+        "B": "All data are stored durably and redundantly in different AZs",
+        "C": "AWS has the right to review any data stored for potential threats",
+        "D": "Encryption is required for all data at rest and in transit"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 845,
+      "question": "In the Shared Responsibility Model, which of the following options below is a shared control between AWS and the customer?",
+      "options": {
+        "A": "Awareness and training",
+        "B": "Physical and environmental controls of the AWS data centers",
+        "C": "Server-side data encryption",
+        "D": "Client-side data encryption"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 848,
+      "question": "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Which of the following best describes what an account alias is in IAM?",
+      "options": {
+        "A": "A substitute for an account ID in the web address for your account",
+        "B": "Your IAM root username",
+        "C": "The numerical value of your account ID",
+        "D": "The name AWS assigns to your account"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 869,
+      "question": "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Which of the following best describes what an account alias is in IAM?",
+      "options": {
+        "A": "A substitute for an account ID in the web address for your account",
+        "B": "Your IAM root username",
+        "C": "The numerical value of your account ID",
+        "D": "The name AWS assigns to your account"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 872,
+      "question": "Which of the following is true if you store your data in AWS?",
+      "options": {
+        "A": "You are the owner of the data you store in AWS",
+        "B": "All data are stored durably and redundantly in different AZs",
+        "C": "AWS has the right to review any data stored for potential threats",
+        "D": "Encryption is required for all data at rest and in transit"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 873,
+      "question": "In the Shared Responsibility Model, which of the following options below is a shared control between AWS and the customer?",
+      "options": {
+        "A": "Awareness and training",
+        "B": "Physical and environmental controls of the AWS data centers",
+        "C": "Server-side data encryption",
+        "D": "Client-side data encryption"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 874,
+      "question": "In the AWS Shared Responsibility Model, whose responsibility is it to patch the host operating system of an Amazon EC2 instance?",
+      "options": {
+        "A": "AWS",
+        "B": "Customer",
+        "C": "Neither AWS nor the customer",
+        "D": "Both AWS and the customer"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 879,
+      "question": "Which service in AWS protects your resources from common DDoS attacks in a proactive manner?",
+      "options": {
+        "A": "AWS Shield",
+        "B": "Security groups",
+        "C": "Amazon Inspector",
+        "D": "AWS WAF"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 884,
+      "question": "Which service allows you to add powerful visual analysis feature to your applications that enables you to search, verify, and organize millions of images?",
+      "options": {
+        "A": "Amazon Rekognition",
+        "B": "Amazon Macie",
+        "C": "Amazon SageMaker",
+        "D": "Amazon CloudSearch"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 927,
+      "question": "Which service allows you to add powerful visual analysis feature to your applications that enables you to search, verify, and organize millions of images?",
+      "options": {
+        "A": "Amazon Rekognition",
+        "B": "Amazon Macie",
+        "C": "Amazon SageMaker",
+        "D": "Amazon CloudSearch"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 976,
+      "question": "What is the main purpose of Amazon Route 53?",
+      "options": {
+        "A": "Countering the threat of distributed denial-of-service (DDoS) attacks",
+        "B": "Managing domain name registration and traffic routing",
+        "C": "Protecting web applications from web-based threats",
+        "D": "Using the serverless power of Lambda to customize CloudFront behavior"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 985,
+      "question": "Which of the following is the primary benefit of using CloudFront distributions?",
+      "options": {
+        "A": "Automated protection from mass email campaigns",
+        "B": "Greater availability through redundancy",
+        "C": "Greater security through data encryption",
+        "D": "Reduced latency access to your content no matter where your end users live"
+      },
+      "answer": "D",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1003,
+      "question": "While looking at the EC2 service console in the AWS Management Console while logged in as the root user, you notice all of your instances are missing. What could be the reason? lity Zone in the navigation bar.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1025,
+      "question": "A cloud practitioner needs to obtain AWS compliance reports before migrating an environment to the AWS Cloud. How can these reports be generated?",
+      "options": {
+        "A": "Contact the AWS Compliance team",
+        "B": "Download the reports from AWS Artifact",
+        "C": "Open a case with AWS Support",
+        "D": "Generate the reports with Amazon Macie"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1026,
+      "question": "A cloud practitioner needs to obtain AWS compliance reports before migrating an environment to the AWS Cloud. How can these reports be generated?",
+      "options": {
+        "A": "Contact the AWS Compliance team",
+        "B": "Download the reports from AWS Artifact",
+        "C": "Open a case with AWS Support",
+        "D": "Generate the reports with Amazon Macie"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1043,
+      "question": "A company has a managed IAM policy that does not grant the necessary permissions for users to accomplish required tasks. How can this be resolved?",
+      "options": {
+        "A": "Enable AWS Shield Advanced",
+        "B": "Create a custom IAM policy",
+        "C": "Use a third-party web application firewall (WAF) managed rule from the AWS Marketplace",
+        "D": "Use AWS Key Management Service (AWS KMS) to create a customer-managed key"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1044,
+      "question": "A company has a managed IAM policy that does not grant the necessary permissions for users to accomplish required tasks. How can this be resolved?",
+      "options": {
+        "A": "Enable AWS Shield Advanced",
+        "B": "Create a custom IAM policy",
+        "C": "Use a third-party web application firewall (WAF) managed rule from the AWS Marketplace",
+        "D": "Use AWS Key Management Service (AWS KMS) to create a customer-managed key"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1053,
+      "question": "A company has an AWS environment that consists of a VPC, multiple subnets, and many Amazon EC2 instances in the subnets. An engineer wants to restrict inbound traffic to one particular EC2 instance without affecting the other EC2 instances. Which AWS service or feature should the engineer use to meet this requirement?",
+      "options": {
+        "A": "Network ACLs",
+        "B": "Security groups",
+        "C": "Amazon GuardDuty",
+        "D": "AWS Shield"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1054,
+      "question": "A company has an AWS environment that consists of a VPC, multiple subnets, and many Amazon EC2 instances in the subnets. An engineer wants to restrict inbound traffic to one particular EC2 instance without affecting the other EC2 instances. Which AWS service or feature should the engineer use to meet this requirement?",
+      "options": {
+        "A": "Network ACLs",
+        "B": "Security groups",
+        "C": "Amazon GuardDuty",
+        "D": "AWS Shield"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1081,
+      "question": "A company hosts an application on multiple Amazon EC2 instances. The application uses Amazon Simple Notification Service (Amazon SNS) to send messages. Which AWS service or feature will give the application permission to access required AWS services?",
+      "options": {
+        "A": "AWS Certificate Manager (ACM)",
+        "B": "IAM roles",
+        "C": "AWS Security Hub",
+        "D": "Amazon GuardDuty"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1082,
+      "question": "A company hosts an application on multiple Amazon EC2 instances. The application uses Amazon Simple Notification Service (Amazon SNS) to send messages. Which AWS service or feature will give the application permission to access required AWS services?",
+      "options": {
+        "A": "AWS Certificate Manager (ACM)",
+        "B": "IAM roles",
+        "C": "AWS Security Hub",
+        "D": "Amazon GuardDuty"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1115,
+      "question": "A cloud practitioner needs to obtain AWS compliance reports before migrating an environment to the AWS Cloud. How can these reports be generated?",
+      "options": {
+        "A": "Contact the AWS Compliance team",
+        "B": "Download the reports from AWS Artifact",
+        "C": "Open a case with AWS Support",
+        "D": "Generate the reports with Amazon Macie"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1124,
+      "question": "A company has a managed IAM policy that does not grant the necessary permissions for users to accomplish required tasks. How can this be resolved?",
+      "options": {
+        "A": "Enable AWS Shield Advanced",
+        "B": "Create a custom IAM policy",
+        "C": "Use a third-party web application firewall (WAF) managed rule from the AWS Marketplace",
+        "D": "Use AWS Key Management Service (AWS KMS) to create a customer-managed key"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1129,
+      "question": "A company has an AWS environment that consists of a VPC, multiple subnets, and many Amazon EC2 instances in the subnets. An engineer wants to restrict inbound traffic to one particular EC2 instance without affecting the other EC2 instances. Which AWS service or feature should the engineer use to meet this requirement?",
+      "options": {
+        "A": "Network ACLs",
+        "B": "Security groups",
+        "C": "Amazon GuardDuty",
+        "D": "AWS Shield"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1143,
+      "question": "A company hosts an application on multiple Amazon EC2 instances. The application uses Amazon Simple Notification Service (Amazon SNS) to send messages. Which AWS service or feature will give the application permission to access required AWS services?",
+      "options": {
+        "A": "AWS Certificate Manager (ACM)",
+        "B": "IAM roles",
+        "C": "AWS Security Hub",
+        "D": "Amazon GuardDuty"
+      },
+      "answer": "B",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1163,
+      "question": "In the Shared Responsibility Model, which of the following options below is a shared control between AWS and the customer?",
+      "options": {
+        "A": "Awareness and training",
+        "B": "Physical and environmental controls of the AWS data centers",
+        "C": "Server-side data encryption",
+        "D": "Client-side data encryption"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    },
+    {
+      "sourceIndex": 1172,
+      "question": "Which of the following options below is solely the responsibility of the customer in accordance with the AWS shared responsibility model?",
+      "options": {
+        "A": "Service and Communications Protection or Zone Security",
+        "B": "Configuration Management",
+        "C": "Awareness & Training",
+        "D": "Patching of the host operating system"
+      },
+      "answer": "A",
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)"
+    }
+  ]
+}

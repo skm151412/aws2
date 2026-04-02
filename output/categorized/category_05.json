@@ -1,0 +1,813 @@
+{
+  "categoryId": 5,
+  "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)",
+  "count": 62,
+  "items": [
+    {
+      "sourceIndex": 16,
+      "question": "A company has a centralized group of users with large file storage requirements that have exceeded the space available on premises. The company wants to extend its file storage capabilities for this group while retaining the performance benefit of sharing content locally. What is the MOST operationally efficient AWS solution for this scenario?",
+      "options": {
+        "A": "Create an Amazon S3 bucket for each users. Mount each bucket by using an S3 file system mounting utility.",
+        "B": "Configure and deploy an AWS Storage Gateway file gateway. Connect each Amazon WorkDocs account for each user.",
+        "C": "",
+        "D": "Deploy an Amazon EC2 instance and attach an Amazon Elastic Block Store (Amazon EBS) Provisioned IOPS volume.Share the EBS volume directly with the users."
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 46,
+      "question": "A company is building a new archiving system on AWS that will store terabytes of data. The company will NOT retrieve the data often. Which Amazon S3 storage class will MINIMIZE the cost of the system?",
+      "options": {
+        "A": "S3 Standard-Infrequent Access (S3 Standard-IA)",
+        "B": "S3 Glacier",
+        "C": "S3 Intelligent-Tiering",
+        "D": "S3 One Zone-Infrequent Access (S3 One Zone-IA)"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 52,
+      "question": "A company is designing a new application that will store and retrieve millions of photos and videos. Which AWS service or feature can provide the underlying storage at the LOWEST cost?",
+      "options": {
+        "A": "Amazon EC2 instance store",
+        "B": "Amazon Elastic Block Store (Amazon EBS)",
+        "C": "Amazon S3",
+        "D": "Amazon Simple Queue Service (Amazon SQS)"
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 61,
+      "question": "A company is migrating its on-premises data center to AWS and wants to provide NFS access to its Linux clients. Which AWS service should the company use?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon Elastic File System (Amazon EFS)",
+        "C": "Amazon Elastic Block Store (Amazon EBS)",
+        "D": "Amazon S3 Glacier"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 87,
+      "question": "A company needs to migrate its on-premises data to the AWS Cloud. The company requires elastic, highly optimized connectivity. Which AWS service meets these requirements?",
+      "options": {
+        "A": "Amazon S3 Glacier",
+        "B": "AWS Storage Gateway",
+        "C": "AWS Backup",
+        "D": "Amazon Elastic File System (Amazon EFS)"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 94,
+      "question": "A company needs to transfer a large volume of data from an on-premises and unreliable. Which AWS service can facilitate this data transfer?",
+      "options": {
+        "A": "Amazon S3 Glacier",
+        "B": "AWS Snowball",
+        "C": "AWS Storage Gateway",
+        "D": "Amazon Elastic File System (Amazon EFS)"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 109,
+      "question": "A company wants durable storage for static content and infinitely scalable data storage infrastructure at the lowest cost. Which AWS service should the company choose?",
+      "options": {
+        "A": "Amazon Elastic Block Store (Amazon EBS)",
+        "B": "Amazon S3",
+        "C": "AWS Storage Gateway",
+        "D": "Amazon Elastic File System (Amazon EFS)"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 110,
+      "question": "A company wants to allow full access to an Amazon S3 bucket for a particular user. Which element in the S3 bucket policy holds the user details that describe who needs access to the S3 bucket?",
+      "options": {
+        "A": "Principal",
+        "B": "Action",
+        "C": "Resource",
+        "D": "Statement"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 212,
+      "question": "According to security best practices, how should an Amazon EC2 instance be given access to an Amazon S3 bucket? n the application, and upload the file. EC2 instance, read the keys, then upload the file.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "Have the EC2 instance assume a role to obtain the privileges to upload the file.",
+        "D": "Modify the S3 bucket policy so that any service can upload to it at any time."
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 223,
+      "question": "Amazon Elastic File System (Amazon EFS) and Amazon FSx offer which type of storage?",
+      "options": {
+        "A": "File storage",
+        "B": "Object storage",
+        "C": "Block storage",
+        "D": "Instance store"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 236,
+      "question": "An Elastic Load Balancer allows the distribution of web traffic across multiple:",
+      "options": {
+        "A": "AWS Regions.",
+        "B": "Availability Zones.",
+        "C": "Dedicated Hosts.",
+        "D": "Amazon S3 buckets."
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 280,
+      "question": "In which scenario should Amazon EC2 Spot Instances be used?",
+      "options": {
+        "A": "A company wants to move its main website to AWS from an on-premises web server.",
+        "B": "A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime. premises.",
+        "C": "",
+        "D": "A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances."
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 337,
+      "question": "What is a characteristic of Amazon S3 cross-region replication?",
+      "options": {
+        "A": "Both source and destination S3 buckets must have versioning disabled",
+        "B": "The source and destination S3 buckets cannot be in different AWS Regions",
+        "C": "S3 buckets configured for cross-region replication can be owned by a single AWS account or by different accounts",
+        "D": "The source S3 bucket owner must have the source and destination AWS Regions disabled for their account"
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 370,
+      "question": "What is the purpose of AWS Storage Gateway?",
+      "options": {
+        "A": "It ensures on-premises data storage is 99.999999999% durable.",
+        "B": "It transports petabytes of data to and from AWS.",
+        "C": "It connects to multiple Amazon EC2 instances.",
+        "D": "It connects on-premises data storage to the AWS Cloud."
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 403,
+      "question": "Which Amazon S3 storage class allows users to store data backups for long periods of time at the LOWEST cost?",
+      "options": {
+        "A": "S3 Standard-Infrequent Access (S3 Standard-IA)",
+        "B": "S3 Standard",
+        "C": "S3 Glacier",
+        "D": "S3 One Zone-Infrequent Access (S3 One Zone-IA)"
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 404,
+      "question": "Which Amazon S3 storage class is optimized to provide access to data with lower resiliency requirements, but rapid access when needed such as duplicate backups?",
+      "options": {
+        "A": "Amazon S3 Standard",
+        "B": "Amazon S3 Glacier Deep Archive",
+        "C": "Amazon S3 One Zone-Infrequent Access",
+        "D": "Amazon S3 Glacier"
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 418,
+      "question": "Which AWS container service will help a user install, operate, and scale the cluster management infrastructure?",
+      "options": {
+        "A": "Amazon Elastic Container Registry (Amazon ECR)",
+        "B": "AWS Elastic Beanstalk",
+        "C": "Amazon Elastic Container Service (Amazon ECS)",
+        "D": "Amazon Elastic Block Store (Amazon EBS)"
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 449,
+      "question": "Which AWS service can be used to manually launch instances based on resource requirements?",
+      "options": {
+        "A": "Amazon EBS",
+        "B": "Amazon EC2",
+        "C": "Amazon ECS",
+        "D": "Amazon S3"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 452,
+      "question": "Which AWS service can be used to query stored datasets directly from Amazon S3 using standard SQL?",
+      "options": {
+        "A": "AWS Glue",
+        "B": "AWS Data Pipeline",
+        "C": "Amazon CloudSearch",
+        "D": "Amazon Athena"
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 521,
+      "question": "Which AWS service provides a secure, fast, and cost-effective way to migrate or transport exabyte-scale datasets into AWS?",
+      "options": {
+        "A": "AWS Batch",
+        "B": "AWS Snowball",
+        "C": "AWS Migration Hub",
+        "D": "AWS Snowmobile"
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 523,
+      "question": "Which AWS service provides a simple and scalable shared file storage solution for use with Linux-based AWS and onpremises servers?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon Glacier",
+        "C": "Amazon Elastic Block Store (Amazon EBS)",
+        "D": "Amazon Elastic File System (Amazon EFS)"
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 549,
+      "question": "Which AWS storage service is designed to transfer petabytes of data in and out of the cloud?",
+      "options": {
+        "A": "AWS Storage Gateway",
+        "B": "Amazon S3 Glacier Deep Archive",
+        "C": "Amazon Lightsail",
+        "D": "AWS Snowball"
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 569,
+      "question": "Which disaster recovery option is the LEAST expensive?",
+      "options": {
+        "A": "Warm standby",
+        "B": "Multisite",
+        "C": "Backup and restore",
+        "D": "Pilot light"
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 570,
+      "question": "Which disaster recovery scenario offers the lowest probability of down time?",
+      "options": {
+        "A": "Backup and restore",
+        "B": "Pilot light",
+        "C": "Warm standby",
+        "D": "Multi-site active-active"
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 573,
+      "question": "Which feature adds elasticity to Amazon EC2 instances to handle the changing demand for workloads?",
+      "options": {
+        "A": "Resource groups",
+        "B": "Lifecycle policies",
+        "C": "Application Load Balancer",
+        "D": "Amazon EC2 Auto Scaling"
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 592,
+      "question": "Which of the following AWS features enables a user to launch a pre configured Amazon Elastic Compute Cloud (Amazon EC2) instance?",
+      "options": {
+        "A": "Amazon Elastic Block Store (Amazon EBS)",
+        "B": "Amazon Machine Image",
+        "C": "Amazon EC2 Systems Manager",
+        "D": "Amazon AppStream 2.0"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 615,
+      "question": "Which of the following is a managed AWS service that is used specifically for extract, transform, and load (ETL) data?",
+      "options": {
+        "A": "Amazon Athena",
+        "B": "AWS Glue",
+        "C": "Amazon S3",
+        "D": "AWS Snowball Edge"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 629,
+      "question": "Which of the following is an important architectural principle when designing cloud applications?",
+      "options": {
+        "A": "Store data and backups in the same region.",
+        "B": "Design tightly coupled system components.",
+        "C": "Avoid multi-threading.",
+        "D": "Design for failure."
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 666,
+      "question": "Which service provides a hybrid storage service that enables on-premises applications to seamlessly use cloud storage?",
+      "options": {
+        "A": "Amazon Glacier",
+        "B": "AWS Snowball",
+        "C": "AWS Storage Gateway",
+        "D": "Amazon Elastic Block Storage (Amazon EBS)"
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 671,
+      "question": "Which service stores objects, provides real-time access to those objects, and offers versioning and lifecycle capabilities?",
+      "options": {
+        "A": "Amazon Glacier",
+        "B": "AWS Storage Gateway",
+        "C": "Amazon S3",
+        "D": "Amazon EBS"
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 675,
+      "question": "Which situation should be reported to the AWS Abuse team?",
+      "options": {
+        "A": "In Availability Zone has a service disruption",
+        "B": "An intrusion attempt is made from an AWS IP address",
+        "C": "A user has trouble accessing an Amazon S3 bucket from an AWS IP address",
+        "D": "A user needs to change payment methods due to a compromise"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 693,
+      "question": "Which type of AWS storage is ephemeral and is deleted when an instance is stopped or terminated?",
+      "options": {
+        "A": "Amazon EBS",
+        "B": "Amazon EC2 instance store",
+        "C": "Amazon EFS",
+        "D": "Amazon S3"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 743,
+      "question": "The use of multi-threading in your Amazon S3 requests via the Multipart Upload API is an example of which AWS cloud best practice?",
+      "options": {
+        "A": "Think parallel.",
+        "B": "Decouple your components.",
+        "C": "Implement Elasticity",
+        "D": "Allow for evolutionary architectures."
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 746,
+      "question": "The use of multi-threading in your Amazon S3 requests via the Multipart Upload API is an example of which AWS cloud best practice?",
+      "options": {
+        "A": "Think parallel.",
+        "B": "Decouple your components.",
+        "C": "Implement Elasticity",
+        "D": "Allow for evolutionary architectures."
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 794,
+      "question": "Which of the following describes an EBS volume?",
+      "options": {
+        "A": "A software stack archive packaged to make it easy to copy and deploy to an EC2 instance",
+        "B": "A virtualized partition of a physical security",
+        "C": "",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 795,
+      "question": "Which of the following describes an EBS volume?",
+      "options": {
+        "A": "A software stack archive packaged to make it easy to copy and deploy to an EC2 instance connected to the EC2 instan",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 852,
+      "question": "An employee is asking for access to your S3 buckets. What should be the level of access that you should provide to him?",
+      "options": {
+        "A": "Ask what type of access he requires and only provide him those permissions",
+        "B": "Give him read-only access",
+        "C": "Give him S3 full access",
+        "D": "Give him administrator access levels"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 865,
+      "question": "An employee is asking for access to your S3 buckets. What should be the level of access that you should provide to him?",
+      "options": {
+        "A": "Ask what type of access he requires and only provide him those permissions",
+        "B": "Give him read-only access",
+        "C": "Give him S3 full access",
+        "D": "Give him administrator access levels"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 883,
+      "question": "Which of the following is a data transport solution that accelerates moving terabytes to petabytes of data into and out of AWS using appliances with on-board storage and compute capabilities?",
+      "options": {
+        "A": "AWS Snowball Edge",
+        "B": "Lambda@Edge",
+        "C": "AWS Snowmobile",
+        "D": "AWS Snowcone"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 895,
+      "question": "You have a large number of log files that will be archived in AWS for a long time and should have a retrieval time of 12 hours or less. Which service is the most cost-effective storage class for this purpose?",
+      "options": {
+        "A": "Amazon S3 Glacier Deep Archive",
+        "B": "Amazon S3 Glacier Instant Retrieval",
+        "C": "Amazon EBS Cold HDD",
+        "D": "Amazon S3 Standard-IA"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 898,
+      "question": "You are planning to deploy a video streaming application with frequently accessed, throughput-intensive workloads to your EC2 instance which requires fast, consistent throughput. What EBS volume type should you use to maximize performance as well as cost?",
+      "options": {
+        "A": "Throughput Optimized HDD",
+        "B": "Cold HDD",
+        "C": "General Purpose SSD",
+        "D": "Provisioned IOPS SSD"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 900,
+      "question": "Which AWS storage service offers faster disk read and write performance and provides temporary block-level storage for your instance?",
+      "options": {
+        "A": "Instance Store",
+        "B": "EFS",
+        "C": "EBS Provisioned IOPS SSD",
+        "D": "EBS Throughput Optimized HDD"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 901,
+      "question": "What type of EBS volume is recommended for most workloads and is also usable as a boot volume?",
+      "options": {
+        "A": "General Purpose SSD",
+        "B": "Cold HDD",
+        "C": "Provisioned IOPS SSD",
+        "D": "Throughput Optimized HDD"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 904,
+      "question": "You have a customized EC2 instance running your latest web application. How can you create an exact copy of this instance in another region?",
+      "options": {
+        "A": "Create a golden AMI of the instance and copy it to the other region.",
+        "B": "There is no way to do this in AWS. You will have to perform the transfer manually",
+        "C": "Create a load balancer with an auto scaling group that is linked between your two regions. Scale up to have another instance running in the other region.",
+        "D": "Create backups of all your EBS volumes and copy them to another region."
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 905,
+      "question": "You are planning to deploy a video streaming application with frequently accessed, throughput-intensive workloads to your EC2 instance which requires fast, consistent throughput. What EBS volume type should you use to maximize performance as well as cost?",
+      "options": {
+        "A": "Throughput Optimized HDD",
+        "B": "Cold HDD",
+        "C": "General Purpose SSD",
+        "D": "Provisioned IOPS SSD"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 906,
+      "question": "You have a large number of log files that will be archived in AWS for a long time and should have a retrieval time of 12 hours or less. Which service is the most cost-effective storage class for this purpose?",
+      "options": {
+        "A": "Amazon S3 Glacier Deep Archive",
+        "B": "Amazon S3 Glacier Instant Retrieval",
+        "C": "Amazon EBS Cold HDD",
+        "D": "Amazon S3 Standard-IA"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 908,
+      "question": "You have a customized EC2 instance running your latest web application. How can you create an exact copy of this instance in another region?",
+      "options": {
+        "A": "Create a golden AMI of the instance and copy it to the other region.",
+        "B": "There is no way to do this in AWS. You will have to perform the transfer manually",
+        "C": "Create a load balancer with an auto scaling group that is linked between your two regions. Scale up to have another instance running in the other region.",
+        "D": "Create backups of all your EBS volumes and copy them to another region."
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 911,
+      "question": "What type of EBS volume is recommended for most workloads and is also usable as a boot volume?",
+      "options": {
+        "A": "General Purpose SSD",
+        "B": "Cold HDD",
+        "C": "Provisioned IOPS SSD",
+        "D": "Throughput Optimized HDD"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 912,
+      "question": "Which AWS storage service offers faster disk read and write performance and provides temporary block-level storage for your instance?",
+      "options": {
+        "A": "Instance Store",
+        "B": "EFS",
+        "C": "EBS Provisioned IOPS SSD",
+        "D": "EBS Throughput Optimized HDD"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 918,
+      "question": "File Gateway Which of the following is true regarding Elastic Load Balancing?",
+      "options": {
+        "A": "It distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, in multiple Availability Zones.",
+        "B": "It is a virtual server that allows you to run your applications in the AWS Cloud.",
+        "C": "It automatically increases or decreases the number of instances as the demand of your application changes.",
+        "D": "It translates domain names (such as www.tutorialsdojo.com) into numeric IP addresses (such as 192.0.2.1) that Amazon EC2 instances use to connect to each other."
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 928,
+      "question": "Which of the following is a data transport solution that accelerates moving terabytes to petabytes of data into and out of AWS using appliances with on-board storage and compute capabilities?",
+      "options": {
+        "A": "AWS Snowball Edge",
+        "B": "Lambda@Edge",
+        "C": "AWS Snowmobile",
+        "D": "AWS Snowcone"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 954,
+      "question": "Which of the following will probably not affect the pricing for an AWS service?",
+      "options": {
+        "A": "Requests for raising the available service limit",
+        "B": "AWS Region",
+        "C": "The volume of data saved to an S3 bucket",
+        "D": "The volume of data egress from an Amazon Glacier vault"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 955,
+      "question": "Which of the following will probably not affect the pricing for an AWS service?",
+      "options": {
+        "A": "Requests for raising the available service limit",
+        "B": "AWS Region",
+        "C": "The volume of data saved to an S3 bucket",
+        "D": "The volume of data egress from an Amazon Glacier vault"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 971,
+      "question": "Your corporate website was offline last week for more than two hours which caused serious consequences, including the early retirement of your CTO. Your engineers have been having a lot of trouble tracking down the source of the outage and admit that they need outside help. Which of the following will most likely meet that need?",
+      "options": {
+        "A": "Basic",
+        "B": "Developer",
+        "C": "Business",
+        "D": "Enterprise"
+      },
+      "answer": "D",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 972,
+      "question": "Your Linux-based EC2 instance requires a patch to a Linux kernel module. The problem is that patching the module will, for some reason, break the connection between your instance and data in an S3 bucket. Your team most cost-effective AWS plan through which support professionals will try to help you?",
+      "options": {
+        "A": "Developer.",
+        "B": "Business.",
+        "C": "Enterprise.",
+        "D": "No plan covers this kind of support."
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 1035,
+      "question": "A company has a centralized group of users with large file storage requirements that have exceeded the space available on premises. The company wants to extend its file storage capabilities for this group while retaining the performance benefit of sharing content locally. What is the MOST operationally efficient AWS solution for this scenario?",
+      "options": {
+        "A": "Create an Amazon S3 bucket for each users. Mount each bucket by using an S3 file system mounting utility.",
+        "B": "Configure and deploy an AWS Storage Gateway file gateway. Connect each Amazon WorkDocs account for each user.",
+        "C": "",
+        "D": "Deploy an Amazon EC2 instance and attach an Amazon Elastic Block Store (Amazon EBS) Provisioned IOPS volume.Share the EBS volume directly with the users."
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 1036,
+      "question": "A company has a centralized group of users with large file storage requirements that have exceeded the space available on premises. The company wants to extend its file storage capabilities for this group while retaining the performance benefit of sharing content locally. What is the MOST operationally efficient AWS solution for this scenario?",
+      "options": {
+        "A": "Create an Amazon S3 bucket for each users. Mount each bucket by using an S3 file system mounting utility.",
+        "B": "Configure and deploy an AWS Storage Gateway file gateway. Connect each orkSpaces. Set up an Amazon WorkDocs account for each user.",
+        "C": "",
+        "D": "Deploy an Amazon EC2 instance and attach an Amazon Elastic Block Store (Amazon EBS) Provisioned IOPS volume.Share the EBS volume directly with the users."
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 1095,
+      "question": "A company is building a new archiving system on AWS that will store terabytes of data. The company will NOT retrieve the data often. Which Amazon S3 storage class will MINIMIZE the cost of the system?",
+      "options": {
+        "A": "S3 Standard-Infrequent Access (S3 Standard-IA)",
+        "B": "S3 Glacier",
+        "C": "S3 Intelligent-Tiering",
+        "D": "S3 One Zone-Infrequent Access (S3 One Zone-IA)"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 1096,
+      "question": "A company is building a new archiving system on AWS that will store terabytes of data. The company will NOT retrieve the data often. Which Amazon S3 storage class will MINIMIZE the cost of the system?",
+      "options": {
+        "A": "S3 Standard-Infrequent Access (S3 Standard-IA)",
+        "B": "S3 Glacier",
+        "C": "S3 Intelligent-Tiering",
+        "D": "S3 One Zone-Infrequent Access (S3 One Zone-IA)"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 1120,
+      "question": "A company has a centralized group of users with large file storage requirements that have exceeded the space available on premises. The company wants to extend its file storage capabilities for this group while retaining the performance benefit of sharing content locally. What is the MOST operationally efficient AWS solution for this scenario?",
+      "options": {
+        "A": "Create an Amazon S3 bucket for each users. Mount each bucket by using an S3 file system mounting utility.",
+        "B": "Configure and deploy an AWS Storage Gateway file gateway. Connect each Amazon WorkDocs account for each user.",
+        "C": "",
+        "D": "Deploy an Amazon EC2 instance and attach an Amazon Elastic Block Store (Amazon EBS) Provisioned IOPS volume.Share the EBS volume directly with the users."
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 1150,
+      "question": "A company is building a new archiving system on AWS that will store terabytes of data. The company will NOT retrieve the data often. Which Amazon S3 storage class will MINIMIZE the cost of the system?",
+      "options": {
+        "A": "S3 Standard-Infrequent Access (S3 Standard-IA)",
+        "B": "S3 Glacier",
+        "C": "S3 Intelligent-Tiering",
+        "D": "S3 One Zone-Infrequent Access (S3 One Zone-IA)"
+      },
+      "answer": "B",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    },
+    {
+      "sourceIndex": 1167,
+      "question": "Which of the following AWS service provides managed compliance and security controls for workloads?",
+      "options": {
+        "A": "AWS Security Hub",
+        "B": "AWS Lambda",
+        "C": "Amazon S3",
+        "D": "Amazon EC2"
+      },
+      "answer": "A",
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)"
+    }
+  ]
+}

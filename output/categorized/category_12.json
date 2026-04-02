@@ -1,0 +1,2880 @@
+{
+  "categoryId": 12,
+  "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)",
+  "count": 221,
+  "items": [
+    {
+      "sourceIndex": 5,
+      "question": "A Cloud Practitioner identifies a billing issue after examining the AWS Cost and Usage report in the AWS Management Console. Which action can be taken to resolve this?",
+      "options": {
+        "A": "Open a detailed case related to billing and submit it to AWS Support for help.",
+        "B": "Upload data describing the issue to a new object in a private Amazon S3 bucket.",
+        "C": "Create a pricing application and deploy it to a right-sized Amazon EC2 instance for more information.",
+        "D": "Proceed with creating a new dashboard in Amazon QuickSight."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 22,
+      "question": "A company has all of its servers in the us-east-1 Region. The company is considering the deployment of additional servers in a different Region. Which AWS tool should the company use to find pricing information for other Regions?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "AWS Budgets",
+        "C": "AWS Purchase Order Management",
+        "D": "AWS Pricing Calculator"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 27,
+      "question": "A company has defined the AWS resources that it needs for a new application. The company needs to estimate the costs of running the application on AWS. What should the company do to meet this requirement?",
+      "options": {
+        "A": "Take advantage of AWS on-demand pricing.",
+        "B": "Use the AWS Pricing Calculator to generate an approximate dollar amount.",
+        "C": "Use Amazon QuickSight to analyze current on-premises spending.",
+        "D": "Use Amazon AppStream 2.0 for real-time pricing analytics."
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 30,
+      "question": "A company has enabled billing alerts in its AWS account and wants to receive a notification through Amazon Simple Notification Service (Amazon SNS) whenever its monthly bill exceeds a set amount. Which AWS service or tool should the company use to achieve this?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "Cost Explorer",
+        "C": "AWS Cost and Usage Report",
+        "D": "AWS Pricing Calculator"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 32,
+      "question": "A company has infrastructure in one AWS Region and is expanding operations to a second AWS Region. The company is using the same AWS CloudFormation template in the second Region that the company uses in the original Region. The company attempts to launch Amazon EC2 On-Demand Instances in the second Region and receives error messages. What could cause these error messages?",
+      "options": {
+        "A": "A new EC2 key pair has not been created for the EC2 instances.",
+        "B": "The requested EC2 instance types are not available in the second Region.",
+        "C": "The company cannot operate in a second Region until it updates its AWS contract.",
+        "D": "The company has not configured AWS Budgets to monitor the budget for the EC2 instances."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 33,
+      "question": "A company has multiple AWS accounts and wants to simplify and consolidate its billing process. Which AWS service will achieve this?",
+      "options": {
+        "A": "AWS Cost and Usage Reports",
+        "B": "AWS Organizations",
+        "C": "AWS Cost Explorer",
+        "D": "AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 34,
+      "question": "A company has multiple AWS accounts within AWS Organizations and wants to apply the Amazon EC2 Reserved Instances benefit to a single account only. Which action should be taken?",
+      "options": {
+        "A": "Purchase the Reserved Instances from master payer account and turn off Reserved Instance sharing.",
+        "B": "Enable billing alerts in the AWS Billing and Cost Management console.",
+        "C": "Purchase the Reserved Instances in individual linked accounts and turn off Reserved Instance sharing from the payer level.",
+        "D": "Enable Reserved Instance sharing in the AWS Billing and Cost Management console."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 36,
+      "question": "A company has multiple departments. Each department uses its own AWS account. Which AWS service or tool can the company use to combine the billing for all accounts into one bill?",
+      "options": {
+        "A": "Amazon Forecast",
+        "B": "AWS Budgets",
+        "C": "AWS Organizations",
+        "D": "AWS Marketplace"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 50,
+      "question": "A company is considering migrating its applications to AWS. The company wants to compare the cost of running the workload on-premises to running the equivalent workload on the AWS platform. Which tool can be used to perform this comparison?",
+      "options": {
+        "A": "AWS Simple Monthly Calculator",
+        "B": "AWS Total Cost of Ownership (TCO) Calculator",
+        "C": "AWS Billing and Cost Management console",
+        "D": "Cost Explorer"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 65,
+      "question": "A company is moving multiple applications to a single AWS account. The company wants to monitor the AWS Cloud costs incurred by each application. What can the company do to meet this requirement?",
+      "options": {
+        "A": "Set up invoiced billing.",
+        "B": "Use AWS Artifact.",
+        "C": "Set the budgets in Cost Explorer.",
+        "D": "Create cost allocation tags."
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 67,
+      "question": "A company is planning to create a new application that will run on Amazon EC2 instances and back up data on Amazon Elastic Block Store (EBS) volumes to Amazon S3. The company wants to estimate the monthly costs of running the application before making a deployment decision. Which AWS service or feature can be used to estimate these costs?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "AWS Pricing Calculator",
+        "C": "AWS Cost and Usage Report",
+        "D": "AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 68,
+      "question": "A company is planning to migrate from on-premises to the AWS Cloud. Which AWS tool or service provides detailed reports on estimated cost savings after migration?",
+      "options": {
+        "A": "AWS Total Cost of Ownership (TCO) Calculator",
+        "B": "Cost Explorer",
+        "C": "AWS Budgets",
+        "D": "AWS Migration Hub"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 80,
+      "question": "A company needs 24/7 phone, email, and chat access, with a response time of less than 1 hour if a production system has a service interruption. Which AWS Support plan meets these requirements at the LOWEST cost?",
+      "options": {
+        "A": "Basic",
+        "B": "Developer",
+        "C": "Business",
+        "D": "Enterprise"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 85,
+      "question": "A company needs software solutions that are hosted on the AWS platform or that are integrated with the AWS platform. The company needs solutions from independent software vendors as well as management and security vendors. Which group or team can provide these solutions?",
+      "options": {
+        "A": "AWS technical account managers (TAMs)",
+        "B": "AWS Partner Network (APN) Consulting Partners",
+        "C": "AWS Concierge Support",
+        "D": "AWS Partner Network (APN) Technology Partners"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 88,
+      "question": "A company needs to monitor and forecast AWS costs and usage. The company also must set event-driven alert notifications that occur if spending limits are exceeded. Which AWS service or tool should the company use to meet these requirements?",
+      "options": {
+        "A": "AWS Budgets",
+        "B": "Amazon CloudWatch",
+        "C": "AWS Config",
+        "D": "AWS Service Catalog"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 96,
+      "question": "A company operating in the AWS Cloud requires separate invoices for specific environments, such as development, testing, and production. How can this be achieved?",
+      "options": {
+        "A": "Use multiple AWS accounts",
+        "B": "Use resource tagging",
+        "C": "Use multiple VPCs",
+        "D": "Use Cost Explorer"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 103,
+      "question": "A company runs its workloads on premises. The company wants to forecast the cost of running a large application on AWS. Which AWS service or tool can the company use to obtain this information?",
+      "options": {
+        "A": "AWS Pricing Calculator",
+        "B": "AWS Budgets",
+        "C": "AWS Trusted Advisor",
+        "D": "Cost Explorer"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 104,
+      "question": "A company spends several months upgrading its on-premises infrastructure every few years. The company wants to reduce infrastructure procurement time by migrating to the AWS Cloud. What is the main benefit of migrating to the AWS Cloud for this use case?",
+      "options": {
+        "A": "AWS will help move the existing hardware to the AWS data centers.",
+        "B": "The company will have increased agility with on-demand access to IT resources.",
+        "C": "Enterprise support will be available to help with recurring application installation and setup.",
+        "D": "The company will experience less downtime with Multi-AZ deployments."
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 108,
+      "question": "A company uses Amazon S3 bu enabled S3 Cross-Region Replication for those buckets to meet new Which AWS service or feature can the company use to confirm that the cost increase was caused by the data replication?",
+      "options": {
+        "A": "Consolidated billing",
+        "B": "Cost Explorer",
+        "C": "AWS Pricing Calculator",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 112,
+      "question": "A company wants to automate the retention, creation, and deletion of Amazon Elastic Block Store (Amazon EBS) snapshots. Which AWS service or feature can the company use to meet this requirement?",
+      "options": {
+        "A": "AWS Organizations",
+        "B": "Amazon Data Lifecycle Manager (Amazon DLM)",
+        "C": "AWS Systems Manager",
+        "D": "Amazon S3 Lifecycle policies"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 113,
+      "question": "A company wants to be notified when its AWS Cloud costs or usage exceed defined thresholds. Which AWS service will support these requirements?",
+      "options": {
+        "A": "AWS Budgets",
+        "B": "Cost Explorer",
+        "C": "AWS CloudTrail",
+        "D": "Amazon Macie"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 114,
+      "question": "A company wants to build a new architecture with AWS services. The company needs to compare service costs at various scales. Which AWS service, tool, or feature should the company use to meet this requirement?",
+      "options": {
+        "A": "AWS Compute Optimizer",
+        "B": "AWS Pricing Calculator",
+        "C": "AWS Trusted Advisor",
+        "D": "Cost Explorer rightsizing recommendations"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 121,
+      "question": "A company wants to eliminate the need to guess infrastructure capacity before deployments. The company also wants to spend its budget on cloud resources only as the company uses the resources. Which advantage of the",
+      "options": {
+        "A": "Reliability",
+        "B": "Global reach",
+        "C": "Economies of scale",
+        "D": "Pay-as-you-go pricing"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 123,
+      "question": "A company wants to ensure that AWS Management Console users are meeting password complexity requirements. How can the company configure password complexity?",
+      "options": {
+        "A": "Using an AWS IAM user policy",
+        "B": "Using an AWS Organizations service control policy (SCP)",
+        "C": "Using an AWS IAM account password policy",
+        "D": "Using an AWS Security Hub managed insight"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 127,
+      "question": "A company wants to forecast its AWS Cloud costs for the upcoming year by analyzing its past AWS Cloud spending trends. Which AWS service should the company use to meet this requirement?",
+      "options": {
+        "A": "AWS Control Tower",
+        "B": "Cost Explorer",
+        "C": "AWS OpsWorks",
+        "D": "AWS CloudFormation"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 128,
+      "question": "A company wants to have one AWS account for the entire company and individual accounts for each department. Which AWS service should the company use to aggregate and manage all accounts?",
+      "options": {
+        "A": "AWS Billing and Cost Management",
+        "B": "AWS Organizations",
+        "C": "AWS Identity and Access Management (IAM)",
+        "D": "AWS Resource Access Manager"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 131,
+      "question": "A company wants to migrate a MySQL database to AWS but does not have the budget for Database Administrators to handle routine tasks including provisioning, patching, and performing backups. Which AWS service will support this use case?",
+      "options": {
+        "A": "Amazon RDS",
+        "B": "Amazon DynamoDB",
+        "C": "Amazon DocumentDB",
+        "D": "Amazon ElastiCache"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 134,
+      "question": "A company wants to monitor the CPU usage of its Amazon EC2 resources. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "Amazon CloudWatch",
+        "C": "AWS Cost and Usage report",
+        "D": "Amazon Simple Notification Service (Amazon SNS)"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 141,
+      "question": "A company wants to track AWS resource configuration changes for compliance reasons. Which AWS feature can be used to meet this requirement?",
+      "options": {
+        "A": "AWS Cost and Usage Report",
+        "B": "AWS Organizations service control policies (SCPs)",
+        "C": "AWS Config rules",
+        "D": "VPC Flow Logs"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 147,
+      "question": "A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it. Who should the developer contact for this level of support?",
+      "options": {
+        "A": "AWS Support using a support case",
+        "B": "AWS Professional Services",
+        "C": "AWS technical account manager",
+        "D": "AWS consulting partners"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 148,
+      "question": "A company with AWS Enterprise Support has questions about its consolidated bill. Which AWS service, feature, or tool should the company use for assistance?",
+      "options": {
+        "A": "AWS Pricing Calculator",
+        "B": "AWS Concierge Support",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 149,
+      "question": "A company with AWS Enterprise Support needs help understanding its monthly AWS bill and wants to implement billing best practices. Which AWS tool or resource is available to accomplish these goals?",
+      "options": {
+        "A": "Resource tagging",
+        "B": "AWS Concierge Support team",
+        "C": "AWS Abuse team",
+        "D": "AWS Support"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 152,
+      "question": "Organization Control (SOC) reports. Which AWS service or feature should the compliance officer use to complete this task?",
+      "options": {
+        "A": "AWS Artifact",
+        "B": "AWS Concierge Support",
+        "C": "AWS Support",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 153,
+      "question": "larity very quickly. To improve customer service, the company wants to set up a phone number to manage the increasing volume of calls received by the company's support staff. Which AWS service should be used to meet this requirement?",
+      "options": {
+        "A": "Amazon Connect",
+        "B": "Amazon CloudFront",
+        "C": "Amazon DirectConnect",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 155,
+      "question": "instances in an existing AWS account. The company requires a cost estimate before the company can approve the request. Which AWS tool should the solutions architect use to produce the cost estimate?",
+      "options": {
+        "A": "AWS Pricing Calculator",
+        "B": "Cost Explorer",
+        "C": "AWS Cost and Usage Report",
+        "D": "AWS Budgets"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 156,
+      "question": "IP addresses owned by AWS are being used in an attempt to flood ports on system resources. To whom should the cloud practitioner report this issue?",
+      "options": {
+        "A": "AWS Professional Services",
+        "B": "AWS Abuse team",
+        "C": "AWS Partner Network (APN)",
+        "D": "AWS technical account manager (TAM)"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 158,
+      "question": "A customer is using multiple AWS accounts with separate billing. How can the customer take advantage of volume discounts with minimal impact to the AWS resources?",
+      "options": {
+        "A": "Create one global AWS acount and move all AWS resources to tha account.",
+        "B": "Sign up for three years of Reserved Instance pricing up front.",
+        "C": "Use the consolidated billing feature from AWS Organizations.",
+        "D": "Sign up for the AWS Enterprise support plan to get volume discounts."
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 161,
+      "question": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
+      "options": {
+        "A": "AWS Partner Network Technology Partners",
+        "B": "AWS Marketplace",
+        "C": "AWS Partner Network Consulting Partners",
+        "D": "AWS Service Catalog"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 162,
+      "question": "A database administrator is trying to determine who deleted a critical Amazon Redshift cluster. Which AWS service helps with monitoring and retaining this type of account activity?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "AWS Organizations",
+        "C": "AWS Identity and Access Management (IAM)",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 177,
+      "question": "A solutions architect needs to create a cost estimate for running workloads on AWS. The cost estimate must then be exported for management review. Which AWS service or feature should be used to accomplish these task?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "Amazon QuickSight",
+        "C": "AWS Pricing Calculator",
+        "D": "AWS Budgets"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 185,
+      "question": "A user has an AWS account with a Business-level AWS Support plan and needs assistance with handling a production service disruption. Which action should the user take?",
+      "options": {
+        "A": "Contact the dedicated AWS technical account manager (TAM).",
+        "B": "Contact the dedicated AWS Concierge Support team.",
+        "C": "Open a business-critical system down support case.",
+        "D": "Open a production system down support case."
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 186,
+      "question": "A user has an AWS Business Support plan and requires detailed billing information. Which AWS resource will help?",
+      "options": {
+        "A": "AWS Concierge Support",
+        "B": "AWS Service Catalog",
+        "C": "AWS Budgets",
+        "D": "AWS Cost and Usage Report"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 189,
+      "question": "A user is able to set up a master payer account to view consolidated billing reports through:",
+      "options": {
+        "A": "AWS Budgets.",
+        "B": "Amazon Macie.",
+        "C": "Amazon QuickSight.D. AWS Organizations.",
+        "D": ""
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 193,
+      "question": "A user is running an application on AWS and notices that one or more AWS owned IP addresses is involved in a distributed denial-of-service (DDoS) attack. Who should the user contact FIRST about this situation?",
+      "options": {
+        "A": "AWS Premium Support",
+        "B": "AWS Technical Account Manager",
+        "C": "AWS Solutions Architect",
+        "D": "AWS Abuse team"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 199,
+      "question": "A user needs to identify underutilized Amazon Elastic Block Store (Amazon EBS) volumes to reduce costs. Which AWS service or feature will meet this requirement?",
+      "options": {
+        "A": "AWS CloudTrail",
+        "B": "AWS Budgets",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS Personal Health Dashboard"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 202,
+      "question": "A user wants guidance on possible savings when migrating from on-premises to AWS. Which tool is suitable for this scenario?",
+      "options": {
+        "A": "AWS Budgets",
+        "B": "Cost Explorer",
+        "C": "AWS Total Cost of Ownership (TCO) Calculator",
+        "D": "AWS Well-Architected Tool"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 204,
+      "question": "A user who wants to get help with billing and reactivate a suspended account should submit an account and billing request to:",
+      "options": {
+        "A": "the AWS Support forum",
+        "B": "AWS Abuse",
+        "C": "an AWS Solutions Architect",
+        "D": "AWS Support"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 205,
+      "question": "A user with an AWS Basic Support plan has determined that illegal activities are being run on their AWS resources What is the recommended method for the user to report the activity to AWS?",
+      "options": {
+        "A": "Contact the AWS Concierge Support team.",
+        "B": "Contact an AWS technical account manager.",
+        "C": "Contact the AWS Abuse team.",
+        "D": "Contact the AWS Support team."
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 233,
+      "question": "An architecture design includes Amazon EC2, an Elastic Load Balancer, and Amazon RDS. What is the BEST way to get a monthly cost estimation for this architecture?",
+      "options": {
+        "A": "Open an AWS Support case, provide the architecture proposal, and ask for a monthly cost estimation.",
+        "B": "Collect the published prices of the AWS services and calculate the monthly estimate.",
+        "C": "Use the AWS Simple Monthly Calculator to estimate the monthly cost.",
+        "D": "Use the AWS Total Cost of Ownership (TCO) Calculator to estimate the monthly cost."
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 241,
+      "question": "AnyCompany recently purchased Example Corp. Both companies use AWS resources, and AnyCompany wants a single aggregated bill. Which option allows AnyCompany to receive a single bill?",
+      "options": {
+        "A": "Example Corp. must submit a request to its AWS solutions architect or AWS technical account manager to link the accounts and consolidate billing.",
+        "B": "AnyCompany must create a new support case in the AWS Support Center requesting that both bills be combined. Organizations master account to Example Corp.",
+        "C": "",
+        "D": "Migrate the Example Corp. VPCs, Amazon EC2 instances, and other resources into the AnyCompany AWS account."
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 243,
+      "question": "AWS Budgets can be used to:",
+      "options": {
+        "A": "prevent a given user from creating a resource",
+        "B": "send an alert when the utilization of Reserved Instances drops below a certain percentage",
+        "C": "set resource limits in AWS accounts to prevent overspending",
+        "D": "split an AWS bill across multiple forms of payment"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 244,
+      "question": "AWS CloudFormation is designed to help the user:",
+      "options": {
+        "A": "model and provision resources.",
+        "B": "update application code.",
+        "C": "set up data lakes.",
+        "D": "create reports for billing."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 245,
+      "question": "AWS Enterprise Support users have access to which service or feature that is not available to users with other AWS Support plans?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "AWS Support case",
+        "C": "Concierge team",
+        "D": "Amazon Connect"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 250,
+      "question": "Each department within a company has its own independent AWS account and its own payment method. New company leadership wants to centralize departmental governance and consolidate payments. How can this be achieved using AWS services or features?",
+      "options": {
+        "A": "Forward monthly invoices for each account. Then create IAM roles to allow cross-account access.",
+        "B": "Create a new AWS account. Then configure AWS Organizations and invite all existing accounts to join.",
+        "C": "Configure AWS Organizations in each of the existing accounts. Then link all accounts together.",
+        "D": "Use Cost Explorer to combine costs from all accounts. Then replicate IAM policies across accounts."
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 254,
+      "question": "How can a company reduce its Total Cost of Ownership (TCO) using AWS?",
+      "options": {
+        "A": "By minimizing large capital expenditures",
+        "B": "By having no responsibility for third-party license costs",
+        "C": "By having no operational expenditures",
+        "D": "By having AWS manage applications"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 255,
+      "question": "How can a company separate costs for network traffic, Amazon EC2, Amazon S3, and other AWS services by department?",
+      "options": {
+        "A": "Add department-specific tags to each resource",
+        "B": "Create a separate VPC for each department",
+        "C": "Create a separate AWS account for each department",
+        "D": "Use AWS Organizations"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 258,
+      "question": "How can an AWS user with an AWS Basic Support plan obtain technical assistance from AWS?",
+      "options": {
+        "A": "AWS Senior Support Engineers",
+        "B": "AWS Technical Account Managers",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS Discussion Forums"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 260,
+      "question": "How can consolidated billing within AWS Organizations help lower overall monthly expenses?",
+      "options": {
+        "A": "By providing a consolidated view of monthly billing across multiple accounts",
+        "B": "By pooling usage across multiple accounts to achieve a pricing tier discount",
+        "C": "By automating the creation of new accounts through APIs",
+        "D": "By leveraging service control policies (SCPs) for centralized service management"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 261,
+      "question": "How can one AWS account use Reserved Instances from another AWS account?",
+      "options": {
+        "A": "By using Amazon EC2 Dedicated Instances",
+        "B": "By using AWS Organizations consolidated billing",
+        "C": "By using the AWS Cost Explorer tool",
+        "D": "By using AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 264,
+      "question": "How do AWS users trade infrastructure expenses for operational expenses?",
+      "options": {
+        "A": "Secure their physical infrastructure to prevent malicious attacks.",
+        "B": "Use AWS Budgets to ensure that spending on AWS resources does not exceed preset thresholds.",
+        "C": "Eliminate the electricity costs that are associated with the hosting of physical servers.",
+        "D": "Use AWS Auto Scaling to dynamically increase and decrease compute resources as needed."
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 269,
+      "question": "How does consolidated billing help reduce costs for a company that has multiple AWS accounts?",
+      "options": {
+        "A": "It aggregates usage across accounts so that the company can reach volume discount thresholds sooner.",
+        "B": "It offers an additional 5% discount on purchases of AII Upfront Reserved Instances.",
+        "C": "It provides a simplified billing invoice that the company can process more quickly than a standard invoice.",
+        "D": "It gives AWS resellers the ability to bill their customers for usage."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 270,
+      "question": "How does the AWS Enterprise Support Concierge team help users?",
+      "options": {
+        "A": "Supporting application development",
+        "B": "Providing architecture guidance",
+        "C": "Answering billing and account inquires",
+        "D": "Answering questions regarding technical support cases"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 274,
+      "question": "How should a customer forecast the future costs for running a new web application?",
+      "options": {
+        "A": "Amazon Aurora Backtrack",
+        "B": "Amazon CloudWatch Billing Alarms",
+        "C": "AWS Simple Monthly Calculator",
+        "D": "AWS Cost and Usage report"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 278,
+      "question": "If a user has an AWS account with an Enterprise-level AWS Support plan, who is the primary point of contact for billing or account inquiries?",
+      "options": {
+        "A": "Solutions architect",
+        "B": "AWS Concierge Support team",
+        "C": "An AWS Marketplace seller",
+        "D": "AWS Partner Network (APN) partner"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 279,
+      "question": "If each department within a company has its own AWS account, what is one way to enable consolidated billing?",
+      "options": {
+        "A": "Use AWS Budgets on each account to pay only to budget.",
+        "B": "Contact AWS Support for a monthly bill.",
+        "C": "Create an AWS Organization from the payer account and invite the other accounts to join.",
+        "D": "Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into Amazon Redshift, and then run a billing report."
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 286,
+      "question": "Service control policies (SCPs) manage permissions for which of the following?",
+      "options": {
+        "A": "Availability Zones",
+        "B": "AWS Regions",
+        "C": "AWS Organizations",
+        "D": "Edge locations"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 291,
+      "question": "The AWS Total Cost of Ownership (TCO) Calculator is used to:",
+      "options": {
+        "A": "receive reports that break down AWS Cloud compute costs by duration, resource, or tags",
+        "B": "estimate savings when comparing the AWS Cloud to an on-premises environment",
+        "C": "estimate a monthly bill for the AWS Cloud resources that will be used",
+        "D": "enable billing alerts to monitor actual AWS costs compared to estimated costs"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 294,
+      "question": "The use of what AWS feature or service allows companies to track and categorize spending on a detailed level?",
+      "options": {
+        "A": "Cost allocation tags",
+        "B": "Consolidated billing",
+        "C": "AWS Budgets",
+        "D": "AWS Marketplace"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 297,
+      "question": "To optimize costs and resource usage, a company needs to monitor the operational health of its entire system of AWS Cloud resources. Which AWS service will meet these requirements?",
+      "options": {
+        "A": "AWS Organizations",
+        "B": "Amazon CloudWatch",
+        "C": "AWS CloudTrail",
+        "D": "AWS Config"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 320,
+      "question": "What AWS billing support resource is available to all support levels?",
+      "options": {
+        "A": "AWS Support concierge",
+        "B": "AWS Customer Service",
+        "C": "AWS technical account manager",
+        "D": "AWS Business Support"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 321,
+      "question": "What AWS service would be used to centrally manage AWS access across multiple accounts?",
+      "options": {
+        "A": "AWS Service Catalog",
+        "B": "AWS Config",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS Organizations"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 322,
+      "question": "What AWS team assists customers with accelerating cloud adoption through paid engagements in any of several specialty practice areas?",
+      "options": {
+        "A": "AWS Enterprise Support",
+        "B": "AWS Solutions Architects",
+        "C": "AWS Professional Services",
+        "D": "AWS Account Managers"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 325,
+      "question": "What costs are included when comparing AWS Total Cost of Ownership (TCO) with on-premises TCO?",
+      "options": {
+        "A": "Project management",
+        "B": "Antivirus software licensing",
+        "C": "Data center security",
+        "D": "Software development"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 331,
+      "question": "What does the AWS Simple Monthly Calculator do?",
+      "options": {
+        "A": "Compares on-premises costs to colocation environments",
+        "B": "Estimates monthly billing based on projected usage",
+        "C": "Estimates power consumption at existing data centers",
+        "D": "Estimates CPU utilization"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 332,
+      "question": "What exclusive benefit is provided to users with Enterprise Support?",
+      "options": {
+        "A": "Access to a Technical Project Manager",
+        "B": "Access to a Technical Account Manager",
+        "C": "Access to a Cloud Support Engineer",
+        "D": "Access to a Solutions Architect"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 335,
+      "question": "What is a benefit of consolidated billing for AWS accounts?",
+      "options": {
+        "A": "Access to AWS Personal Health Dashboard",
+        "B": "Combined usage volume discounts",
+        "C": "Improved account security",
+        "D": "Centralized AWS IAM"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 350,
+      "question": "What is an example of agility in the AWS Cloud?",
+      "options": {
+        "A": "Access to multiple instance types",
+        "B": "Access to managed services",
+        "C": "Using Consolidated Billing to produce one bill",
+        "D": "Decreased acquisition time for new compute resources"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 353,
+      "question": "What is AWS Trusted Advisor?",
+      "options": {
+        "A": "It is an AWS staff member who provides recommendations and best practices on how to use AWS.",
+        "B": "It is a network of AWS partners who provide recommendations and best practices on how to use AWS.",
+        "C": "It is an online tool with a set of automated checks that provides recommendations on cost optimization, performance, and security.",
+        "D": "It is another name for AWS Technical Account Managers who provide recommendations on cost optimization, performance, and security."
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 362,
+      "question": "What is the LEAST expensive AWS Support plan that provides 24-hour access to AWS customer service and AWS communities?",
+      "options": {
+        "A": "AWS Enterprise Support B. AWS Business Support",
+        "B": "AWS Developer Support",
+        "C": "AWS Basic Support",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 363,
+      "question": "What is the LEAST expensive AWS Support plan that provides a designated AWS technical account manager (TAM)?",
+      "options": {
+        "A": "AWS Developer Support",
+        "B": "AWS Enterprise Support",
+        "C": "AWS Basic Support",
+        "D": "AWS Business Support"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 366,
+      "question": "What is the MINIMUM AWS Support plan level that will provide users with access to the AWS Support API?",
+      "options": {
+        "A": "Developer",
+        "B": "Enterprise",
+        "C": "Business",
+        "D": "Basic"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 367,
+      "question": "What is the MINIMUM AWS Support plan that provides designated Technical Account Managers?",
+      "options": {
+        "A": "Enterprise",
+        "B": "Developer",
+        "C": "Basic",
+        "D": "Business"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 372,
+      "question": "What is the recommended method to request penetration testing on AWS resources?",
+      "options": {
+        "A": "Open a support case",
+        "B": "Fill out the Penetration Testing Request Form",
+        "C": "Request a penetration test from your technical account manager",
+        "D": "Contact your AWS sales representative"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 377,
+      "question": "What tool enables customers without an AWS account to estimate costs for almost all AWS services?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "TCO Calculator",
+        "C": "AWS Budgets",
+        "D": "Simple Monthly Calculator"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 378,
+      "question": "What will help a company perform a cost benefit analysis of migrating to the AWS Cloud?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "AWS Total Cost of Ownership (TCO) Calculator",
+        "C": "AWS Simple Monthly Calculator",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 383,
+      "question": "When building a cloud Total Cost of Ownership (TCO) model, which cost elements should be considered for workloads running on AWS? (Choose three.)",
+      "options": {
+        "A": "Compute costs",
+        "B": "Facilities costs",
+        "C": "Storage costs",
+        "D": "Data transfer costs E) Network infrastructure costs F) Hardware lifecycle costs"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 384,
+      "question": "When comparing AWS with on-premises Total Cost of Ownership (TCO), what costs are included?",
+      "options": {
+        "A": "Data center security",
+        "B": "Business analysis",
+        "C": "Project management",
+        "D": "Operating system administration"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 386,
+      "question": "When performing a cost analysis that supports physical isolation of a customer workload, which compute hosting model should be accounted for in the Total Cost of Ownership (TCO)?",
+      "options": {
+        "A": "Dedicated Hosts",
+        "B": "Reserved Instances",
+        "C": "On-Demand Instances",
+        "D": "No Upfront Reserved Instances"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 389,
+      "question": "Where can AWS compliance and certification reports be downloaded?",
+      "options": {
+        "A": "AWS Artifact",
+        "B": "AWS Concierge",
+        "C": "AWS Certificate Manager",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 416,
+      "question": "Which AWS Cloud service can send alerts to customers if custom spending thresholds are exceeded?",
+      "options": {
+        "A": "AWS Budgets",
+        "B": "AWS Cost Explorer",
+        "C": "AWS Cost Allocation Tags",
+        "D": "AWS Organizations"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 419,
+      "question": "Which AWS Cost Management tool allows you to view the most granular data about your AWS bill?",
+      "options": {
+        "A": "AWS Cost Explorer",
+        "B": "AWS Budgets",
+        "C": "AWS Cost and Usage report",
+        "D": "AWS Billing dashboard"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 421,
+      "question": "Which AWS feature allows a company to take advantage of usage tiers for services across multiple member accounts?",
+      "options": {
+        "A": "Service control policies (SCPs)",
+        "B": "Consolidated billing",
+        "C": "All Upfront Reserved Instances",
+        "D": "AWS Cost Explorer"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 425,
+      "question": "(TCO)?",
+      "options": {
+        "A": "Shared responsibility security model",
+        "B": "Single tenancy",
+        "C": "Elastic computing",
+        "D": "Encryption"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 437,
+      "question": "Which AWS service allows for effective cost management of multiple AWS accounts?",
+      "options": {
+        "A": "AWS Organizations",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS Direct Connect",
+        "D": "Amazon Connect"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 443,
+      "question": "Which AWS service can a customer use to set up an alert notification when the account is approaching a particular dollar amount?",
+      "options": {
+        "A": "AWS Cost and Usage reports",
+        "B": "AWS Budgets",
+        "C": "AWS Cost Explorer",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 463,
+      "question": "Which AWS service enables users to consolidate billing across multiple accounts?",
+      "options": {
+        "A": "Amazon QuickSight",
+        "B": "AWS Organizations",
+        "C": "AWS Budgets",
+        "D": "Amazon Forecast"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 484,
+      "question": "Which AWS service is used to pay AWS bills, and monitor usage and budget costs?",
+      "options": {
+        "A": "AWS Billing and Cost Management",
+        "B": "Consolidated billing",
+        "C": "Amazon CloudWatch",
+        "D": "Amazon QuickSight"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 491,
+      "question": "Which AWS service or feature allows a company to visualize, understand, and manage AWS costs and usage over time?",
+      "options": {
+        "A": "AWS Budgets",
+        "B": "AWS Cost Explorer",
+        "C": "AWS Organizations",
+        "D": "Consolidated billing"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 494,
+      "question": "Which AWS service or feature allows a user to set up consolidated billing?",
+      "options": {
+        "A": "AWS Billing Management Console",
+        "B": "AWS Organizations",
+        "C": "AWS Cost and Usage Report",
+        "D": "WAS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 501,
+      "question": "Which AWS service or feature for technical assistance is available to a user who has the AWS Basic Support plan?",
+      "options": {
+        "A": "AWS senior support engineers",
+        "B": "AWS technical account manager (TAM)",
+        "C": "AWS Trusted Advisor",
+        "D": "AWS Discussion Forums"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 502,
+      "question": "Which AWS service or feature helps restrict the AWS services, resources, and individual API actions the users and roles in each member account can access?",
+      "options": {
+        "A": "Amazon Cognito",
+        "B": "AWS Organizations",
+        "C": "AWS Shield",
+        "D": "AWS Firewall Manager"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 504,
+      "question": "Which AWS service or feature is available only to users who have an AWS Enterprise Support plan?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "AWS Support case",
+        "C": "AWS Concierge Support team",
+        "D": "Amazon Connect"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 505,
+      "question": "Which AWS service or feature is designed to help companies take advantage of quantity discounts available from AWS?",
+      "options": {
+        "A": "Saving Plans",
+        "B": "AWS Budgets",
+        "C": "AWS Organizations",
+        "D": "AWS Pricing Calculator"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 511,
+      "question": "Which AWS service or feature provides users with recommendations for common billing questions?",
+      "options": {
+        "A": "AWS Marketplace",
+        "B": "AWS Knowledge Center",
+        "C": "Amazon Pinpoint",
+        "D": "Amazon Connect"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 517,
+      "question": "Which AWS service or tool helps identify underutilized Amazon EC2 instances and idle Amazon RDS DB instances at no additional charge?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "AWS Budgets",
+        "C": "AWS Organizations",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 520,
+      "question": "Which AWS service provides a quick and automated way to create and manage AWS accounts?",
+      "options": {
+        "A": "AWS QuickSight",
+        "B": "Amazon Lightsail",
+        "C": "AWS Organizations",
+        "D": "Amazon Connect"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 535,
+      "question": "Which AWS service should a company use to continuously monitor the compliance of AWS resource configurations?",
+      "options": {
+        "A": "AWS Organizations",
+        "B": "AWS Config",
+        "C": "AWS Artifact",
+        "D": "AWS Service Catalog"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 538,
+      "question": "Which AWS service should be used to create a billing alarm?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "AWS CloudTrail",
+        "C": "Amazon CloudWatch",
+        "D": "Amazon QuickSight"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 542,
+      "question": "Which AWS service will allow a user to set custom cost and usage limits, and will alert when the thresholds are exceeded?",
+      "options": {
+        "A": "AWS Organizations",
+        "B": "AWS Budgets",
+        "C": "Cost Explorer",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 550,
+      "question": "Which AWS support plan includes a dedicated Technical Account Manager?",
+      "options": {
+        "A": "Developer",
+        "B": "Enterprise",
+        "C": "Business",
+        "D": "Basic"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 551,
+      "question": "Which AWS Support plan provides a full set of AWS Trusted Advisor checks?",
+      "options": {
+        "A": "Business and Developer Support",
+        "B": "Business and Basic Support",
+        "C": "Enterprise and Developer Support",
+        "D": "Enterprise and Business Support"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 552,
+      "question": "Which AWS Support plan provides access to architectural and operational reviews, as well as 24/7 access to Senior Cloud Support Engineers through email, online chat, and phone?",
+      "options": {
+        "A": "Basic",
+        "B": "Business",
+        "C": "Developer",
+        "D": "Enterprise"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 553,
+      "question": "Which AWS tool is used to compare the cost of running an application on premises to running the application in the AWS Cloud?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "AWS Simple Monthly Calculator",
+        "C": "AWS Total Cost of Ownership (TCO) Calculator",
+        "D": "Cost Explorer"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 554,
+      "question": "Which AWS tool will identify security groups that grant unrestricted Internet access to a limited list of ports?",
+      "options": {
+        "A": "AWS Organizations",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS Usage Report",
+        "D": "Amazon EC2 dashboard"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 555,
+      "question": "Which AWS tools assist with estimating costs? (Choose three.)",
+      "options": {
+        "A": "Detailed billing report",
+        "B": "Cost allocation tags",
+        "C": "AWS Simple Monthly Calculator",
+        "D": "AWS Total Cost of Ownership (TCO) Calculator E) Cost Estimator"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 556,
+      "question": "Which AWS tools automatically forecast future AWS costs?",
+      "options": {
+        "A": "AWS Support Center",
+        "B": "AWS Total Cost of Ownership (TCO) Calculator",
+        "C": "AWS Simple Monthly Calculator",
+        "D": "Cost Explorer"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 558,
+      "question": "Which AWS Trusted Advisor feature is available exclusively to users with AWS Business Support or AWS Enterprise Support?",
+      "options": {
+        "A": "Notification setup",
+        "B": "Refresh checks",
+        "C": "AWS Support API",
+        "D": "Action links"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 579,
+      "question": "Which is the MINIMUM AWS Support plan that allows for one-hour target response time for support cases?",
+      "options": {
+        "A": "Enterprise",
+        "B": "Business",
+        "C": "Developer",
+        "D": "Basic"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 580,
+      "question": "Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?",
+      "options": {
+        "A": "Enterprise",
+        "B": "Business",
+        "C": "Developer",
+        "D": "Basic"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 581,
+      "question": "Which is the MINIMUM AWS Support plan that provides technical support through phone calls?",
+      "options": {
+        "A": "Enterprise",
+        "B": "Business",
+        "C": "Developer",
+        "D": "Basic"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 588,
+      "question": "Which of the following allows AWS users to manage cost allocations for billing?",
+      "options": {
+        "A": "Tagging resources",
+        "B": "Limiting who can create resources",
+        "C": "Adding a secondary payment method",
+        "D": "Running all operations on a single AWS account"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 595,
+      "question": "Which of the following can an AWS customer use to launch a new Amazon Relational Database Service (Amazon RDS) cluster?",
+      "options": {
+        "A": "AWS Concierge",
+        "B": "AWS CloudFormation",
+        "C": "Amazon Simple Storage Service (Amazon S3)",
+        "D": "Amazon EC2 Auto Scaling E) AWS Management Console"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 606,
+      "question": "Which of the following inspects AWS environments to find opportunities that can save money for users and also improve system performance?",
+      "options": {
+        "A": "AWS Cost Explorer",
+        "B": "AWS Trusted Advisor",
+        "C": "Consolidated billing",
+        "D": "Detailed billing"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 611,
+      "question": "Which of the following is a component of the AWS Global Infrastructure?",
+      "options": {
+        "A": "Amazon Alexa",
+        "B": "AWS Regions",
+        "C": "Amazon Lightsail",
+        "D": "AWS Organizations"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 619,
+      "question": "Which of the following is an advantage of consolidated billing on AWS?",
+      "options": {
+        "A": "Volume pricing qualification",
+        "B": "Shared access permissions",
+        "C": "Multiple bills per account",
+        "D": "Eliminates the need for tagging"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 634,
+      "question": "Which of the following provides the ability to share the cost benefits of Reserved Instances across AWS accounts?",
+      "options": {
+        "A": "AWS Cost Explorer between AWS accounts",
+        "B": "Linked accounts and consolidated billing",
+        "C": "Amazon Elastic Compute Cloud (Amazon EC2) Reserved Instance Utilization Report",
+        "D": "Amazon EC2 Instance Usage Report between AWS accounts"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 655,
+      "question": "Which requirement must be met for a member account to be unlinked from an AWS Organizations account?",
+      "options": {
+        "A": "The linked account must be actively compliant with AWS System and Organization Controls (SOC).",
+        "B": "The payer and the linked account must both create AWS Support cases to request that the member account be unlinked from the organization.",
+        "C": "The member account must meet the requirements of a standalone account.",
+        "D": "The payer account must be used to remove the linked account from the organization."
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 659,
+      "question": "Which service allows a company with multiple AWS accounts to combine its usage to obtain volume discounts?",
+      "options": {
+        "A": "AWS Server Migration Service",
+        "B": "AWS Organizations",
+        "C": "AWS Budgets",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 669,
+      "question": "Which service should a customer use to consolidate and centrally manage multiple AWS accounts?",
+      "options": {
+        "A": "AWS IAM",
+        "B": "AWS Organizations",
+        "C": "AWS Schema Conversion Tool",
+        "D": "AWS Config"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 670,
+      "question": "Which service should be used to estimate the costs of running a new project on AWS?",
+      "options": {
+        "A": "AWS TCO Calculator",
+        "B": "AWS Simple Monthly Calculator",
+        "C": "AWS Cost Explorer API",
+        "D": "AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 686,
+      "question": "Which tool can be used to compare the costs of running a web application in a traditional hosting environment to running it on AWS?",
+      "options": {
+        "A": "AWS Cost Explorer",
+        "B": "AWS Budgets",
+        "C": "AWS Cost and Usage report",
+        "D": "AWS Total Cost of Ownership (TCO) Calculator"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 687,
+      "question": "Which tool can be used to create alerts when the actual or forecasted cost of AWS services exceeds a certain threshold?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "AWS Budgets",
+        "C": "AWS Cost and Usage Report",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 688,
+      "question": "Which tool can be used to identify scheduled changes to the AWS infrastructure?",
+      "options": {
+        "A": "AWS Personal Health Dashboard",
+        "B": "AWS Trusted Advisor",
+        "C": "Billing Dashboard",
+        "D": "AWS Config"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 689,
+      "question": "Which tool can be used to monitor AWS service limits?",
+      "options": {
+        "A": "AWS Total Cost of Ownership (TCO) Calculator",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS Personal Health Dashboard",
+        "D": "AWS Cost and Usage report"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 690,
+      "question": "Which tool is best suited for combining the billing of AWS accounts that were previously independent from one another?",
+      "options": {
+        "A": "Detailed billing report",
+        "B": "Consolidated billing",
+        "C": "AWS Cost and Usage report",
+        "D": "Cost allocation report"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 691,
+      "question": "Which tool is used to forecast AWS spending?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "AWS Organizations",
+        "C": "Cost Explorer",
+        "D": "Amazon Inspector"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 702,
+      "question": "Which of the following best describes elasticity?",
+      "options": {
+        "A": "The ability to more densely pack virtualized resources onto a single physical server",
+        "B": "The ability to bill resource usage using a pay-per-user model",
+        "C": "The ability of an application to increase or decrease compute resources to match changing demand",
+        "D": "The ability of an application to automatically add preconfigured compute resources to meet increasing demand"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 703,
+      "question": "Which of the following best describes elasticity?",
+      "options": {
+        "A": "The ability to more densely pack virtualized resources onto a single physical server",
+        "B": "The ability to bill resource usage using a pay-per-user model",
+        "C": "The ability of an application to increase or decrease compute resources to match changing demand",
+        "D": "The ability of an application to automatically add preconfigured compute resources to meet increasing demand"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 708,
+      "question": "Which of the following best describes scalability?",
+      "options": {
+        "A": "The ability of an application to automatically add preconfigured compute resources to meet increasing demand",
+        "B": "The ability of an application to increase or decrease compute resources to match changing demand",
+        "C": "The ability to more densely pack virtualized resources onto a single physical server",
+        "D": "The ability to bill resource usage using a pay-per-user model"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 709,
+      "question": "Which of the following best describes scalability?",
+      "options": {
+        "A": "The ability of an application to automatically add preconfigured compute resources to meet increasing demand",
+        "B": "The ability of an application to increase or decrease compute resources to match changing demand",
+        "C": "The ability to more densely pack virtualized resources onto a single physical server",
+        "D": "The ability to bill resource usage using a pay-per-user model"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 716,
+      "question": "Which of the following services is capable of inspecting your AWS environment and making recommendations to lower expenditures, improve system performance and reliability, and close security gaps?",
+      "options": {
+        "A": "AWS Cost Explorer",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS Inspector",
+        "D": "AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 717,
+      "question": "A customer currently has a Basic support plan and they are planning to use the Infrastructure Event Management, Well-Architected Reviews and Operations Reviews features in AWS. What should they do in order to access these features in the most cost-effective manner?",
+      "options": {
+        "A": "Upgrade to Enterprise support plan.",
+        "B": "None since these features are already included in their Basic support plan.",
+        "C": "Upgrade to Developer support plan.",
+        "D": "Upgrade to Business support plan."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 718,
+      "question": "Which service should a company use to centrally manage account policies and consolidate billing across multiple AWS accounts?",
+      "options": {
+        "A": "AWS Organizations",
+        "B": "AWS Cost Explorer",
+        "C": "AWS Budgets",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 719,
+      "question": "Which of the following allows you to set coverage targets and receive alerts when your utilization drops below the threshold you define?",
+      "options": {
+        "A": "AWS Budgets",
+        "B": "AWS Trusted Advisor",
+        "C": "Amazon CloudWatch Billing Alarm",
+        "D": "AWS Cost Explorer"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 720,
+      "question": "Which of the following is the most cost-effective AWS Support Plan to use if you need access to AWS Support API for programmatic case management?",
+      "options": {
+        "A": "Business",
+        "B": "Enterprise",
+        "C": "Developer",
+        "D": "Basic"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 721,
+      "question": "Which of the following Cost Management Tools allows you to track your Amazon EC2 Reserved Instance (RI) usage and view the discounted RI rate that was charged to your resources?",
+      "options": {
+        "A": "AWS Cost and Usage report",
+        "B": "AWS Price List Bulk API",
+        "C": "AWS Cost Explorer",
+        "D": "AWS Budgets"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 725,
+      "question": "Which of the following services is capable of inspecting your AWS environment and making recommendations to lower expenditures, improve system performance and reliability, and close security gaps?",
+      "options": {
+        "A": "AWS Cost Explorer",
+        "B": "AWS Trusted Advisor",
+        "C": "AWS Inspector",
+        "D": "AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 726,
+      "question": "Which of the following actions below will allow you to take advantage of volume discounts in AWS?",
+      "options": {
+        "A": "Use AWS Organizations and enable the consolidated billing feature.",
+        "B": "Move all of your AWS resources from multiple accounts to a single global account.",
+        "C": "Upgrade to an AWS Enterprise support plan.",
+        "D": "Opt for an All upfront Convertible Reserved Instance pricing for a 3 year term."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 727,
+      "question": "A company is planning to adopt a hybrid cloud architecture with AWS. Which of the following options can they use to help them estimate their costs?",
+      "options": {
+        "A": "AWS Pricing Calculator",
+        "B": "AWS Cost Explorer",
+        "C": "Cost allocation tag",
+        "D": "Consolidated Billing"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 728,
+      "question": "A customer currently has a Basic support plan and they are planning to use the Infrastructure Event Management, Well-Architected Reviews and Operations Reviews features in AWS. What should they do in order to access these features in the most cost-effective manner?",
+      "options": {
+        "A": "Upgrade to Enterprise support plan.",
+        "B": "None since these features are already included in their Basic support plan.",
+        "C": "Upgrade to Developer support plan.",
+        "D": "Upgrade to Business support plan."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 729,
+      "question": "Which of the following provides you the most granular data about your AWS costs and usage and also load that information into Amazon Athena, Amazon Redshift, AWS QuickSight, or a tool of your choice?",
+      "options": {
+        "A": "AWS Cost and Usage Reports",
+        "B": "AWS Cost Explorer",
+        "C": "Consolidated Billing",
+        "D": "AWS Budgets"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 730,
+      "question": "A company is planning to adopt a hybrid cloud architecture with AWS. Which of the following options can they use to help them estimate their costs?",
+      "options": {
+        "A": "AWS Pricing Calculator",
+        "B": "AWS Cost Explorer",
+        "C": "Cost allocation tag",
+        "D": "Consolidated Billing"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 731,
+      "question": "Which of the following actions below will allow you to take advantage of volume discounts in AWS?",
+      "options": {
+        "A": "Use AWS Organizations and enable the consolidated billing feature.",
+        "B": "Move all of your AWS resources from multiple accounts to a single global account.",
+        "C": "Upgrade to an AWS Enterprise support plan.",
+        "D": "Opt for an All upfront Convertible Reserved Instance pricing for a 3 year term."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 735,
+      "question": "Which of the following Cost Management Tools allows you to track your Amazon EC2 Reserved Instance (RI) usage and view the discounted RI rate that was charged to your resources?",
+      "options": {
+        "A": "AWS Cost and Usage report",
+        "B": "AWS Price List Bulk API",
+        "C": "AWS Cost Explorer",
+        "D": "AWS Budgets"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 736,
+      "question": "Which of the following is the most cost-effective AWS Support Plan to use if you need access to AWS Support API for programmatic case management?",
+      "options": {
+        "A": "Business",
+        "B": "Enterprise",
+        "C": "Developer",
+        "D": "Basic"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 737,
+      "question": "Which of the following allows you to set coverage targets and receive alerts when your utilization drops below the threshold you define?",
+      "options": {
+        "A": "AWS Budgets",
+        "B": "AWS Trusted Advisor",
+        "C": "Amazon CloudWatch Billing Alarm",
+        "D": "AWS Cost Explorer"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 738,
+      "question": "Which service should a company use to centrally manage account policies and consolidate billing across multiple AWS accounts?",
+      "options": {
+        "A": "AWS Organizations",
+        "B": "AWS Cost Explorer",
+        "C": "AWS Budgets",
+        "D": "AWS Trusted Advisor"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 739,
+      "question": "Which of the following provides you the most granular data about your AWS costs and usage and also load that information into Amazon Athena, Amazon Redshift, AWS QuickSight, or a tool of your choice?",
+      "options": {
+        "A": "AWS Cost and Usage Reports",
+        "B": "AWS Cost Explorer",
+        "C": "Consolidated Billing",
+        "D": "AWS Budgets"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 854,
+      "question": "In compliance with the Sarbanes-Oxley Act (SOX) federal law, a US-based company is required to provide SOC 1 and SOC 2 reports of their cloud resources. Where are these AWS compliance documents located?",
+      "options": {
+        "A": "AWS Artifact",
+        "B": "AWS Organizations",
+        "C": "AWS Certificate Manager",
+        "D": "AWS GovCloud"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 863,
+      "question": "In compliance with the Sarbanes-Oxley Act (SOX) federal law, a US-based company is required to provide SOC 1 and SOC 2 reports of their cloud resources. Where are these AWS compliance documents located?",
+      "options": {
+        "A": "AWS Artifact",
+        "B": "AWS Organizations",
+        "C": "AWS Certificate Manager",
+        "D": "AWS GovCloud"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 902,
+      "question": "Which service offers volume discounts when you enable Consolidated Billing?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon CloudFront",
+        "C": "Amazon SNS",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 910,
+      "question": "Which service offers volume discounts when you enable Consolidated Billing?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon CloudFront",
+        "C": "Amazon SNS",
+        "D": "AWS CloudTrail"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 932,
+      "question": "What is the main difference between the goals of Cost Explorer and of cost and usage reports?",
+      "options": {
+        "A": "Cost Explorer displays visualizations of high-level historical and current account costs, while cost and usage reports generate granular usage reports in CSV format.",
+        "B": "Cost and usage reports display visualizations of high-level historical and current account costs, while Cost Explorer generates granular usage reports in CSV format.",
+        "C": "Cost Explorer lets you set alerts that are triggered by billing events, while cost and usage reports help you visualize system events.",
+        "D": "Cost and usage reports are meant to alert you to malicious intrusions, while Cost Explorer displays visualizations of high-level historical and current account costs."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 933,
+      "question": "What is the main difference between the goals of Cost Explorer and of cost and usage reports?",
+      "options": {
+        "A": "Cost Explorer displays visualizations of high-level historical and current account costs, while cost and usage reports generate granular usage reports in CSV format.",
+        "B": "Cost and usage reports display visualizations of high-level historical and current account costs, while Cost Explorer generates granular usage reports in CSV format.",
+        "C": "Cost Explorer lets you set alerts that are triggered by billing events, while cost and usage reports help you visualize system events.",
+        "D": "Cost and usage reports are meant to alert you to malicious intrusions, while Cost Explorer displays visualizations of high-level historical and current account costs."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 934,
+      "question": "What is the main goal for creating a Usage budget type (in AWS Budgets)?",
+      "options": {
+        "A": "To correlate usage per unit cost to understand your account cost efficiency",
+        "B": "To track the status of any active reserved instances on your account",
+        "C": "To track particular categories of resource consumption",
+        "D": "To monitor costs being incurred against your account"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 935,
+      "question": "What is the main goal for creating a Usage budget type (in AWS Budgets)?",
+      "options": {
+        "A": "To correlate usage per unit cost to understand your account cost efficiency",
+        "B": "To track the status of any active reserved instances on your account",
+        "C": "To track particular categories of resource consumption",
+        "D": "To monitor costs being incurred against your account"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 936,
+      "question": "What is the purpose of cost allocation tags?",
+      "options": {
+        "A": "To associate spend limits to automatically trigger resource shutdowns when necessary",
+        "B": "To help you identify the purpose and owner of a particular running resource to better understand and control deployments",
+        "C": "To help you identify resources for the purpose of tracking your account spending",
+        "D": "To visually associate account events with billing periods"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 937,
+      "question": "What is the purpose of cost allocation tags?",
+      "options": {
+        "A": "To associate spend limits to automatically trigger resource shutdowns when necessary",
+        "B": "To help you identify the purpose and owner of a particular running resource to better understand and control deployments",
+        "C": "To help you identify resources for the purpose of tracking your account spending",
+        "D": "To visually associate account events with billing periods"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 938,
+      "question": "your account?",
+      "options": {
+        "A": "Budgets",
+        "B": "Cost Explorer",
+        "C": "Cost and usage reports",
+        "D": "Billing & Cost Management Dashboard"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 939,
+      "question": "your account?",
+      "options": {
+        "A": "Budgets",
+        "B": "Cost Explorer",
+        "C": "Cost and usage reports",
+        "D": "Billing & Cost Management Dashboard"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 940,
+      "question": "Which of the following AWS Total Cost of Ownership Calculator parameters is likely to have the greatest impact on cost?",
+      "options": {
+        "A": "Currency",
+        "B": "AWS Region",
+        "C": "Guest OS",
+        "D": "Number of servers"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 941,
+      "question": "Which of the following AWS Total Cost of Ownership Calculator parameters is likely to have the greatest impact on cost?",
+      "options": {
+        "A": "Currency",
+        "B": "AWS Region",
+        "C": "Guest OS",
+        "D": "Number of servers"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 948,
+      "question": "Which of the following is likely to be an accurate source of AWS pricing information?",
+      "options": {
+        "A": "Wikipedia pages relating to a particular service",
+        "B": "The AWS Command Line Interface (AWS CLI)",
+        "C": "AWS online documentation relating to a particular service",
+        "D": "The AWS Total Cost of Ownership Calculator"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 949,
+      "question": "Which of the following is likely to be an accurate source of AWS pricing information?",
+      "options": {
+        "A": "Wikipedia pages relating to a particular service",
+        "B": "The AWS Command Line Interface (AWS CLI)",
+        "C": "AWS online documentation relating to a particular service",
+        "D": "The AWS Total Cost of Ownership Calculator"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 952,
+      "question": "Which of the following is not an included parameter in the AWS Total Cost of Ownership Calculator?",
+      "options": {
+        "A": "The tax implications of a cloud deployment",
+        "B": "Labor costs of an on-premises deployment",
+        "C": "Networking costs of an on-premises deployment",
+        "D": "Electricity costs of an on-premises deployment"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 953,
+      "question": "Which of the following is not an included parameter in the AWS Total Cost of Ownership Calculator?",
+      "options": {
+        "A": "The tax implications of a cloud deployment",
+        "B": "Labor costs of an on-premises deployment",
+        "C": "Networking costs of an on-premises deployment",
+        "D": "Electricity costs of an on-premises deployment"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 956,
+      "question": "Which of these tools lets you design graphs within the browser interface to track your account spending?",
+      "options": {
+        "A": "Budgets",
+        "B": "Cost Explorer",
+        "C": "Reports",
+        "D": "Consolidating Billing"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 957,
+      "question": "Which of these tools lets you design graphs within the browser interface to track your account spending?",
+      "options": {
+        "A": "Budgets",
+        "B": "Cost Explorer",
+        "C": "Reports",
+        "D": "Consolidating Billing"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 959,
+      "question": "For which of the following will AWS provide direct 24/7 support to all users even those on the Basic Support plan?",
+      "options": {
+        "A": "Help with infrastructure under a massive denial-of-service (DoS) attack",
+        "B": "Help with failed and unavailable infrastructure",
+        "C": "Help with making a bill payment to AWS",
+        "D": "Help with accessing your infrastructure via the AWS CLI"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 961,
+      "question": "The primary purpose of an AWS technical account manager is to",
+      "options": {
+        "A": "Provide 24/7 customer service for your AWS account",
+        "B": "Provide deployment guidance and advocacy for Enterprise Support customers",
+        "C": "Provide deployment guidance and advocacy for Business Support customers",
+        "D": "Provide strategic cost estimates for Enterprise Support customers"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 962,
+      "question": "What is the key difference between the roles of AWS Professional Services and a technical account manager (TAM)?",
+      "options": {
+        "A": "The Professional Services product helps AWS Partner Network cloud professionals work alongside your own team to help you administrate your cloud infrastructure. The TAM is a cloud professional employed by AWS to guide you through the planning and execution of your infrastructure.",
+        "B": "The TAM is a cloud professional employed by AWS to guide you through the planning and execution of your infrastructure. The Professional Services product provides cloud professionals to work alongside your own team to help you administrate your cloud infrastructure.",
+        "C": "The TAM is a member of your team designated as the point person for all AWS projects. The Professional Services product provides consultants to work alongside your own team to help you administrate your cloud infrastructure.",
+        "D": "The Professional Services product is a network appliance that AWS installs in your data center to test cloud-bound workloads for compliance with best practices. The TAM is a cloud professional employed by AWS to guide you through the planning and execution of your infrastructure."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 965,
+      "question": "Which of the following AWS support services does not offer free documentation of some sort?",
+      "options": {
+        "A": "AWS Professional Services",
+        "B": "The Basic Support plan",
+        "C": "AWS Partner Network",
+        "D": "The Knowledge Center"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 968,
+      "question": "Your company enrolled in the Business Support plan and, through the course of three months, consumed $33,000 of AWS services (the consumption was equally divided across the months). How much will the support plan cost the company for the full three months?",
+      "options": {
+        "A": "$4,000",
+        "B": "$100 /**+/654",
+        "C": "$1,10012",
+        "D": "$2,310"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 969,
+      "question": "Your company enrolled in the Developer Support plan and, through the course of one month, consumed $4,000 USD of AWS services. How much will the support plan cost the company for the month?",
+      "options": {
+        "A": "$120",
+        "B": "$29",
+        "C": "$100",
+        "D": "$480"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 983,
+      "question": "Which of the following is one of the first places you should look when troubleshooting a failing application?",
+      "options": {
+        "A": "AWS Acceptable Use Monitor",
+        "B": "Service Status Dashboard",
+        "C": "AWS Billing Dashboard",
+        "D": "Service Health Dashboard"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 988,
+      "question": "Why is it that most AWS resources are tied to a single region?",
+      "options": {
+        "A": "Because those resources are run on a physical device, and that device must live somewhere",
+        "B": "Because security considerations are best served by restricting access to a single physical location",
+        "C": "Because access to any one digital resource must always occur through a single physical gateway",
+        "D": "Because spreading them too far afield would introduce latency issues"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 995,
+      "question": "Which Cost Explorer report shows the amount of m reserved instances?",
+      "options": {
+        "A": "Daily costs",
+        "B": "Reservation Utilization",
+        "C": "Reservation Coverage",
+        "D": "Monthly EC2 running hours costs and usage"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 997,
+      "question": "Which of the following Cost Explorer report types can show you the monthly costs for your reserved EC2 instances?",
+      "options": {
+        "A": "Reserved instance recommendations",
+        "B": "Reserved Instances (RI) Coverage reports",
+        "C": "Reserved Instances (RI) Utilization reports",
+        "D": "Costs and usage reports"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1004,
+      "question": "past three months. You check the reserved instance recommendations in Cost Explorer but see no recommendations. What could be a reason for this?",
+      "options": {
+        "A": "The recommendation parameters are based on the past seven days. Elasticsearch.",
+        "B": "",
+        "C": "",
+        "D": "Your instances are already covered by reservations."
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1013,
+      "question": "A Cloud Practitioner identifies a billing issue after examining the AWS Cost and Usage report in the AWS Management Console. Which action can be taken to resolve this?",
+      "options": {
+        "A": "Open a detailed case related to billing and submit it to AWS Support for help.",
+        "B": "Upload data describing the issue to a new object in a private Amazon S3 bucket.",
+        "C": "Create a pricing application and deploy it to a right-sized Amazon EC2 instance for more information.",
+        "D": "Proceed with creating a new dashboard in Amazon QuickSight."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1014,
+      "question": "A Cloud Practitioner identifies a billing issue after examining the AWS Cost and Usage report in the AWS Management Console. Which action can be taken to resolve this?",
+      "options": {
+        "A": "Open a detailed case related to billing and submit it to AWS Support for help.",
+        "B": "Upload data describing the issue to a new object in a private Amazon S3 bucket.",
+        "C": "Create a pricing application and deploy it to a right-sized Amazon EC2 instance for more information.",
+        "D": "Proceed with creating a new dashboard in Amazon QuickSight."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1047,
+      "question": "A company has all of its servers in the us-east-1 Region. The company is considering the deployment of additional servers in a different Region. Which AWS tool should the company use to find pricing information for other Regions?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "AWS Budgets",
+        "C": "AWS Purchase Order Management",
+        "D": "AWS Pricing Calculator"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1048,
+      "question": "A company has all of its servers in the us-east-1 Region. The company is considering the deployment of additional servers in a different Region. Which AWS tool should the company use to find pricing information for other Regions?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "AWS Budgets",
+        "C": "AWS Purchase Order Management",
+        "D": "AWS Pricing Calculator"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1057,
+      "question": "A company has defined the AWS resources that it needs for a new application. The company needs to estimate the costs of running the application on AWS. What should the company do to meet this requirement?",
+      "options": {
+        "A": "Take advantage of AWS on-demand pricing.",
+        "B": "Use the AWS Pricing Calculator to generate an approximate dollar amount.",
+        "C": "Use Amazon QuickSight to analyze current on-premises spending.",
+        "D": "Use Amazon AppStream 2.0 for real-time pricing analytics."
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1058,
+      "question": "A company has defined the AWS resources that it needs for a new application. The company needs to estimate the costs of running the application on AWS. What should the company do to meet this requirement?",
+      "options": {
+        "A": "Take advantage of AWS on-demand pricing.",
+        "B": "Use the AWS Pricing Calculator to generate an approximate dollar amount.",
+        "C": "Use Amazon QuickSight to analyze current on-premises spending.",
+        "D": "Use Amazon AppStream 2.0 for real-time pricing analytics."
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1063,
+      "question": "A company has enabled billing alerts in its AWS account and wants to receive a notification through Amazon Simple Notification Service (Amazon SNS) whenever its monthly bill exceeds a set amount. Which AWS service or tool should the company use to achieve this?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "Cost Explorer",
+        "C": "AWS Cost and Usage Report",
+        "D": "AWS Pricing Calculator"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1064,
+      "question": "A company has enabled billing alerts in its AWS account and wants to receive a notification through Amazon Simple Notification Service (Amazon SNS) whenever its monthly bill exceeds a set amount. Which AWS service or tool should the company use to achieve this?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "Cost Explorer",
+        "C": "AWS Cost and Usage Report",
+        "D": "AWS Pricing Calculator"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1067,
+      "question": "A company has infrastructure in one AWS Region and is expanding operations to a second AWS Region. The company is using the same AWS CloudFormation template in the second Region that the company uses in the original Region. The company attempts to launch Amazon EC2 On-Demand Instances in the second Region and receives error messages. What could cause these error messages?",
+      "options": {
+        "A": "A new EC2 key pair has not been created for the EC2 instances.",
+        "B": "The requested EC2 instance types are not available in the second Region.",
+        "C": "The company cannot operate in a second Region until it updates its AWS contract.",
+        "D": "The company has not configured AWS Budgets to monitor the budget for the EC2 instances."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1068,
+      "question": "A company has infrastructure in one AWS Region and is expanding operations to a second AWS Region. The company is using the same AWS CloudFormation template in the second Region that the company uses in the original Region. The company attempts to launch Amazon EC2 On-Demand Instances in the second Region and receives error messages. What could cause these error messages?",
+      "options": {
+        "A": "A new EC2 key pair has not been created for the EC2 instances.",
+        "B": "The requested EC2 instance types are not available in the second Region.",
+        "C": "The company cannot operate in a second Region until it updates its AWS contract.",
+        "D": "The company has not configured AWS Budgets to monitor the budget for the EC2 instances."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1069,
+      "question": "A company has multiple AWS accounts and wants to simplify and consolidate its billing process. Which AWS service will achieve this?",
+      "options": {
+        "A": "AWS Cost and Usage Reports",
+        "B": "AWS Organizations",
+        "C": "AWS Cost Explorer",
+        "D": "AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1070,
+      "question": "A company has multiple AWS accounts and wants to simplify and consolidate its billing process. Which AWS service will achieve this?",
+      "options": {
+        "A": "AWS Cost and Usage Reports",
+        "B": "AWS Organizations",
+        "C": "AWS Cost Explorer",
+        "D": "AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1071,
+      "question": "A company has multiple AWS accounts within AWS Organizations and wants to apply the Amazon EC2 Reserved Instances benefit to a single account only. Which action should be taken?",
+      "options": {
+        "A": "Purchase the Reserved Instances from master payer account and turn off Reserved Instance sharing.",
+        "B": "Enable billing alerts in the AWS Billing and Cost Management console.",
+        "C": "Purchase the Reserved Instances in individual linked accounts and turn off Reserved Instance sharing from the payer level.",
+        "D": "Enable Reserved Instance sharing in the AWS Billing and Cost Management console."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1072,
+      "question": "A company has multiple AWS accounts within AWS Organizations and wants to apply the Amazon EC2 Reserved Instances benefit to a single account only. Which action should be taken?",
+      "options": {
+        "A": "Purchase the Reserved Instances from master payer account and turn off Reserved Instance sharing.",
+        "B": "Enable billing alerts in the AWS Billing and Cost Management console.",
+        "C": "Purchase the Reserved Instances in individual linked accounts and turn off Reserved Instance sharing from the payer level.",
+        "D": "Enable Reserved Instance sharing in the AWS Billing and Cost Management console."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1075,
+      "question": "A company has multiple departments. Each department uses its own AWS account. Which AWS service or tool can the company use to combine the billing for all accounts into one bill?",
+      "options": {
+        "A": "Amazon Forecast",
+        "B": "AWS Budgets",
+        "C": "AWS Organizations",
+        "D": "AWS Marketplace"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1076,
+      "question": "A company has multiple departments. Each department uses its own AWS account. Which AWS service or tool can the company use to combine the billing for all accounts into one bill?",
+      "options": {
+        "A": "Amazon Forecast",
+        "B": "AWS Budgets",
+        "C": "AWS Organizations",
+        "D": "AWS Marketplace"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1103,
+      "question": "A company is considering migrating its applications to AWS. The company wants to compare the cost of running the workload on-premises to running the equivalent workload on the AWS platform. Which tool can be used to perform this comparison?",
+      "options": {
+        "A": "AWS Simple Monthly Calculator",
+        "B": "AWS Total Cost of Ownership (TCO) Calculator",
+        "C": "AWS Billing and Cost Management console",
+        "D": "Cost Explorer"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1104,
+      "question": "A company is considering migrating its applications to AWS. The company wants to compare the cost of running the workload on-premises to running the equivalent workload on the AWS platform. Which tool can be used to perform this comparison?",
+      "options": {
+        "A": "AWS Simple Monthly Calculator",
+        "B": "AWS Total Cost of Ownership (TCO) Calculator",
+        "C": "AWS Billing and Cost Management console",
+        "D": "Cost Explorer"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1109,
+      "question": "A Cloud Practitioner identifies a billing issue after examining the AWS Cost and Usage report in the AWS Management Console. Which action can be taken to resolve this?",
+      "options": {
+        "A": "Open a detailed case related to billing and submit it to AWS Support for help.",
+        "B": "Upload data describing the issue to a new object in a private Amazon S3 bucket.",
+        "C": "Create a pricing application and deploy it to a right-sized Amazon EC2 instance for more information.",
+        "D": "Proceed with creating a new dashboard in Amazon QuickSight."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1126,
+      "question": "A company has all of its servers in the us-east-1 Region. The company is considering the deployment of additional servers in a different Region. Which AWS tool should the company use to find pricing information for other Regions?",
+      "options": {
+        "A": "Cost Explorer",
+        "B": "AWS Budgets",
+        "C": "AWS Purchase Order Management",
+        "D": "AWS Pricing Calculator"
+      },
+      "answer": "D",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1131,
+      "question": "A company has defined the AWS resources that it needs for a new application. The company needs to estimate the costs of running the application on AWS. What should the company do to meet this requirement?",
+      "options": {
+        "A": "Take advantage of AWS on-demand pricing.",
+        "B": "Use the AWS Pricing Calculator to generate an approximate dollar amount.",
+        "C": "Use Amazon QuickSight to analyze current on-premises spending.",
+        "D": "Use Amazon AppStream 2.0 for real-time pricing analytics."
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1134,
+      "question": "A company has enabled billing alerts in its AWS account and wants to receive a notification through Amazon Simple Notification Service (Amazon SNS) whenever its monthly bill exceeds a set amount. Which AWS service or tool should the company use to achieve this?",
+      "options": {
+        "A": "Amazon CloudWatch",
+        "B": "Cost Explorer",
+        "C": "AWS Cost and Usage Report",
+        "D": "AWS Pricing Calculator"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1136,
+      "question": "A company has infrastructure in one AWS Region and is expanding operations to a second AWS Region. The company is using the same AWS CloudFormation template in the second Region that the company uses in the original Region. The company attempts to launch Amazon EC2 On-Demand Instances in the second Region and receives error messages. What could cause these error messages?",
+      "options": {
+        "A": "A new EC2 key pair has not been created for the EC2 instances.",
+        "B": "The requested EC2 instance types are not available in the second Region.",
+        "C": "The company cannot operate in a second Region until it updates its AWS contract.",
+        "D": "The company has not configured AWS Budgets to monitor the budget for the EC2 instances."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1137,
+      "question": "A company has multiple AWS accounts and wants to simplify and consolidate its billing process. Which AWS service will achieve this?",
+      "options": {
+        "A": "AWS Cost and Usage Reports",
+        "B": "AWS Organizations",
+        "C": "AWS Cost Explorer",
+        "D": "AWS Budgets"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1138,
+      "question": "A company has multiple AWS accounts within AWS Organizations and wants to apply the Amazon EC2 Reserved Instances benefit to a single account only. Which action should be taken?",
+      "options": {
+        "A": "Purchase the Reserved Instances from master payer account and turn off Reserved Instance sharing.",
+        "B": "Enable billing alerts in the AWS Billing and Cost Management console.",
+        "C": "Purchase the Reserved Instances in individual linked accounts and turn off Reserved Instance sharing from the payer level.",
+        "D": "Enable Reserved Instance sharing in the AWS Billing and Cost Management console."
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1140,
+      "question": "A company has multiple departments. Each department uses its own AWS account. Which AWS service or tool can the company use to combine the billing for all accounts into one bill?",
+      "options": {
+        "A": "Amazon Forecast",
+        "B": "AWS Budgets",
+        "C": "AWS Organizations",
+        "D": "AWS Marketplace"
+      },
+      "answer": "C",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1154,
+      "question": "A company is considering migrating its applications to AWS. The company wants to compare the cost of running the workload on-premises to running the equivalent workload on the AWS platform. Which tool can be used to perform this comparison?",
+      "options": {
+        "A": "AWS Simple Monthly Calculator",
+        "B": "AWS Total Cost of Ownership (TCO) Calculator",
+        "C": "AWS Billing and Cost Management console",
+        "D": "Cost Explorer"
+      },
+      "answer": "B",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1157,
+      "question": "A company is planning to adopt a hybrid cloud architecture with AWS. Which of the following options can they use to help them estimate their costs? *",
+      "options": {
+        "A": "A company is planning to adopt a hybrid cloud architecture with AWS. Which of the following options can they use to help them estimate their costs?",
+        "B": "AWS Cost Explorer",
+        "C": "Cost allocation tag",
+        "D": "Consolidated Billing"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1160,
+      "question": "A company is using multiple AWS services to host their application, and they want to ensure that they optimize the environment by adhering to AWS best practices.Which of the following services is capable of inspecting your AWS environment and making recommendations to lower expenditures, improve system performance and reliability, and close security gaps?",
+      "options": {
+        "A": "AWS Trusted Advisor",
+        "B": "AWS Cost Explorer",
+        "C": "AWS Inspector",
+        "D": "AWS Budgets"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1162,
+      "question": "In AWS, _______ is one of the advantages of Consolidated Billing.",
+      "options": {
+        "A": "Volume pricing",
+        "B": "The ability to have one member account to pay the charges of all the master accounts.",
+        "C": "Consolidation of both AWS and AISPL accounts into one billing",
+        "D": "Go global in minutes"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1166,
+      "question": "Which of the following allows you to categorize and track your AWS costs on a detailed level?",
+      "options": {
+        "A": "Cost allocation tags",
+        "B": "Consolidated Billing",
+        "C": "AWS Budgets",
+        "D": "Amazon Aurora Backtrack"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    },
+    {
+      "sourceIndex": 1171,
+      "question": "Which of the following is the most cost-effective AWS Support Plan to use if you need access to AWS Support API for programmatic case management?",
+      "options": {
+        "A": "Business",
+        "B": "Enterprise",
+        "C": "Developer",
+        "D": "Basic"
+      },
+      "answer": "A",
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)"
+    }
+  ]
+}

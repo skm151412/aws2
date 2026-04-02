@@ -1,0 +1,1658 @@
+{
+  "categoryId": 1,
+  "categoryName": "Cloud Concepts and Value Proposition",
+  "count": 127,
+  "items": [
+    {
+      "sourceIndex": 29,
+      "question": "A company has distributed its workload on both the AWS Cloud and some on premises servers. What type of architecture is this?",
+      "options": {
+        "A": "Virtual private network",
+        "B": "Virtual private cloud",
+        "C": "Hybrid cloud",
+        "D": "Private cloud"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 37,
+      "question": "A company has refined its workload to use specific AWS services to improve efficiency and reduce cost. Which best practice for cost governance does this example show?",
+      "options": {
+        "A": "Resource controls",
+        "B": "Cost allocation",
+        "C": "Architecture optimization",
+        "D": "Tagging enforcement"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 48,
+      "question": "A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS Step Functions",
+        "B": "Amazon Simple Notification Service (Amazon SNS)",
+        "C": "Amazon Kinesis Data Streams",
+        "D": "Amazon Simple Queue Service (Amazon SQS)"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 49,
+      "question": "A company is considering a move to the AWS Cloud. The company wants to be able to scale its compute resources as needed to accommodate changing loads. Which benefit of the AWS Cloud does this scenario describe?",
+      "options": {
+        "A": "Global deployments in minutes",
+        "B": "Cost savings",
+        "C": "Agility",
+        "D": "Elasticity"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 69,
+      "question": "A company is required to store its data close to its primary users. Which benefit of the AWS Cloud supports this requirement?",
+      "options": {
+        "A": "Security",
+        "B": "High availability",
+        "C": "Elasticity",
+        "D": "Global footprint"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 92,
+      "question": "A company needs to send time-critical messages to multiple subscribers through a push mechanism. Which AWS service should the company use?",
+      "options": {
+        "A": "Amazon Kinesis",
+        "B": "Amazon MQ",
+        "C": "Amazon Simple Queue Service (Amazon SQS)",
+        "D": "Amazon Simple Notification Service (Amazon SNS)"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 105,
+      "question": "A company that does business online needs to quickly deliver new functionality in an iterative manner, minimizing the time to market. Which AWS Cloud feature can provide this?",
+      "options": {
+        "A": "Elasticity",
+        "B": "High availability",
+        "C": "Agility",
+        "D": "Reliability"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 115,
+      "question": "A company wants to build its new application workloads in the AWS Cloud instead of using on-premises resources. What expense can be reduced using the AWS Cloud?",
+      "options": {
+        "A": "The cost of writing custom-built Java or Node .js code",
+        "B": "Penetration testing for security",
+        "C": "hardware required to support new applicationsD. Writing specific test cases for third-party applications.",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 130,
+      "question": "A company wants to increase its ability to recover its infrastructure in the case of a natural disaster. Which pillar of the AWS Well-Architected Framework does this ability represent?",
+      "options": {
+        "A": "Cost optimization",
+        "B": "Performance efficiency",
+        "C": "Reliability",
+        "D": "Security"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 133,
+      "question": "A company wants to migrate to AWS and use the same security software it uses on premises. The security software vendor offers its security software as a service on AWS. Where can the company purchase the security solution?",
+      "options": {
+        "A": "AWS Partner Solutions Finder",
+        "B": "AWS Support Center",
+        "C": "AWS Management Console",
+        "D": "AWS Marketplace"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 135,
+      "question": "A company wants to move its data center to the AWS Cloud. Technology leadership needs to develop a business case that includes the most cost effective deployment and purchasing options. Which AWS service or features supports this task with the LEAST amount of operational overhead?",
+      "options": {
+        "A": "AWS Migration Evaluator",
+        "B": "AWS Application Discovery Service",
+        "C": "AWS Migration Hub",
+        "D": "AWS Server Migration Service (AWS SMS)"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 143,
+      "question": "A company wants to try a third-party ecommerce solution before deciding to use it long term. Which AWS service or tool will support this effort?",
+      "options": {
+        "A": "AWS Marketplace",
+        "B": "AWS Partner Network (APN)",
+        "C": "AWS Managed Services",
+        "D": "AWS Service Catalog"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 146,
+      "question": "A company will be moving from an on-premises data center to the AWS Cloud. What would be one financial difference after the move?",
+      "options": {
+        "A": "Moving from variable operational expense (opex) to upfront capital expense (capex).",
+        "B": "Moving from upfront capital expense (capex) to variable capital expense (capex).",
+        "C": "Moving from upfront capital expense (capex) to variable operational expense (opex).",
+        "D": "Elimination of upfront capital expense (capex) and elimination of variable operational expense (opex)."
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 172,
+      "question": "A retail company wants to provision only the necessary amount of resources to handle the current demand. Which cloud benefit is the company trying to achieve with this goal?",
+      "options": {
+        "A": "Reliability",
+        "B": "Global reach",
+        "C": "Scalability",
+        "D": "High availability"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 176,
+      "question": "A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?",
+      "options": {
+        "A": "Think parallel",
+        "B": "Implement elasticity",
+        "C": "Decouple your components",
+        "D": "Design for failure"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 179,
+      "question": "A startup is working on a new application that needs to go to market quickly. The application requirements may need to be adjusted in the near future. Which of the following is a characteristic of the AWS Cloud that would meet this specific need?",
+      "options": {
+        "A": "Elasticity",
+        "B": "Reliability",
+        "C": "Performance",
+        "D": "Agility"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 180,
+      "question": "A system in the AWS Cloud is designed to withstand the failure of one or more components. What is this an example of?",
+      "options": {
+        "A": "Elasticity",
+        "B": "High Availability",
+        "C": "Scalability",
+        "D": "Agility"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 181,
+      "question": "A user can increase operational efficiency in the AWS Cloud by:",
+      "options": {
+        "A": "leveraging AWS managed services.",
+        "B": "right-sizing AWS infrastructure.",
+        "C": "manually creating all necessary resources.",
+        "D": "managing their own software licenses."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 188,
+      "question": "A user has underutilized on-premises resources. Which AWS Cloud concept can BEST address this issue?",
+      "options": {
+        "A": "High availability",
+        "B": "Elasticity",
+        "C": "Security",
+        "D": "Loose coupling"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 190,
+      "question": "A user is designing a service to align with the operational excellence pillar of the AWS Well-Architected Framework. Which design principle should the user follow?",
+      "options": {
+        "A": "Anticipate failure",
+        "B": "Make large-scale changes",
+        "C": "Perform manual operations",
+        "D": "Create static operational procedures"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 192,
+      "question": "A user is planning to migrate an application workload to the AWS Cloud. Which control becomes the responsibility of AWS once the migration is complete?",
+      "options": {
+        "A": "Patching the guest operating system",
+        "B": "Maintaining physical and environmental controls",
+        "C": "Protecting communications and maintaining zone security",
+        "D": "Patching specific applications"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 196,
+      "question": "A user needs the ability to access as many resources as are needed. The user also needs the ability to scale up and scale down with only a few minutes of notice. Which benefit of the AWS Cloud describes these abilities?",
+      "options": {
+        "A": "Reliability",
+        "B": "Economy of scale",
+        "C": "Elasticity",
+        "D": "Pay-as-you-go pricing"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 211,
+      "question": "According to best practices, how should an application be designed to run in the AWS Cloud?",
+      "options": {
+        "A": "Use tightly coupled components.",
+        "B": "Use loosely coupled components.",
+        "C": "Use infrequently coupled components.",
+        "D": "Use frequently coupled components."
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 239,
+      "question": "An IT department provisions more servers than are needed to run a workload. Which cloud architecture design principle supports changing this approach?",
+      "options": {
+        "A": "Protect data in transit and at rest.",
+        "B": "Stop guessing capacity.",
+        "C": "Improve through game days.",
+        "D": "Annotate documentation."
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 247,
+      "question": "Compared with costs in traditional and virtualized data centers, AWS has:",
+      "options": {
+        "A": "greater variable costs and greater upfront costs.",
+        "B": "fixed usage costs and lower upfront costs.",
+        "C": "lower variable costs and greater upfront costs.",
+        "D": "lower variable costs and lower upfront costs."
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 251,
+      "question": "Fault tolerance refers to:",
+      "options": {
+        "A": "the ability of an application to accommodate growth without changing design data restored",
+        "B": "",
+        "C": "how secure your application is",
+        "D": "the built-in redundancy of an ap"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 262,
+      "question": "How can the AWS Cloud increase user workforce productivity after migration from an on-premises data center?",
+      "options": {
+        "A": "Users do not have to wait for infrastructure provisioning.",
+        "B": "The AWS Cloud infrastructure is much faster than an on-premises data center infrastructure.",
+        "C": "AWS takes over application configuration management on behalf of users.",
+        "D": "Users do not need to address security and compliance issues."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 268,
+      "question": "How does AWS shorten the time to provision IT resources?",
+      "options": {
+        "A": "It supplies an online IT ticketing platform for resource requests.",
+        "B": "It supports automatic code validation services.",
+        "C": "It provides the ability to programmatically provision existing resources. list.",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 281,
+      "question": "IT systems should be designed to reduce interdependencies, so that a change or failure in one component does not cascade to other components. This is an example of which principle of cloud architecture design?",
+      "options": {
+        "A": "Scalability",
+        "B": "Loose coupling",
+        "C": "Automation",
+        "D": "Automatic scaling"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 282,
+      "question": "Making frequent, small, reversible changes is a design principle of which pillar of the AWS Well-Architected Framework?",
+      "options": {
+        "A": "Reliability",
+        "B": "Operational excellence",
+        "C": "Performance efficiency",
+        "D": "Cost optimization"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 284,
+      "question": "One of the advantages to moving infrastructure from an on-premises data center to the AWS Cloud is:",
+      "options": {
+        "A": "it allows the business to eliminate IT bills.",
+        "B": "",
+        "C": "it allows the business to focus on business activities.",
+        "D": "it allows the business to leave servers unpatched."
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 285,
+      "question": "Performing operations as code is a design principle that supports which pillar of the AWS Well-Architected Framework?",
+      "options": {
+        "A": "Performance efficiency",
+        "B": "Operational excellence",
+        "C": "Reliability",
+        "D": "Security"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 295,
+      "question": "The user is fully responsible for which action when running workloads on AWS?",
+      "options": {
+        "A": "Patching the infrastructure components",
+        "B": "Implementing controls to route application traffic",
+        "C": "Maintaining physical and environmental controls",
+        "D": "Maintaining the underlying infrastructure components"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 298,
+      "question": "To use the AWS CLI, users are required to generate:",
+      "options": {
+        "A": "a password policy.",
+        "B": "an access/secret key.",
+        "C": "a managed policy.",
+        "D": "an API key."
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 319,
+      "question": "that scale up and down the meet variable demand?",
+      "options": {
+        "A": "Elasticity",
+        "B": "Agility",
+        "C": "Security",
+        "D": "Scalability"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 328,
+      "question": "What does it mean if a user deploys a hybrid cloud architecture on AWS?",
+      "options": {
+        "A": "All resources run using on-premises infrastructure.",
+        "B": "Some resources run on-premises and some run in a colocation center.",
+        "C": "All resources run in the AWS Cloud.",
+        "D": "Some resources run on-premises and some run in the AWS Cloud."
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 340,
+      "question": "What is a user responsible for when running an application in the AWS Cloud?",
+      "options": {
+        "A": "Managing physical hardware",
+        "B": "Updating the underlying hypervisor",
+        "C": "Providing a list of users approved for data center access",
+        "D": "Managing application software updates"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 341,
+      "question": "What is a value proposition of the AWS Cloud?",
+      "options": {
+        "A": "AWS is responsible for security in the AWS Cloud",
+        "B": "No long-term contract is required",
+        "C": "Provision new servers in days",
+        "D": "AWS manages user applications in the AWS Cloud"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 347,
+      "question": "What is an AWS Cloud design best practice?",
+      "options": {
+        "A": "Tight coupling of components",
+        "B": "Single point of failure",
+        "C": "High availability",
+        "D": "Overprovisioning of resources"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 376,
+      "question": "What time-savings advantage is offered with the use of Amazon Rekognition?",
+      "options": {
+        "A": "Amazon Rekognition provides automatic watermarking of images.",
+        "B": "Amazon Rekognition provides automatic detection of objects appearing in pictures.C. Amazon Rekognition provides the ability to resize millions of images automatically.",
+        "C": "Amazon Rekognition uses Amazon Mechanical Turk to allow humans to bid on object detection jobs.",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 382,
+      "question": "When architecting cloud applications, which of the following are a key design principle?",
+      "options": {
+        "A": "Use the largest instance possible",
+        "B": "Provision capacity for peak load",
+        "C": "Use the Scrum development process",
+        "D": "Implement elasticity"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 390,
+      "question": "Where can users find a catalog of AWS-recognized providers of third-party security solutions?",
+      "options": {
+        "A": "AWS Service Catalog",
+        "B": "AWS MarketplaceC. AWS Quick Start",
+        "C": "AWS CodeDeploy",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 408,
+      "question": "Which architecture concept describes the ability to deploy resources on demand and release resources when they are no longer needed?",
+      "options": {
+        "A": "High availability",
+        "B": "Decoupled architecture",
+        "C": "Resilience",
+        "D": "Elasticity"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 412,
+      "question": "Which AWS cloud architecture principle states that systems should reduce interdependencies?",
+      "options": {
+        "A": "Scalability",
+        "B": "Services, not servers",
+        "C": "Removing single points of failure",
+        "D": "Loose coupling"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 414,
+      "question": "withstand failures with minimal downtime?",
+      "options": {
+        "A": "Agility",
+        "B": "Elasticity",
+        "C": "Scalability",
+        "D": "High availability"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 450,
+      "question": "Which AWS service can be used to privately store and manage versions of source code?",
+      "options": {
+        "A": "AWS CodeBuild",
+        "B": "AWS CodeCommit",
+        "C": "AWS CodePipeline",
+        "D": "AWS CodeStar"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 456,
+      "question": "Which AWS service can be used to turn text into life-like speech?",
+      "options": {
+        "A": "Amazon Polly",
+        "B": "Amazon Transcribe",
+        "C": "Amazon Rekognition",
+        "D": "Amazon Lex"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 465,
+      "question": "Which AWS service enables users to deploy infrastructure as code by automating the process of provisioning resources?",
+      "options": {
+        "A": "Amazon GameLift",
+        "B": "AWS CloudFormation",
+        "C": "AWS Data Pipeline",
+        "D": "AWS Glue"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 474,
+      "question": "Which AWS service is a continuous delivery and deployment solution?",
+      "options": {
+        "A": "AWS AppSync",
+        "B": "AWS CodePipeline",
+        "C": "AWS Cloud9",
+        "D": "AWS CodeCommit"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 475,
+      "question": "Which AWS service is a fully managed source control service that hosts secure Git-based repositories?",
+      "options": {
+        "A": "AWS CodeCommit",
+        "B": "AWS CodeStar",
+        "C": "Amazon CodeGuruD. AWS CodePipeline",
+        "D": ""
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 533,
+      "question": "Which AWS service provides the capability to view end-to-end performance metrics and troubleshoot distributed applications?",
+      "options": {
+        "A": "AWS Cloud9",
+        "B": "AWS CodeStar",
+        "C": "AWS Cloud Map",
+        "D": "AWS X-Ray"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 560,
+      "question": "Which benefit of the AWS Cloud supports matching the supply of resources with changing workload demands?",
+      "options": {
+        "A": "Security",
+        "B": "Reliability",
+        "C": "Elasticity",
+        "D": "High availability"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 561,
+      "question": "Which characteristic of the AWS Cloud helps users eliminate underutilized CPU capacity?",
+      "options": {
+        "A": "Agility",
+        "B": "Elasticity",
+        "C": "Reliability",
+        "D": "Durability"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 563,
+      "question": "Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?",
+      "options": {
+        "A": "Pay-as-you-go pricing",
+        "B": "High availability",
+        "C": "Global reach",
+        "D": "Economies of scale"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 567,
+      "question": "Which design principle is achieved by following the reliability pillar of the AWS Well-Architected Framework?",
+      "options": {
+        "A": "Vertical scaling",
+        "B": "Manual failure recovery",
+        "C": "Testing recovery procedures",
+        "D": "Changing infrastructure manually"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 577,
+      "question": "Which guideline is a well-architected design principle for building cloud applications?",
+      "options": {
+        "A": "Keep static data closer to compute resources.",
+        "B": "Provision resources for peak capacity.",
+        "C": "Design for automated recovery from failure.",
+        "D": "Use tightly coupled components."
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 584,
+      "question": "Which method helps to optimize costs of users moving to the AWS Cloud?",
+      "options": {
+        "A": "Paying only for what is used",
+        "B": "Purchasing hardware before it is needed",
+        "C": "Manually provisioning cloud resources",
+        "D": "Purchasing for the maximum possible load"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 596,
+      "question": "Which of the following can be used to describe infrastructure as code in the AWS Cloud?",
+      "options": {
+        "A": "AWS CLI",
+        "B": "AWS CloudFormation",
+        "C": "AWS CodeDeploy",
+        "D": "AWS Amplify"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 601,
+      "question": "Which of the following deployment models enables customers to fully trade their capital IT expenses for operational expenses?",
+      "options": {
+        "A": "On-premises",
+        "B": "Hybrid",
+        "C": "Cloud",
+        "D": "Platform as a service"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 607,
+      "question": "Which of the following is a benefit of using the AWS Cloud?",
+      "options": {
+        "A": "Permissive security removes the administrative burden.",
+        "B": "Ability to focus on revenue-generating activities.",
+        "C": "Control over cloud network hardware.",
+        "D": "Choice of specific cloud hardware vendors."
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 616,
+      "question": "Which of the following is a recommended design principle of the AWS Well Architected Framework?",
+      "options": {
+        "A": "Reduce downtime by making infrastructure changes infrequently and in large increments.",
+        "B": "Invest the time to configure infrastructure manually.",
+        "C": "Learn to improve from operational failures.",
+        "D": "Use monolithic application design for centralization."
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 618,
+      "question": "Which of the following is a software development framework that a company can use to define cloud resources as code and provision the resources through AWS CloudFormation?",
+      "options": {
+        "A": "AWS CLI",
+        "B": "AWS Developer Center",
+        "C": "AWS Cloud Development Kit (AWS CDK)",
+        "D": "AWS CodeStar"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 622,
+      "question": "Which of the following is an AWS Cloud architecture design principle?",
+      "options": {
+        "A": "Implement single points of failure.",
+        "B": "Implement loose coupling.",
+        "C": "Implement monolithic design.",
+        "D": "Implement vertical scaling."
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 627,
+      "question": "Which of the following is an example of how moving to the AWS Cloud reduces upfront cost?",
+      "options": {
+        "A": "By replacing large variable costs with lower capital investments",
+        "B": "By replacing large capital investments with lower variable costs",
+        "C": "By allowing the provisioning of compute and storage at a fixed level to meet peak demandD. By replacing the repeated scaling of virtual servers with a simpler fixed-scale model",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 649,
+      "question": "Which pillar of the AWS Well-Architected Framework focuses on the ability to run workloads effectively, gain insight into operations, and continuously improve supporting processes and procedures?",
+      "options": {
+        "A": "Cost optimization",
+        "B": "Reliability",
+        "C": "Operational excellence",
+        "D": "Performance efficiency"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 650,
+      "question": "Which pillar of the AWS Well-Architected Framework focuses on the ability to recover automatically from service interruptions?",
+      "options": {
+        "A": "Security",
+        "B": "Performance efficiency",
+        "C": "Operational excellence",
+        "D": "Reliability"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 652,
+      "question": "Which pillar of the AWS Well-Architected Framework specifies that resources be provisioned in a timely manner and scale as needed to maintain effectiveness as demand changes?",
+      "options": {
+        "A": "Cost optimization",
+        "B": "Security",
+        "C": "Operational excellence",
+        "D": "Performance efficiency"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 697,
+      "question": "Why is it beneficial to use Elastic Load Balancers with applications?",
+      "options": {
+        "A": "They allow for the conversion from Application Load Balancers to Classic Load Balancers.",
+        "B": "They are capable of handling constant changes in network traffic patterns.",
+        "C": "They automatically adjust capacity.",
+        "D": "They are provided at no charge to users."
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 704,
+      "question": "Which of the following best describes Infrastructure as a Service products?",
+      "options": {
+        "A": "Services that hide infrastructure complexity behind a simple interface",
+        "B": "Services that provide a service to end users through a public network",
+        "C": "Services that give you direct control over underlying compute and storage resources",
+        "D": "Platforms that allow developers to run their code over short periods on cloud servers"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 705,
+      "question": "Which of the following best describes Infrastructure as a Service products?",
+      "options": {
+        "A": "Services that hide infrastructure complexity behind a simple interface",
+        "B": "Services that provide a service to end users through a public network",
+        "C": "Services that give you direct control over underlying compute and storage resources",
+        "D": "Platforms that allow developers to run their code over short periods on cloud servers"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 706,
+      "question": "Which of the following best describes Platform as a Service products?",
+      "options": {
+        "A": "Services that hide infrastructure complexity behind a simple interface",
+        "B": "Platforms that allow developers to run their code over short periods on cloud servers",
+        "C": "Services that give you direct control over underlying compute and storage resources",
+        "D": "Services that provide a service to end users through a public network"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 707,
+      "question": "Which of the following best describes Platform as a Service products?",
+      "options": {
+        "A": "Services that hide infrastructure complexity behind a simple interface",
+        "B": "Platforms that allow developers to run their code over short periods on cloud servers",
+        "C": "Services that give you direct control over underlying compute and storage resources",
+        "D": "Services that provide a service to end users through a public network"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 710,
+      "question": "Which of the following best describes server virtualization? ultiple sources into a single virtual data store",
+      "options": {
+        "A": "",
+        "B": "Logically partitioning physical compute and storage devices into multiple smaller virtual devices",
+        "C": "Aggregating physical resources spread over multiple physical devices into a single virtual device",
+        "D": "Abstracting the complexity of physical infrastructure behind a simple web interface"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 711,
+      "question": "Which of the following best describes server virtualization?",
+      "options": {
+        "A": "",
+        "B": "Logically partitioning physical compute and storage devices into multiple smaller virtual devices",
+        "C": "Aggregating physical resources spread over multiple physical devices into a single virtual device",
+        "D": "Abstracting the complexity of physical infrastructure behind a simple web interface"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 712,
+      "question": "Which of the following best describes Software as a Service products?",
+      "options": {
+        "A": "Services that give you direct control over underlying compute and storage resources",
+        "B": "Services that provide a service to end users through a public network",
+        "C": "Services that hide infrastructure complexity behind a simple interface",
+        "D": "Platforms that allow developers to run their code over short periods on cloud servers"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 713,
+      "question": "Which of the following best describes Software as a Service products?",
+      "options": {
+        "A": "Services that give you direct control over underlying compute and storage resources",
+        "B": "Services that provide a service to end users through a public network",
+        "C": "Services that hide infrastructure complexity behind a simple interface",
+        "D": "Platforms that allow developers to run their code over short periods on cloud servers"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 724,
+      "question": "Which of the following is a key financial benefit of migrating systems hosted on your on-premises data center to AWS?",
+      "options": {
+        "A": "Opportunity to replace upfront capital expenses (CAPEX) with low variable costs.",
+        "B": "Opportunity to replace variable capital expenses (CAPEX) with low upfront costs.",
+        "C": "Opportunity to replace upfront operational expenses (OPEX) with low variable operational expenses (OPEX).",
+        "D": "Opportunity to replace variable operational expenses (OPEX) with low upfront capital expenses (CAPEX)."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 732,
+      "question": "Which of the following is a key financial benefit of migrating systems hosted on your on-premises data center to AWS?",
+      "options": {
+        "A": "Opportunity to replace upfront capital expenses (CAPEX) with low variable costs.",
+        "B": "Opportunity to replace variable capital expenses (CAPEX) with low upfront costs.",
+        "C": "Opportunity to replace upfront operational expenses (OPEX) with low variable operational expenses (OPEX).",
+        "D": "Opportunity to replace variable operational expenses (OPEX) with low upfront capital expenses (CAPEX)."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 741,
+      "question": "Which of the following options helps cloud architects build secure, high performing, resilient, and efficient infrastructure for their applications based on the six pillars?",
+      "options": {
+        "A": "AWS Well-Architected Framework",
+        "B": "AWS Security Hub",
+        "C": "AWS Serverless Application Model",
+        "D": "AWS Cloud Adoption Framework"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 749,
+      "question": "Which of the following options helps cloud architects build secure, high performing, resilient, and efficient infrastructure for their applications based on the six pillars?",
+      "options": {
+        "A": "AWS Well-Architected Framework",
+        "B": "AWS Security Hub",
+        "C": "AWS Serverless Application Model",
+        "D": "AWS Cloud Adoption Framework"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 752,
+      "question": "Which of the following cloud best practices reinforces the use of the Service-Oriented Architecture (SOA) design principle?",
+      "options": {
+        "A": "Decouple your components.",
+        "B": "Think parallel.",
+        "C": "Implement elasticity.",
+        "D": "Design for failure."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 754,
+      "question": "How is expense shifted when moving from traditional servers to the Cloud?",
+      "options": {
+        "A": "Capital expense is traded for variable expense",
+        "B": "Variable expense is traded for capital expense",
+        "C": "Variable expense is traded for capital expense",
+        "D": "Capital expense is traded for operational expense"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 758,
+      "question": "A company would like to test their new mobile app on multiple devices at once in a coordinated fashion using AWS. Which of the following services will help speed up the process?",
+      "options": {
+        "A": "AWS Device Farm",
+        "B": "Amazon QuickSight",
+        "C": "AWS Ground Station",
+        "D": "AWS Security Bulletin"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 759,
+      "question": "Auto-Scaling based on demand is an implementation of which AWS cloud best practice?",
+      "options": {
+        "A": "Implement elasticity.",
+        "B": "Design for perfection.",
+        "C": "Design for failure.",
+        "D": "Drive architectures using data."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 764,
+      "question": "Which of the following cloud design principles supports growth in users, traffic, or data size with no drop-in performance?",
+      "options": {
+        "A": "Scalability",
+        "B": "Go Serverless to reduce compute footprint",
+        "C": "Design for failure",
+        "D": "Decouple your components"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 768,
+      "question": "Auto-Scaling based on demand is an implementation of which AWS cloud best practice?",
+      "options": {
+        "A": "Implement elasticity.",
+        "B": "Design for perfection.",
+        "C": "Design for failure.",
+        "D": "Drive architectures using data."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 769,
+      "question": "A company would like to test their new mobile app on multiple devices at once in a coordinated fashion using AWS. Which of the following services will help speed up the process?",
+      "options": {
+        "A": "AWS Device Farm",
+        "B": "Amazon QuickSight",
+        "C": "AWS Ground Station",
+        "D": "AWS Security Bulletin"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 773,
+      "question": "How is expense shifted when moving from traditional servers to the Cloud?",
+      "options": {
+        "A": "Capital expense is traded for variable expense",
+        "B": "Variable expense is traded for capital expense",
+        "C": "Variable expense is traded for capital expense",
+        "D": "Capital expense is traded for operational expense"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 774,
+      "question": "Which of the following cloud best practices reinforces the use of the Service-Oriented Architecture (SOA) design principle?",
+      "options": {
+        "A": "Decouple your components.",
+        "B": "Think parallel.",
+        "C": "Implement elasticity.",
+        "D": "Design for failure."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 777,
+      "question": "Which of the following cloud design principles supports growth in users, traffic, or data size with no drop-in performance?",
+      "options": {
+        "A": "Scalability",
+        "B": "Go Serverless to reduce compute footprint",
+        "C": "Design for failure",
+        "D": "Decouple your components"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 782,
+      "question": "Which of the following is not a standard design principle when designing systems in AWS?",
+      "options": {
+        "A": "Loose coupling",
+        "B": "Servers, not services",
+        "C": "Disposable resources instead of fixed servers",
+        "D": "Design for failure"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 783,
+      "question": "Which of the following is not a standard design principle when designing systems in AWS?",
+      "options": {
+        "A": "Loose coupling",
+        "B": "Servers, not services",
+        "C": "Disposable resources instead of fixed servers",
+        "D": "Design for failure"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 816,
+      "question": "What text format does the credential report use?",
+      "options": {
+        "A": "JSON",
+        "B": "CSV",
+        "C": "ASCII",
+        "D": "XML"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 817,
+      "question": "What text format does the credential report use?",
+      "options": {
+        "A": "JSON",
+        "B": "CSV",
+        "C": "ASCII",
+        "D": "XML"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 847,
+      "question": "As an AWS customer, what offering do you naturally inherit from AWS after you sign up?",
+      "options": {
+        "A": "All the best practices of AWS policies, architecture, and operational processes built to satisfy your requirements",
+        "B": "All the data you store in and retrieve from AWS",
+        "C": "All the responsibilities in enforcing security and compliance policies of your organization",
+        "D": "All the hardware and software that you provision in the AWS cloud"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 870,
+      "question": "As an AWS customer, what offering do you naturally inherit from AWS after you sign up?",
+      "options": {
+        "A": "All the best practices of AWS policies, architecture, and operational processes built to satisfy your requirements",
+        "B": "All the data you store in and retrieve from AWS",
+        "C": "All the responsibilities in enforcing security and compliance policies of your organization",
+        "D": "All the hardware and software that you provision in the AWS cloud"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 886,
+      "question": "A customer wants to send push notifications to her mobile users whenever a new patch comes out. What service is the most appropriate for this task?",
+      "options": {
+        "A": "SNS",
+        "B": "SMS",
+        "C": "SQS",
+        "D": "SES"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 925,
+      "question": "A customer wants to send push notifications to her mobile users whenever a new patch comes out. What service is the most appropriate for this task?",
+      "options": {
+        "A": "SNS",
+        "B": "SMS",
+        "C": "SQS",
+        "D": "SES"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 930,
+      "question": "Is it always possible to request service limit increases from AWS?",
+      "options": {
+        "A": "Yes. All service limits can be increased.",
+        "B": "No. A limit can never be increased.",
+        "C": "Service limits are defaults. They can be increased or decreased on demand.",
+        "D": "No. Some service limits are hard."
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 931,
+      "question": "Is it always possible to request service limit increases from AWS?",
+      "options": {
+        "A": "Yes. All service limits can be increased.",
+        "B": "No. A limit can never be increased.",
+        "C": "Service limits are defaults. They can be increased or decreased on demand.",
+        "D": "No. Some service limits are hard."
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 946,
+      "question": "Which of the following is a limitation of the AWS Simple Monthly Calculator?",
+      "options": {
+        "A": "You can calculate resource use for only one service at a time.",
+        "B": "Not all AWS services are included.",
+        "C": "The pricing is pricing.",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 947,
+      "question": "Which of the following is a limitation of the AWS Simple Monthly Calculator?",
+      "options": {
+        "A": "You can calculate resource use for only one service at a time.",
+        "B": "Not all AWS services are included. pricing.",
+        "C": "",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 963,
+      "question": "What is the primary function of the content linked from the Knowledge Center?",
+      "options": {
+        "A": "To introduce new users to the functionality of the core AWS services",
+        "B": "To explain how AWS deployments can be more efficient and secure than on-premises",
+        "C": "To provide a public forum where AWS users can ask their technical questions",
+        "D": "To present solutions to commonly encountered technical problems using AWS infrastructure"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 964,
+      "question": "When using AWS documentation pages, what is the best way to be sure the -to-date?",
+      "options": {
+        "A": "The page URL will include the word latest.",
+        "B": "The page URL will include the version number (i.e., 3.2).",
+        "C": "The page will have the word Current at the top right.",
+        "D": "There is no easy way to tell."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 970,
+      "question": "Your company is planning a major deployment on AWS. While the design and testing stages are still in progress, which of the following plans will provide the best blend of support and cost savings?",
+      "options": {
+        "A": "Basic",
+        "B": "Developer",
+        "C": "Business",
+        "D": "Enterprise"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 973,
+      "question": "Your web development team is actively gearing up for a deployment of an ecommerce site. During these early stages of the process, individual developers are running into frustrating conflicts and configuration problems that are highly specific to your situation. Which of the following plans will provide the best blend of support and cost savings?",
+      "options": {
+        "A": "Basic",
+        "B": "Developer",
+        "C": "Business",
+        "D": "Enterprise"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 974,
+      "question": "According to the AWS Shared Responsibilit define the status of the software driving an AWS managed service?",
+      "options": {
+        "A": "Everything associated with an AWS managed service is the responsibility of AWS.",
+        "B": "Whatever is added by the customer (like application code) is the custome",
+        "C": "Whatever the customer can control (application code and/or",
+        "D": "Everything associated with an AWS managed service is the responsibility of the customer."
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 977,
+      "question": "What is the primary goal of autoscaling?",
+      "options": {
+        "A": "To ensure the long-term reliability of a particular physical resource",
+        "B": "To ensure the long-term reliability of a particular virtual resource",
+        "C": "To orchestrate the use of multiple parallel resources to direct incoming user requests",
+        "D": "To ensure that a predefined service level is maintained regardless of external demand or instance failures"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 980,
+      "question": "Which of the following design strategies is most effective for maintaining the reliability of a cloud application?",
+      "options": {
+        "A": "Resource isolation",
+        "B": "Resource automation",
+        "C": "Resource redundancy",
+        "D": "Resource geolocation"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 992,
+      "question": "How long will your session with the AWS Management Console remain active?",
+      "options": {
+        "A": "6 hours",
+        "B": "12 hours",
+        "C": "8 hours",
+        "D": "24 hours E) 15 minutes"
+      },
+      "answer": "B",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1000,
+      "question": "Which of the following is true regarding a resource tag?",
+      "options": {
+        "A": "It must be unique within an account.",
+        "B": "",
+        "C": "It must have a key.",
+        "D": "It must have a value."
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1002,
+      "question": "Which output format does the AWS CLI support?",
+      "options": {
+        "A": "Tab-separated values (TSV)",
+        "B": "Comma-separated values (CSV)",
+        "C": "JavaScript object notation (JSON)",
+        "D": "None of these"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1061,
+      "question": "A company has distributed its workload on both the AWS Cloud and some on premises servers. What type of architecture is this?",
+      "options": {
+        "A": "Virtual private network",
+        "B": "Virtual private cloud",
+        "C": "Hybrid cloud",
+        "D": "Private cloud"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1062,
+      "question": "A company has distributed its workload on both the AWS Cloud and some on premises servers. What type of architecture is this?",
+      "options": {
+        "A": "Virtual private network",
+        "B": "Virtual private cloud",
+        "C": "Hybrid cloud",
+        "D": "Private cloud"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1077,
+      "question": "A company has refined its workload to use specific AWS services to improve efficiency and reduce cost. Which best practice for cost governance does this example show?",
+      "options": {
+        "A": "Resource controls",
+        "B": "Cost allocation",
+        "C": "Architecture optimization",
+        "D": "Tagging enforcement"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1078,
+      "question": "A company has refined its workload to use specific AWS services to improve efficiency and reduce cost. Which best practice for cost governance does this example show?",
+      "options": {
+        "A": "Resource controls",
+        "B": "Cost allocation",
+        "C": "Architecture optimization",
+        "D": "Tagging enforcement"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1099,
+      "question": "A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS Step Functions",
+        "B": "Amazon Simple Notification Service (Amazon SNS)",
+        "C": "Amazon Kinesis Data Streams",
+        "D": "Amazon Simple Queue Service (Amazon SQS)"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1100,
+      "question": "A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS Step Functions",
+        "B": "Amazon Simple Notification Service (Amazon SNS)",
+        "C": "Amazon Kinesis Data Streams",
+        "D": "Amazon Simple Queue Service (Amazon SQS)"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1101,
+      "question": "A company is considering a move to the AWS Cloud. The company wants to be able to scale its compute resources as needed to accommodate changing loads. Which benefit of the AWS Cloud does this scenario describe?",
+      "options": {
+        "A": "Global deployments in minutes",
+        "B": "Cost savings",
+        "C": "Agility",
+        "D": "Elasticity"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1102,
+      "question": "A company is considering a move to the AWS Cloud. The company wants to be able to scale its compute resources as needed to accommodate changing loads. Which benefit of the AWS Cloud does this scenario describe?",
+      "options": {
+        "A": "Global deployments in minutes",
+        "B": "Cost savings",
+        "C": "Agility",
+        "D": "Elasticity"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1133,
+      "question": "A company has distributed its workload on both the AWS Cloud and some on premises servers. What type of architecture is this?",
+      "options": {
+        "A": "Virtual private network",
+        "B": "Virtual private cloud",
+        "C": "Hybrid cloud",
+        "D": "Private cloud"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1141,
+      "question": "A company has refined its workload to use specific AWS services to improve efficiency and reduce cost. Which best practice for cost governance does this example show?",
+      "options": {
+        "A": "Resource controls",
+        "B": "Cost allocation",
+        "C": "Architecture optimization",
+        "D": "Tagging enforcement"
+      },
+      "answer": "C",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1152,
+      "question": "A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS Step Functions",
+        "B": "Amazon Simple Notification Service (Amazon SNS)",
+        "C": "Amazon Kinesis Data Streams",
+        "D": "Amazon Simple Queue Service (Amazon SQS)"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1153,
+      "question": "A company is considering a move to the AWS Cloud. The company wants to be able to scale its compute resources as needed to accommodate changing loads. Which benefit of the AWS Cloud does this scenario describe?",
+      "options": {
+        "A": "Global deployments in minutes",
+        "B": "Cost savings",
+        "C": "Agility",
+        "D": "Elasticity"
+      },
+      "answer": "D",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1158,
+      "question": "A company is planning to launch a new system in AWS but they do not have an employee who has AWS-related expertise. Which of the following AWS channels can instead help the company design, architect, build, migrate, and manage their workloads and applications on AWS?",
+      "options": {
+        "A": "AWS Partner Network Consulting Partners",
+        "B": "AWS Partner Network Technology Partners",
+        "C": "AWS Marketplace",
+        "D": "Technical Account Management"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1161,
+      "question": "An e-commerce company wants to migrate its on-premise infrastructure to Amazon Web Services. However, they are worried about ensuring their migration is secure and efficient.Which of the following AWS Cloud Adoption Framework perspective would be the most essential for the",
+      "options": {
+        "A": "Security Perspective",
+        "B": "Platform Perspective",
+        "C": "Governance Perspective",
+        "D": "Operations Perspective"
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    },
+    {
+      "sourceIndex": 1170,
+      "question": "Which of the following is a key financial benefit of migrating systems hosted on your on-premises data center to AWS?",
+      "options": {
+        "A": "Opportunity to replace upfront capital expenses (CAPEX) with low variable costs",
+        "B": "Opportunity to replace variable capital expenses (CAPEX) with low upfront costs.",
+        "C": "Opportunity to replace variable operational expenses (OPEX) with low upfront capital expenses (CAPEX).",
+        "D": "Opportunity to replace upfront operational expenses (OPEX) with low variable operational expenses (OPEX)."
+      },
+      "answer": "A",
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition"
+    }
+  ]
+}

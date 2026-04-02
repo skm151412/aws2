@@ -1,0 +1,17 @@
+{
+  "categoryCounts": [
+    {"id": 1, "name": "Cloud Concepts and Value Proposition", "count": 12},
+    {"id": 2, "name": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)", "count": 12},
+    {"id": 3, "name": "Compute and EC2 Fundamentals", "count": 12},
+    {"id": 4, "name": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)", "count": 12},
+    {"id": 5, "name": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)", "count": 12},
+    {"id": 6, "name": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)", "count": 12},
+    {"id": 7, "name": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)", "count": 12},
+    {"id": 8, "name": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)", "count": 10},
+    {"id": 9, "name": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)", "count": 12},
+    {"id": 10, "name": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)", "count": 12},
+    {"id": 11, "name": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)", "count": 12},
+    {"id": 12, "name": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)", "count": 12}
+  ],
+  "totalQuestions": 142
+}

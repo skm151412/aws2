@@ -1,0 +1,800 @@
+{
+  "categoryId": 3,
+  "categoryName": "Compute and EC2 Fundamentals",
+  "count": 61,
+  "items": [
+    {
+      "sourceIndex": 2,
+      "question": "A batch workload takes 5 hours to finish on an Amazon EC2 instance. The amount of data to be processed doubles monthly and the processing time is proportional. What is the best cloud architecture to address this consistently growing demand?",
+      "options": {
+        "A": "Run the application on a bigger EC2 instance size.",
+        "B": "Switch to an EC2 instance family that better matches batch requirements.",
+        "C": "Distribute the application across multiple EC2 instances and run the workload in parallel.",
+        "D": "Run the application on a bare metal EC2 instance."
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 19,
+      "question": "A company has a Java web application. The company wants to use auto deployment to create the AWS environment and deploy new versions of its application. Which AWS service will meet these requirements?",
+      "options": {
+        "A": "AWS Auto Scaling",
+        "B": "AWS Elastic Beanstalk",
+        "C": "AWS Control Tower",
+        "D": "Amazon EC2"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 42,
+      "question": "A company implements an Amazon EC2 Auto Scaling policy along with an Application Load Balancer to automatically recover unhealthy applications that run on Amazon EC2 instances. Which pillar of the AWS Well Architected Framework does this action cover?",
+      "options": {
+        "A": "Security",
+        "B": "Performance efficiency",
+        "C": "Operational excellence",
+        "D": "Reliability"
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 55,
+      "question": "A company is hosting a web application in a Docker container on Amazon EC2. AWS is responsible for which of the following tasks?",
+      "options": {
+        "A": "Scaling the web application and services developed with Docker",
+        "B": "Provisioning or scheduling containers to run on clusters and maintain their availability",
+        "C": "Performing hardware maintenance in the AWS facilities that run the AWS Cloud",
+        "D": "Managing the guest operating system, including updates and security patches"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 56,
+      "question": "A company is launching a new application in the AWS Cloud. The application will run on an Amazon EC2 instance. More EC2 instances will be needed when the workload increases. Which AWS service or tool can the company use to launch the number of EC2 instances that will be needed to handle the workload?",
+      "options": {
+        "A": "Elastic Load Balancing",
+        "B": "Amazon EC2 Auto Scaling",
+        "C": "AWS App2Container (A2C)",
+        "D": "AWS Systems Manager"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 75,
+      "question": "A company is using Amazon EC2 Auto Scaling to scale its Amazon EC2 instances. Which benefit of the AWS Cloud does this example illustrate?",
+      "options": {
+        "A": "High availability",
+        "B": "Elasticity",
+        "C": "Reliability",
+        "D": "Global reach"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 90,
+      "question": "A company needs to plan, schedule, and run hundreds of thousands of computing jobs on AWS. Which AWS service can the company use to meet this requirement?",
+      "options": {
+        "A": "AWS Step Functions",
+        "B": "AWS Service Catalog",
+        "C": "Amazon Simple Queue Service (Amazon SQS)",
+        "D": "AWS Batch"
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 118,
+      "question": "A company wants to create templates that the company can reuse to deploy multiple AWS resources. Which AWS service or feature can the company use to meet this requirement?",
+      "options": {
+        "A": "AWS Marketplace",
+        "B": "Amazon Machine Image (AMI)",
+        "C": "AWS CloudFormation",
+        "D": "AWS OpsWorks"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 157,
+      "question": "underlying components, so when one component fails the entire web application fails. Applying which AWS Cloud design principle will address the current design issue?",
+      "options": {
+        "A": "Implementing elasticity, enabling the application to scale up or scale down as demand changes.",
+        "B": "Enabling several EC2 instances to run in parallel to achieve better performance.",
+        "C": "Focusing on decoupling components by isolating them and ensuring individual components can function when other components fail.",
+        "D": "Doubling EC2 computing resources to increase system fault tolerance."
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 167,
+      "question": "A large company has a workload that requires hardware to remain on premises. The company wants to use the same management and control plane services that it currently uses on AWS. Which AWS service should the company use to meet these requirements?",
+      "options": {
+        "A": "AWS Device Farm",
+        "B": "AWS Fargate",
+        "C": "AWS Outposts",
+        "D": "AWS Ground Station"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 187,
+      "question": "A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud. Which service should be used to deploy the application?",
+      "options": {
+        "A": "AWS CloudFormation",
+        "B": "AWS Elastic Beanstalk",
+        "C": "Amazon EC2",
+        "D": "AWS OpsWorks"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 263,
+      "question": "How do Amazon EC2 Auto Scaling groups help achieve high availability for a web application?",
+      "options": {
+        "A": "They automatically add more instances across multiple AWS Regions based on global demand of the application.",
+        "B": "They automatically add or replace instances across multiple Availability Zones when the application needs it.",
+        "C": "They enable the application's static content to reside closer to end users.",
+        "D": "They are able to distribute incoming requests across a tier of web server instances."
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 265,
+      "question": "efficiencies",
+      "options": {
+        "A": "",
+        "B": "New Amazon EC2 instance types providing the latest hardware",
+        "C": "The ability to scale up and down when needed",
+        "D": "Increased reliability in the underlying hardware of Amazon EC2 instances"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 275,
+      "question": "How should a web application be deployed to ensure high availability in the AWS Cloud?",
+      "options": {
+        "A": "Deploy multiple instances of the application in multiple Availability Zones.",
+        "B": "Deploy multiple instances of the application in a single Availability Zone.",
+        "C": "Deploy the application to a compute-optimized Amazon EC2 instance in a single Availability Zone.",
+        "D": "Deploy the application in one Amazon EC2 instance in an Auto Scaling group."
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 287,
+      "question": "The ability to horizontally scale Amazon EC2 instances based on demand is an example of which concept in the AWS Cloud value proposition?",
+      "options": {
+        "A": "Economy of scale",
+        "B": "Elasticity",
+        "C": "High availability",
+        "D": "Agility"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 308,
+      "question": "responsibility when managing AWS Lambda functions?",
+      "options": {
+        "A": "Creating versions of Lambda functions",
+        "B": "Maintaining server and operating systems",
+        "C": "Scaling Lambda resources according to demand",
+        "D": "Updating the Lambda runtime environment"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 312,
+      "question": "Using Amazon Elastic Container Service (Amazon ECS) to break down a monolithic architecture into microservices is an example of:",
+      "options": {
+        "A": "a loosely coupled architecture.",
+        "B": "a tightly coupled architecture.",
+        "C": "a stateless architecture.",
+        "D": "a stateful architecture."
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 316,
+      "question": "Web servers running on Amazon EC2 access a legacy application running in a corporate data center. What term would describe this model?",
+      "options": {
+        "A": "Cloud-native",
+        "B": "Partner network",
+        "C": "Hybrid architecture",
+        "D": "Infrastructure as a service"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 317,
+      "question": "What approach to transcoding a large number of individual video files adheres to AWS architecture principles?",
+      "options": {
+        "A": "Using many instances in parallel",
+        "B": "Using a single large instance during off-peak hours",
+        "C": "Using dedicated hardware",
+        "D": "Using a large GPU instance type"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 355,
+      "question": "What is one of the core principles to follow when designing a highly available application in the AWS Cloud?",
+      "options": {
+        "A": "Design using a serverless architecture",
+        "B": "Assume that all components within an application can fail",
+        "C": "Design AWS Auto Scaling into every application",
+        "D": "Design all components using open-source code"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 365,
+      "question": "What is the maximum time a Lambda function may run before timing out?",
+      "options": {
+        "A": "15 minutes",
+        "B": "5 minutes",
+        "C": "1 minute",
+        "D": "1 hour"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 375,
+      "question": "What technology enables compute capacity to adjust as loads change?",
+      "options": {
+        "A": "Load balancing",
+        "B": "Automatic failover",
+        "C": "Round robin",
+        "D": "Auto Scaling"
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 415,
+      "question": "Which AWS Cloud best practice uses the elasticity and agility of cloud computing?",
+      "options": {
+        "A": "Provision capacity based on past usage and theoretical peaks",
+        "B": "Dynamically and predictively scale to meet usage demands",
+        "C": "Build the application and infrastructure in a data center that grants physical access",
+        "D": "Break apart the application into loosely coupled components"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 433,
+      "question": "Which AWS service acts as a data extract, transform, and load (ETL) tool to make it easy to prepare data for analytics?",
+      "options": {
+        "A": "Amazon QuickSight",
+        "B": "Amazon Athena",
+        "C": "AWS Glue",
+        "D": "AWS Elastic Beanstalk"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 444,
+      "question": "Which AWS service can be used in the application deployment process?",
+      "options": {
+        "A": "AWS AppSync",
+        "B": "AWS Batch",
+        "C": "AWS CodePipeline",
+        "D": "AWS DataSync"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 481,
+      "question": "Which AWS service is designed to help users who want to use machine learning for natural language processing (NLP) but do not have experience in machine learning?",
+      "options": {
+        "A": "Amazon Comprehend",
+        "B": "Amazon SageMaker",
+        "C": "AWS Deep Learning AMIs (DLAMI)",
+        "D": "Amazon Rekognition"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 482,
+      "question": "Which AWS service is suitable for an event-driven workload?",
+      "options": {
+        "A": "Amazon EC2",
+        "B": "AWS Elastic Beanstalk",
+        "C": "AWS Lambda",
+        "D": "Amazon Lumberyard"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 509,
+      "question": "Which AWS service or feature provides an online, managed software catalog that helps users purchase and deploy thirdparty software?",
+      "options": {
+        "A": "AWS Support",
+        "B": "AWS Marketplace",
+        "C": "Amazon EC2 private Amazon Machine Images (AMIs)",
+        "D": "AWS reseller programs"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 540,
+      "question": "Which AWS service supports a hybrid architecture that gives users the ability to extend AWS infrastructure, AWS services, APIs, and tools to data centers, co-location environments, or on-premises facilities?",
+      "options": {
+        "A": "AWS Snowmobile",
+        "B": "AWS Local Zones",
+        "C": "AWS Outposts",
+        "D": "AWS Fargate"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 594,
+      "question": "Which of the following can a customer use to enable single sign-on (SSO) to the AWS Console?",
+      "options": {
+        "A": "Amazon Connect",
+        "B": "AWS Directory Service",
+        "C": "Amazon Pinpoint",
+        "D": "Amazon Rekognition"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 637,
+      "question": "Which of the following security-related aspects of running an Amazon Elastic Compute Cloud (Amazon EC2) instance is the responsibility of AWS?",
+      "options": {
+        "A": "Security of private keys",
+        "B": "Hypervisor software updates",
+        "C": "Security updates to software running on the instance",
+        "D": "Policies controlling instance access"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 640,
+      "question": "Which of the following services is in the category of AWS serverless platform?",
+      "options": {
+        "A": "Amazon EMR",
+        "B": "Elastic Load Balancing",
+        "C": "AWS Lambda",
+        "D": "AWS Mobile Hub"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 677,
+      "question": "Which statement best describes Elastic Load Balancing?",
+      "options": {
+        "A": "It translates a domain name into an IP address using DNS.",
+        "B": "It distributes incoming application traffic across one or more Amazon EC2 instances.",
+        "C": "It collects metrics on connected Amazon EC2 instances.",
+        "D": "It automatically adjusts the number of Amazon EC2 instances to support incoming traffic."
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 753,
+      "question": "What cloud computing model deals with services such as EC2 instances?",
+      "options": {
+        "A": "IaaS",
+        "B": "PaaS",
+        "C": "SaaS",
+        "D": "DBaaS"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 766,
+      "question": "What cloud computing model deals with services such as EC2 instances?",
+      "options": {
+        "A": "IaaS",
+        "B": "PaaS",
+        "C": "SaaS",
+        "D": "DBaaS"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 784,
+      "question": "What is the function of an EC2 AMI?",
+      "options": {
+        "A": "To define the hardware profile used by an EC2 instance",
+        "B": "To serve as an instance storage volume for high-volume data processing operations volume is built",
+        "C": "",
+        "D": "To define the way data streams are managed by EC2 instances"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 785,
+      "question": "What is the function of an EC2 AMI?",
+      "options": {
+        "A": "To define the hardware profile used by an EC2 instance",
+        "B": "To serve as an instance storage volume for high-volume data processing operations",
+        "C": "T volume is built",
+        "D": "To define the way data streams are managed by EC2 instances"
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 788,
+      "question": "When describing EC2 instance types, what is the role played by the vCPU metric? network demands. of memory modules on a physical machine. processors on a physical machine. number of processors on a physical machine.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 789,
+      "question": "When describing EC2 instance types, what is the role played by the vCPU metric? network demands. of memory modules on a physical machine. processors on a physical machine. number of processors on a physical machine.",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 790,
+      "question": "Where can you find a wide range of verified AMIs from both AWS and third party vendors?",
+      "options": {
+        "A": "AWS Marketplace",
+        "B": "Quick Start",
+        "C": "Community AMIs",
+        "D": "My AMIs"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 791,
+      "question": "Where can you find a wide range of verified AMIs from both AWS and third party vendors?",
+      "options": {
+        "A": "AWS Marketplace",
+        "B": "Quick Start",
+        "C": "Community AMIs",
+        "D": "My AMIs"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 828,
+      "question": "Which of the following SSH commands will successfully connect to an EC2 Amazon Linux instance with an IP address of 54.7.35.103 using a key named mykey.pem?",
+      "options": {
+        "A": "echo \"mykey.pem ubuntu@54.7.35.103\" | ssh -i",
+        "B": "ssh -i mykey.pem ec2-user@54.7.35.103",
+        "C": "ssh -i mykey.pem@54.7.35.103",
+        "D": "ssh ec2-user@mykey.pem.54.7.35.103 -i"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 829,
+      "question": "Which of the following SSH commands will successfully connect to an EC2 Amazon Linux instance with an IP address of 54.7.35.103 using a key named mykey.pem?",
+      "options": {
+        "A": "echo \"mykey.pem ubuntu@54.7.35.103\" | ssh -i",
+        "B": "ssh -i mykey.pem ec2-user@54.7.35.103",
+        "C": "ssh -i mykey.pem@54.7.35.103",
+        "D": "ssh ec2-user@mykey.pem.54.7.35.103 -i"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 885,
+      "question": "A customer needs to retrieve the instance ID, instance profile permissions, and kernel information of their EC2 instance for an app that is running within the same instance. Where can the customer find this information?",
+      "options": {
+        "A": "Instance metadata",
+        "B": "Instance user data",
+        "C": "Amazon Machine Image",
+        "D": "Resource tag"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 889,
+      "question": "Which of the following is true regarding Elastic Load Balancing?",
+      "options": {
+        "A": "It distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, in multiple Availability Zones.",
+        "B": "It is a virtual server that allows you to run your applications in the AWS Cloud.",
+        "C": "It automatically increases or decreases the number of instances as the demand of your application changes.",
+        "D": "It translates domain names (such as www.tutorialsdojo.com) into numeric IP addresses (such as 192.0.2.1) that Amazon EC2 instances use to connect to each other."
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 926,
+      "question": "A customer needs to retrieve the instance ID, instance profile permissions, and kernel information of their EC2 instance for an app that is running within the same instance. Where can the customer find this information?",
+      "options": {
+        "A": "Instance metadata",
+        "B": "Instance user data",
+        "C": "Amazon Machine Image",
+        "D": "Resource tag"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 944,
+      "question": "Which of the following EC2 services can be used without charge under the Free Tier?",
+      "options": {
+        "A": "t2.micro EC2 instance type instances for a total of 750 hours per month",
+        "B": "A single t2.micro EC2 instance type instance for 750 hours per month",
+        "C": "Any single EC2 instance type as long as it runs for less than 75 hours per month",
+        "D": "In Any single EC2 instance type as long as it runs for less than one hour per day"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 945,
+      "question": "Which of the following EC2 services can be used without charge under the Free Tier?",
+      "options": {
+        "A": "t2.micro EC2 instance type instances for a total of 750 hours per month",
+        "B": "A single t2.micro EC2 instance type instance for 750 hours per month",
+        "C": "Any single EC2 instance type as long as it runs for less than 75 hours per month",
+        "D": "In Any single EC2 instance type as long as it runs for less than one hour per day"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 950,
+      "question": "Which of the following is not a setting you can configure in a Cost budget?",
+      "options": {
+        "A": "Period (monthly, quarterly, etc.)",
+        "B": "Instance type",
+        "C": "Start and stop dates",
+        "D": "Owner (username of resource owner)"
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 951,
+      "question": "Which of the following is not a setting you can configure in a Cost budget?",
+      "options": {
+        "A": "Period (monthly, quarterly, etc.)",
+        "B": "Instance type",
+        "C": "Start and stop dates",
+        "D": "Owner (username of resource owner)"
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 989,
+      "question": "You want to improve the resilience of your EC2 web server. Which of the following is the most effective and efficient approach?",
+      "options": {
+        "A": "Launch parallel, load-balanced instances in multiple AWS Regions.",
+        "B": "Launch parallel, load-balanced instances in multiple Availability Zones within a single AWS Region.",
+        "C": "Launch parallel, autoscaled instances in multiple AWS Regions.",
+        "D": "Launch parallel, autoscaled instances in multiple Availability Zones within a single AWS Region."
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1007,
+      "question": "A batch workload takes 5 hours to finish on an Amazon EC2 instance. The amount of data to be processed doubles monthly and the processing time is proportional. What is the best cloud architecture to address this consistently growing demand?",
+      "options": {
+        "A": "Run the application on a bigger EC2 instance size.",
+        "B": "Switch to an EC2 instance family that better matches batch requirements.",
+        "C": "Distribute the application across multiple EC2 instances and run the workload in parallel.",
+        "D": "Run the application on a bare metal EC2 instance."
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1008,
+      "question": "A batch workload takes 5 hours to finish on an Amazon EC2 instance. The amount of data to be processed doubles monthly and the processing time is proportional. What is the best cloud architecture to address this consistently growing demand?",
+      "options": {
+        "A": "Run the application on a bigger EC2 instance size.",
+        "B": "Switch to an EC2 instance family that better matches batch requirements.",
+        "C": "Distribute the application across multiple EC2 instances and run the workload in parallel.",
+        "D": "Run the application on a bare metal EC2 instance."
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1041,
+      "question": "A company has a Java web application. The company wants to use auto deployment to create the AWS environment and deploy new versions of its application. Which AWS service will meet these requirements?",
+      "options": {
+        "A": "AWS Auto Scaling",
+        "B": "AWS Elastic Beanstalk",
+        "C": "AWS Control Tower",
+        "D": "Amazon EC2"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1042,
+      "question": "A company has a Java web application. The company wants to use auto deployment to create the AWS environment and deploy new versions of its application. Which AWS service will meet these requirements?",
+      "options": {
+        "A": "AWS Auto Scaling",
+        "B": "AWS Elastic Beanstalk",
+        "C": "AWS Control Tower",
+        "D": "Amazon EC2"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1087,
+      "question": "A company implements an Amazon EC2 Auto Scaling policy along with an Application Load Balancer to automatically recover unhealthy applications that run on Amazon EC2 instances. Which pillar of the AWS Well Architected Framework does this action cover?",
+      "options": {
+        "A": "Security",
+        "B": "Performance efficiency",
+        "C": "Operational excellence",
+        "D": "Reliability"
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1088,
+      "question": "A company implements an Amazon EC2 Auto Scaling policy along with an Application Load Balancer to automatically recover unhealthy applications that run on Amazon EC2 instances. Which pillar of the AWS Well Architected Framework does this action cover?",
+      "options": {
+        "A": "Security",
+        "B": "Performance efficiency",
+        "C": "Operational excellence",
+        "D": "Reliability"
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1106,
+      "question": "A batch workload takes 5 hours to finish on an Amazon EC2 instance. The amount of data to be processed doubles monthly and the processing time is proportional. What is the best cloud architecture to address this consistently growing demand?",
+      "options": {
+        "A": "Run the application on a bigger EC2 instance size.",
+        "B": "Switch to an EC2 instance family that better matches batch requirements.",
+        "C": "Distribute the application across multiple EC2 instances and run the workload in parallel.",
+        "D": "Run the application on a bare metal EC2 instance."
+      },
+      "answer": "C",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1123,
+      "question": "A company has a Java web application. The company wants to use auto deployment to create the AWS environment and deploy new versions of its application. Which AWS service will meet these requirements?",
+      "options": {
+        "A": "AWS Auto Scaling",
+        "B": "AWS Elastic Beanstalk",
+        "C": "AWS Control Tower",
+        "D": "Amazon EC2"
+      },
+      "answer": "B",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1146,
+      "question": "A company implements an Amazon EC2 Auto Scaling policy along with an Application Load Balancer to automatically recover unhealthy applications that run on Amazon EC2 instances. Which pillar of the AWS Well Architected Framework does this action cover?",
+      "options": {
+        "A": "Security",
+        "B": "Performance efficiency",
+        "C": "Operational excellence",
+        "D": "Reliability"
+      },
+      "answer": "D",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    },
+    {
+      "sourceIndex": 1155,
+      "question": "A company has web servers running on Amazon EC2 instances that access a RESTful API hosted on their on-premises data center. What kind of architecture is the company using?",
+      "options": {
+        "A": "Hybrid Architecture",
+        "B": "Platform as a Service (PaaS)",
+        "C": "Software as a Service (SaaS)",
+        "D": "Serverless Architecture"
+      },
+      "answer": "A",
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals"
+    }
+  ]
+}

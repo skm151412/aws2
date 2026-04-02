@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "source": "User-provided AWS question bank in chat prompt",
+    "method": "Manual read-through and categorization",
+    "deduplication": "Exact duplicate question stems removed"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cloud Concepts and Value Proposition",
+      "items": [
+        {"question": "A company is considering a move to the AWS Cloud. The company wants to be able to scale its compute resources as needed to accommodate changing loads. Which benefit of the AWS Cloud does this scenario describe?", "answer": "D"},
+        {"question": "A company has distributed its workload on both the AWS Cloud and some on-premises servers. What type of architecture is this?", "answer": "C"},
+        {"question": "A company that does business online needs to quickly deliver new functionality in an iterative manner, minimizing the time to market. Which AWS Cloud feature can provide this?", "answer": "C"},
+        {"question": "A startup is working on a new application that needs to go to market quickly. The application requirements may need to be adjusted in the near future. Which characteristic of the AWS Cloud would meet this specific need?", "answer": "D"},
+        {"question": "A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?", "answer": "B"},
+        {"question": "What is a value proposition of the AWS Cloud?", "answer": "B"},
+        {"question": "The pay-as-you-go pricing model for AWS services:", "answer": "A"},
+        {"question": "How can the AWS Cloud increase user workforce productivity after migration from an on-premises data center?", "answer": "A"},
+        {"question": "What does it mean if a user deploys a hybrid cloud architecture on AWS?", "answer": "D"},
+        {"question": "How can a company reduce its Total Cost of Ownership (TCO) using AWS?", "answer": "A"},
+        {"question": "Which cloud architecture concept describes the ability to deploy resources on demand and release resources when they are no longer needed?", "answer": "D"},
+        {"question": "What is an example of agility in the AWS Cloud?", "answer": "D"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)",
+      "items": [
+        {"question": "A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas. Which of the following meets these requirements?", "answer": "B"},
+        {"question": "A company has a globally distributed user base. Which AWS architectural approach will most effectively support high availability and low latency?", "answer": "B"},
+        {"question": "A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. Which AWS infrastructure component should the company replicate across?", "answer": "B"},
+        {"question": "What are the multiple, isolated locations within an AWS Region that are connected by low-latency networks called?", "answer": "D"},
+        {"question": "How should a web application be deployed to ensure high availability in the AWS Cloud?", "answer": "A"},
+        {"question": "What should users do if they want to install an application in geographically isolated locations?", "answer": "C"},
+        {"question": "A large company has a workload that requires hardware to remain on premises but wants AWS control plane consistency. Which AWS service should the company use?", "answer": "C"},
+        {"question": "Which type of AWS infrastructure deployment puts AWS compute, storage, database, and other select services closer to end users to run latency-sensitive applications?", "answer": "C"},
+        {"question": "Which statement below is correct regarding the components of the AWS Global Infrastructure?", "answer": "A"},
+        {"question": "Which of the following is not a part of the AWS Global Infrastructure?", "answer": "A"},
+        {"question": "A company wants to deploy some resources in AWS but keep data local and on premises with low latency between AWS and company resources. Which feature can be used?", "answer": "C"},
+        {"question": "A new service using AWS must be highly available, yet all EC2 instances must be in a single geographic area. According to best practices, instances must be placed in at least two:", "answer": "B"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Compute and EC2 Fundamentals",
+      "items": [
+        {"question": "Which AWS service can be used to manually launch instances based on resource requirements?", "answer": "B"},
+        {"question": "Which AWS feature enables a user to launch a pre-configured Amazon EC2 instance?", "answer": "B"},
+        {"question": "What is the function of an EC2 AMI?", "answer": "C"},
+        {"question": "A company is launching a new application in the AWS Cloud that will run on EC2, and more instances are needed when workload increases. Which service can launch needed instances?", "answer": "B"},
+        {"question": "A solutions architect needs to maintain a fleet of EC2 instances so impaired instances are replaced with new ones. Which service should be used?", "answer": "D"},
+        {"question": "Which mechanism allows developers to access AWS services from application code?", "answer": "A"},
+        {"question": "A customer needs to retrieve the instance ID, instance profile permissions, and kernel information from within the same EC2 instance. Where can this information be found?", "answer": "A"},
+        {"question": "Which AWS service can be used to provide an on-demand, cloud-based contact center?", "answer": "B"},
+        {"question": "What role can the Python programming language play in AWS Lambda?", "answer": "D"},
+        {"question": "Which AWS service or resource is serverless?", "answer": "A"},
+        {"question": "Which of the following is needed to retrieve a list of your EC2 instances using the AWS CLI?", "answer": "A"},
+        {"question": "Which of the following describes what happens when you purchase an EC2 Reserved Instance?", "answer": "A"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)",
+      "items": [
+        {"question": "A cloud practitioner has an infrequently executed workload that can be interrupted without harm. Which EC2 purchasing option should be used?", "answer": "C"},
+        {"question": "A company is moving development and test environments to AWS. Occasional unavailability is acceptable. What is the most cost-effective EC2 pricing model?", "answer": "C"},
+        {"question": "A company is migrating an application that runs non-interruptible workloads for a three-year timeframe. Which pricing construct is most cost-effective?", "answer": "D"},
+        {"question": "A user has a stateful workload that will run on EC2 for the next 3 years. What is the most cost-effective pricing model?", "answer": "B"},
+        {"question": "A user has a stateless and restartable application that runs for 2 hours at a time. Which purchase option is most cost-effective?", "answer": "D"},
+        {"question": "Which Amazon EC2 pricing model can provide discounts of up to 90%?", "answer": "D"},
+        {"question": "Which Amazon EC2 pricing model adjusts based on supply and demand of EC2 instances?", "answer": "C"},
+        {"question": "Which EC2 pricing model should be used to comply with per-core software license requirements?", "answer": "A"},
+        {"question": "After selecting an EC2 Dedicated Host reservation, which pricing option provides the largest discount?", "answer": "D"},
+        {"question": "Which Amazon EC2 pricing option is best for short-term, spiky, unpredictable workloads that cannot be interrupted?", "answer": "C"},
+        {"question": "A company uses EC2 for steady-state workloads and needs significant cost savings. Which pricing model should be selected?", "answer": "A"},
+        {"question": "Your web application experiences periodic spikes that require extra instances. Which pricing model makes most sense for those extra instances?", "answer": "B"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)",
+      "items": [
+        {"question": "A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements at the lowest cost. Which service should be used?", "answer": "D"},
+        {"question": "Which AWS service should be used for long-term, low-cost storage of data backups?", "answer": "B"},
+        {"question": "What is the lowest-cost, durable storage option for retaining database backups for immediate retrieval?", "answer": "A"},
+        {"question": "A company wants durable storage for static content and infinitely scalable data storage infrastructure at the lowest cost. Which service should be chosen?", "answer": "B"},
+        {"question": "An application runs on multiple EC2 instances that access a shared file system simultaneously. Which storage service should be used?", "answer": "B"},
+        {"question": "A company migrating on-premises data center to AWS wants NFS access for Linux clients. Which service should be used?", "answer": "B"},
+        {"question": "A company needs to transfer petabytes of data quickly from on premises to AWS Cloud. Which service should be used?", "answer": "A"},
+        {"question": "A company needs one-time migration of 40 TB to S3 over 100 Mbps internet while minimizing costs. Which service meets requirements?", "answer": "A"},
+        {"question": "Which AWS hybrid storage service enables on-premises applications to seamlessly use cloud storage via standard file-storage protocols?", "answer": "C"},
+        {"question": "Which type of AWS storage is ephemeral and deleted when an instance is stopped or terminated?", "answer": "B"},
+        {"question": "Which feature can be used to protect S3 buckets from accidental overwrites or deletes?", "answer": "B"},
+        {"question": "What service provides the lowest-cost storage option for retaining database backups with occasional retrieval in minutes?", "answer": "A"}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)",
+      "items": [
+        {"question": "A company has multiple data sources and wants to consolidate data into one data warehouse. Which service can be used?", "answer": "B"},
+        {"question": "A company needs to run graphical queries with high throughput. Which service helps meet these requirements?", "answer": "C"},
+        {"question": "A company building shopping recommendations needs a graph database. Which service should it choose?", "answer": "C"},
+        {"question": "A company wants to move on-premises key-value database to AWS. Which service supports this use case?", "answer": "C"},
+        {"question": "A company wants to migrate a MySQL database to AWS but reduce operational overhead for patching/backups/provisioning. Which service should be used?", "answer": "A"},
+        {"question": "A company running SQL Server on premises wants minimal refactoring and lower ops overhead in AWS. Which service best supports this?", "answer": "D"},
+        {"question": "Which AWS service is a managed NoSQL database?", "answer": "B"},
+        {"question": "Which AWS service is a relational database compatible with MySQL and PostgreSQL?", "answer": "C"},
+        {"question": "Which service is best for storing common database query results to alleviate database access load?", "answer": "C"},
+        {"question": "A business-critical RDS for MySQL in a single AZ needs improved availability. Which solution should be used?", "answer": "C"},
+        {"question": "A company has a MySQL database on a single EC2 instance and needs higher availability. Which set of tasks meets requirement?", "answer": "C"},
+        {"question": "Which AWS service can run a managed PostgreSQL database for OLTP?", "answer": "C"}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)",
+      "items": [
+        {"question": "A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. Which service can fulfill this requirement?", "answer": "A"},
+        {"question": "A company moving office must establish an encrypted connection to AWS. Which service helps meet this requirement?", "answer": "A"},
+        {"question": "A company requires a dedicated network connection between on-premises servers and AWS Cloud. Which service should be used?", "answer": "B"},
+        {"question": "Which AWS service or feature allows a user to establish a dedicated network connection between an on-premises data center and AWS Cloud?", "answer": "A"},
+        {"question": "A company wants to route traffic directly and privately to a VPC without going over the public internet. Which option provides this capability?", "answer": "D"},
+        {"question": "A company wants to securely access an S3 bucket from EC2 without accessing the internet. What should it use?", "answer": "C"},
+        {"question": "A company has many VPCs across accounts and wants simplified interconnect management. Which service should be used?", "answer": "C"},
+        {"question": "Which AWS service or feature can simplify management of hundreds of VPC connections across Regions?", "answer": "A"},
+        {"question": "Which VPC component provides a layer of security at the subnet level?", "answer": "B"},
+        {"question": "Which AWS feature or service should be used to restrict inbound traffic to one EC2 instance without affecting others?", "answer": "B"},
+        {"question": "Which VPC component allows inbound traffic from the internet to access a VPC?", "answer": "A"},
+        {"question": "Which AWS service is a highly available and scalable DNS web service?", "answer": "C"}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)",
+      "items": [
+        {"question": "A characteristic of edge locations is that they:", "answer": "B"},
+        {"question": "Users are reporting latency when connecting to a website with a global customer base. Which AWS service will improve the experience by reducing latency?", "answer": "A"},
+        {"question": "A company hosts images in S3 for a global public website. Which service will deliver this content with reduced latency?", "answer": "C"},
+        {"question": "A company is building an application that needs to deliver images and videos globally with minimal latency. Which approach should it use?", "answer": "A"},
+        {"question": "A media company wants to distribute video globally using AWS backbone and cached content with low latency. Which service meets these requirements?", "answer": "A"},
+        {"question": "Which AWS service can monitor endpoint health and route traffic to healthy regional endpoints?", "answer": "C"},
+        {"question": "Which AWS service or feature improves network performance by sending traffic through the AWS worldwide network infrastructure?", "answer": "C"},
+        {"question": "What does Amazon CloudFront provide?", "answer": "B"},
+        {"question": "Which AWS service is a content delivery network that securely delivers data, video, and applications to users globally with low latency?", "answer": "C"},
+        {"question": "Which of the AWS global infrastructure components are used to cache copies of content for faster delivery to users across the globe?", "answer": "C"}
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)",
+      "items": [
+        {"question": "A company hosts an application on EC2 that needs access to S3 and DynamoDB. What is the most operationally efficient way to delegate permissions?", "answer": "A"},
+        {"question": "A company has a managed IAM policy that does not grant required permissions. How can this be resolved?", "answer": "B"},
+        {"question": "Which AWS IAM feature is used to associate a set of permissions with multiple users?", "answer": "B"},
+        {"question": "How would an AWS customer easily apply common access controls to a large set of users?", "answer": "A"},
+        {"question": "Using IAM, what can be attached to an EC2 instance to make service requests?", "answer": "B"},
+        {"question": "Using IAM to grant access only to resources needed is known as:", "answer": "C"},
+        {"question": "Which action is consistent with least privilege in AWS architecture?", "answer": "A"},
+        {"question": "Access keys in IAM are used to:", "answer": "B"},
+        {"question": "To use the AWS CLI, users are required to generate:", "answer": "B"},
+        {"question": "What is an IAM best practice for root user access keys?", "answer": "A"},
+        {"question": "How does multi-factor authentication work?", "answer": "D"},
+        {"question": "Which service should be used to provide temporary AWS credentials for social identities and unauthenticated guest users?", "answer": "A"}
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)",
+      "items": [
+        {"question": "A company hosting a website behind an ALB wants to safeguard against SQL injection and cross-site scripting. Which service should be used?", "answer": "B"},
+        {"question": "A company needs expanded DDoS protection and expert assistance during attacks. Which managed service should be used?", "answer": "A"},
+        {"question": "Which AWS security service protects applications from DDoS attacks with always-on detection and automatic mitigations?", "answer": "D"},
+        {"question": "A company recently migrated to AWS and wants intelligent threat protection and continuous monitoring across accounts. Which service should be used?", "answer": "B"},
+        {"question": "A user needs to discover and classify sensitive data in S3. Which service can meet this requirement?", "answer": "B"},
+        {"question": "A user needs automated security assessment reports for unintended network access and vulnerabilities on EC2 instances. Which service provides this?", "answer": "D"},
+        {"question": "For compliance reports and agreements before migration, which service provides on-demand access?", "answer": "B"},
+        {"question": "During compliance review, one auditor requires an AWS SOC 2 report. Which service should be used?", "answer": "C"},
+        {"question": "A company needs to encrypt data stored on S3. Which AWS managed service can help accomplish this?", "answer": "D"},
+        {"question": "Under the AWS shared responsibility model, which task is AWS responsible for?", "answer": "A"},
+        {"question": "Under the AWS shared responsibility model, which is a customer responsibility?", "answer": "D"},
+        {"question": "Under the shared responsibility model, which control is shared between customer and AWS?", "answer": "B"}
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)",
+      "items": [
+        {"question": "A company believes an unauthorized user copied data from an S3 bucket. Which service records the actions taken by the user?", "answer": "B"},
+        {"question": "A company must keep records of all resource changes made through the console and AWS APIs. Which service should be used?", "answer": "B"},
+        {"question": "A company must track account activity and know when API calls are made against resources. Which service can be used?", "answer": "C"},
+        {"question": "A company has a compliance requirement to record and evaluate configuration changes and perform remediation actions. Which service should be used?", "answer": "A"},
+        {"question": "A user needs to regularly audit and evaluate setup of all AWS resources and be notified when a resource changes. Which service can be used?", "answer": "B"},
+        {"question": "A security officer wants a list of potential vulnerabilities in EC2 security groups. Which service should be used?", "answer": "B"},
+        {"question": "To avoid malicious compute activities, a user needs a quick way to determine if EC2 instances have unrestricted ports. Which service supports this?", "answer": "D"},
+        {"question": "Which service provides a customized view of the health of specific AWS services and account events?", "answer": "C"},
+        {"question": "Which dashboard displays relevant and timely information about events in progress and scheduled activities for an account?", "answer": "B"},
+        {"question": "Which AWS service should a company use to continuously monitor compliance of resource configurations?", "answer": "B"},
+        {"question": "What service allows you to create alarms that notify you when EC2 CPU Utilization thresholds are breached?", "answer": "A"},
+        {"question": "What is AWS Trusted Advisor?", "answer": "C"}
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)",
+      "items": [
+        {"question": "A Cloud Practitioner identifies a billing issue after examining Cost and Usage Report. Which action can resolve this?", "answer": "A"},
+        {"question": "A Cloud Practitioner is asked how to estimate cost of a new application on AWS. What is most appropriate response?", "answer": "B"},
+        {"question": "A company has multiple AWS accounts and wants to simplify and consolidate billing. Which service will achieve this?", "answer": "B"},
+        {"question": "A company has multiple departments each with separate accounts and wants one bill. Which service/tool should be used?", "answer": "C"},
+        {"question": "A company wants to monitor and forecast AWS costs and set event-driven alerts if limits are exceeded. Which tool should be used?", "answer": "A"},
+        {"question": "Which AWS tool is used to compare on-premises cost to AWS cloud cost?", "answer": "C"},
+        {"question": "Which AWS service or feature allows visualization and management of AWS costs and usage over time?", "answer": "B"},
+        {"question": "Which AWS Cost Management tool provides the most granular billing data?", "answer": "C"},
+        {"question": "Which AWS tools automatically forecast future AWS costs?", "answer": "D"},
+        {"question": "How can consolidated billing lower overall monthly expenses across multiple accounts?", "answer": "A"},
+        {"question": "A company with AWS Enterprise Support has questions about its consolidated bill. Which feature/tool should be used for assistance?", "answer": "B"},
+        {"question": "Which AWS support plan includes a dedicated Technical Account Manager?", "answer": "B"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Topic Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="heading">
+            <h1>AWS Topic-wise Practice</h1>
+            <div id="timer" aria-live="polite">180:00</div>
+        </header>
+
+        <main class="container">
+            <section class="left box" aria-label="Question panel">
+                <form id="quizForm" novalidate>
+                    <div id="questionCard" class="question" hidden>
+                        <p id="questionText"></p>
+                        <div id="optionsContainer"></div>
+                    </div>
+                    <div id="loadingMessage" class="status">Loading questions...</div>
+                    <div id="errorMessage" class="status error" hidden></div>
+                </form>
+
+                <div class="navigation">
+                    <button type="button" class="btn" id="prevBtn">Previous</button>
+                    <button type="button" class="btn" id="nextBtn">Next</button>
+                </div>
+
+                <button type="button" id="submitBtn">Check Topic Answers</button>
+            </section>
+
+            <aside class="right box" aria-label="Topic and question navigation">
+                <div id="questionGrid" class="question-grid"></div>
+                <div id="topicNav" class="topic-nav"></div>
+            </aside>
+        </main>
+
+        <section id="result" aria-live="polite" hidden></section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

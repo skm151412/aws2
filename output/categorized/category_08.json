@@ -1,0 +1,1086 @@
+{
+  "categoryId": 8,
+  "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)",
+  "count": 83,
+  "items": [
+    {
+      "sourceIndex": 3,
+      "question": "A characteristic of edge locations is that they:",
+      "options": {
+        "A": "host Amazon EC2 instances closer to users.",
+        "B": "help lower latency and improve performance for users.",
+        "C": "cache frequently changing data without reaching the origin server.",
+        "D": "refresh data changes daily."
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 7,
+      "question": "A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas. Which of the following meets these requirements?",
+      "options": {
+        "A": "AWS Accounts",
+        "B": "AWS Regions",
+        "C": "Availability Zones",
+        "D": "Edge locations"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 18,
+      "question": "A company has a globally distributed user base. The company needs its application to be highly available and have low latency for end users. Which AWS architectural approach will MOST effectively support these requirements?",
+      "options": {
+        "A": "Single-Region, Multi-AZ architecture",
+        "B": "Multi-Region, active-active architecture",
+        "C": "Multi-Region, active-passive architecture",
+        "D": "Single-Region, Single-AZ architecture"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 23,
+      "question": "A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. What should the company do to reduce latency?",
+      "options": {
+        "A": "Implement AWS Direct Connect for users in Brazil",
+        "B": "Provision resources in the South America (São Paulo) Region in Brazil",
+        "C": "Use AWS Transit Gateway to quickly route users from Brazil to the application",
+        "D": "Launch additional Amazon EC2 instances in Sydney to handle the demand"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 41,
+      "question": "A company hosts its website on Amazon EC2 instances. The company needs to ensure that the website reaches a global audience and provides minimum latency to users. Which AWS service should the company use to meet these requirements?",
+      "options": {
+        "A": "Amazon Route 53",
+        "B": "Amazon CloudFront",
+        "C": "Elastic Load Balancing",
+        "D": "AWS Lambda"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 43,
+      "question": "A company is based in the us-east-1 Region and has a satellite office in the eu-west-2 Region. The company wants to use Amazon WorkSpaces to host its internal web portal and virtual desktops for employees. What should the company do to minimize latency and ensure the best possible performance for employees?",
+      "options": {
+        "A": "Deploy the internal web portal and virtual desktops to us-east-1 only. Use an Amazon CloudFront distribution for the users in eu-west-2.",
+        "B": "Deploy the internal web portal to us-east-1 only. Deploy the virtual desktops to us-east-1 and eu-west-2.",
+        "C": "Deploy the internal web portal to us-east-1 and eu-west-2. Deploy the virtual desktops on network optimized Amazon EC2 instances to us-east-1 only.",
+        "D": "Deploy the internal web portal and virtual desktops to us-east-1 and eu-west-2."
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 47,
+      "question": "A company is building an application that needs to deliver images and videos globally with minimal latency. Which approach can the company use to accomplish this in a cost effective manner?",
+      "options": {
+        "A": "Deliver the content through Amazon CloudFront.",
+        "B": "Store the content on Amazon S3 and enable S3 cross-region replication.",
+        "C": "Implement a VPN across multiple AWS Regions.",
+        "D": "Deliver the content through AWS PrivateLink."
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 53,
+      "question": "A company is designing an application hosted in a single AWS Region serving end-users spread across the world. The company wants to provide the end-users low latency access to the application data. Which of the following services will help fulfill this requirement?",
+      "options": {
+        "A": "Amazon CloudFront",
+        "B": "AWS Direct Connect",
+        "C": "Amazon Route 53 global DNS",
+        "D": "Amazon Simple Storage Service (Amazon S3) transfer acceleration"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 72,
+      "question": "A company is running an ecommerce application hosted in Europe. To decrease latency for users who access the website from other parts of the world, the company would like to cache frequently accessed static content closer to the users. Which AWS service will support these requirements?",
+      "options": {
+        "A": "Amazon ElastiCache",
+        "B": "Amazon CloudFront",
+        "C": "Amazon Elastic File System (Amazon EFS)",
+        "D": "Amazon Elastic Block Store (Amazon EBS)"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 76,
+      "question": "A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention. How can these requirements be met?",
+      "options": {
+        "A": "Use multiple Amazon Route 53 routes to the standby database instance endpoint hosted on AWS Storage Gateway.",
+        "B": "Configure Amazon RDS Multi-Availability Zone deployments with automatic failover to the standby.",
+        "C": "Add multiple Application Load Balancers and deploy the database instance with AWS Elastic Beanstalk.",
+        "D": "Deploy a single Network Load Balancer to distribute incoming traffic across multiple Amazon CloudFront origins."
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 79,
+      "question": "A company must store critical business data in Amazon S3 with a backup to another AWS Region. How can this be achieved?",
+      "options": {
+        "A": "Use an Amazon CloudFront Content Delivery Network (CDN) to cache data globally",
+        "B": "Set up Amazon S3 cross-region replication to another AWS Region",
+        "C": "Configure the AWS Backup service to back up to the data to another AWS Region",
+        "D": "Take Amazon S3 bucket snapshots and copy that data to another AWS Region"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 81,
+      "question": "A company needs a content delivery network that provides secure delivery of data, videos, applications, and APIs to users globally with low latency and high transfer speed. Which AWS service meets these requirements?",
+      "options": {
+        "A": "Amazon CloudFront",
+        "B": "Elastic Load Balancing",
+        "C": "Amazon S3",
+        "D": "Amazon Elastic Transcoder"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 86,
+      "question": "A company needs to improve the response rate of high-volume queries to its relational database. Which AWS service should the company use to offload requests to the database and improve overall response times?",
+      "options": {
+        "A": "Amazon DynamoDB Accelerator (DAX)",
+        "B": "Amazon ElastiCache",
+        "C": "Elastic Load Balancing",
+        "D": "AWS Global Accelerator"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 89,
+      "question": "A company needs to perform a one-time migration of 40TB of data from its on-premises storage servers to Amazon S3. The transfer must happen as quickly as possible while keeping costs to a minimum. The company has 100 Mbps internet connectivity. Which AWS service will meet these requirements?",
+      "options": {
+        "A": "AWS Snowball",
+        "B": "AWS Direct Connect",
+        "C": "AWS Storage Gateway",
+        "D": "Amazon S3 Transfer Acceleration"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 116,
+      "question": "A company wants to configure a dedicated connection between its on premises IT infrastructure and resources in an AWS Region. The company also wants to reduce network latency and congestion. Which AWS service or feature should the company choose?",
+      "options": {
+        "A": "AWS VPN",
+        "B": "AWS PrivateLink",
+        "C": "Amazon Connect",
+        "D": "AWS Direct Connect"
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 117,
+      "question": "A company wants to connect to AWS over a private, low-latency connection from its remote office. What is the recommended method to meet these requirements?",
+      "options": {
+        "A": "Create a VPN tunnel",
+        "B": "Connect across the public internetC. Use VPC peering to create a connection.",
+        "C": "Use AWS Direct Connect.",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 119,
+      "question": "A company wants to deploy some of its resources in the AWS Cloud. To meet regulatory requirements, the data must remain local and on premises. There must be low latency between AWS and the company resources. Which AWS service or feature can be used to meet these requirements?",
+      "options": {
+        "A": "AWS Local Zones",
+        "B": "Availability Zones",
+        "C": "AWS Outposts",
+        "D": "AWS Wavelength Zones"
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 122,
+      "question": "A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. Which AWS infrastructure component should the company replicate across?",
+      "options": {
+        "A": "Edge locations",
+        "B": "Availability Zones",
+        "C": "Regions",
+        "D": "Amazon Route 53"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 124,
+      "question": "A company wants to ensure that two Amazon EC2 instances are in separate data centers with minimal communication latency between the data centers. How can the company meet this requirement?",
+      "options": {
+        "A": "Place the EC2 instances in two separate AWS Regions connected with a VPC peering connection.",
+        "B": "Place the EC2 instances in two separate Availability Zones within the same AWS Region.",
+        "C": "Place one EC2 instance on premises and the other in an AWS Region. Then connect them by using an AWS VPN connection.",
+        "D": "Place both EC2 instances in a placement group for dedicated bandwidth."
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 142,
+      "question": "A company wants to transfer petabytes of data as quickly as possible from on-premises locations to the AWS Cloud. Which AWS service should the company use?",
+      "options": {
+        "A": "AWS Snowball",
+        "B": "AWS Global Accelerator",
+        "C": "Amazon S3 Transfer Acceleration",
+        "D": "Amazon Connect"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 168,
+      "question": "A media company wants to distribute video content to millions of users worldwide over the internet. The company wants to use the AWS global network backbone to distribute cached content with low latency and high data transfer speeds. Which AWS service will meet these requirements?",
+      "options": {
+        "A": "Amazon CloudFront",
+        "B": "AWS Global Accelerator",
+        "C": "AWS Direct Connect",
+        "D": "Amazon Connect"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 175,
+      "question": "A social media company needs to launch a new feature. The feature will give users the ability to share images that can be viewed by other users across the world with low latency. Which AWS service or feature should the company use to meet this requirement MOST cost-effectively?",
+      "options": {
+        "A": "Amazon DynamoDB global tables",
+        "B": "AWS Direct Connect",
+        "C": "Amazon CloudFront",
+        "D": "AWS Outposts"
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 226,
+      "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. Where can the administrator find assistance?",
+      "options": {
+        "A": "AWS Well-Architected Framework documentation",
+        "B": "Amazon CloudFront",
+        "C": "AWS CodeCommit",
+        "D": "AWS Quick Start reference deployments"
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 235,
+      "question": "An ecommerce company wants to design a highly available application that will be hosted on multiple Amazon EC2 instances. How should the company deploy the EC2 instances to meet these requirements?",
+      "options": {
+        "A": "Across multiple edge locations",
+        "B": "Across multiple VPCs",
+        "C": "Across multiple Availability Zones",
+        "D": "Across multiple AWS accounts"
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 271,
+      "question": "How does the AWS global infrastructure offer high availability and fault tolerance to its users?",
+      "options": {
+        "A": "The AWS infrastructure is made up of multiple AWS Regions within various Availability Zones located in areas that have low flood risk, and are interconnected with low-latency networks and redundant power supplies.",
+        "B": "The AWS infrastructure consists of subnets containing various Availability Zones with multiple data centers located in the same geographic location.",
+        "C": "AWS allows users to choose AWS Regions and data centers so that users can select the closest data centers in different Regions.",
+        "D": "The AWS infrastructure consists of isolated AWS Regions with independent Availability Zones that are connected with low-latency networking and redundant power supplies."
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 289,
+      "question": "The AWS global infrastructure consists of Regions, Availability Zones, and what else?",
+      "options": {
+        "A": "VPCs",
+        "B": "Data centers",
+        "C": "Dark fiber network links",
+        "D": "Edge locations"
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 311,
+      "question": "Users are reporting latency when connecting to a website with a global customer base. Which AWS service will improve the customer experience by reducing latency?",
+      "options": {
+        "A": "Amazon CloudFront",
+        "B": "AWS Direct Connect",
+        "C": "Amazon EC2 Auto Scaling",
+        "D": "AWS Transit Gateway"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 318,
+      "question": "What are the multiple, isolated locations within an AWS Region that are connected by low-latency networks called?",
+      "options": {
+        "A": "AWS Direct Connects",
+        "B": "Amazon VPCs",
+        "C": "Edge locations",
+        "D": "Availability Zones"
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 326,
+      "question": "What does Amazon CloudFront provide?",
+      "options": {
+        "A": "Automatic scaling for all resources to power an application from a single unified interface B. Secure delivery of data, videos, applications, and APIs to users globally with low latency",
+        "B": "Ability to directly manage traffic globally through a variety of routing types, including latency-based routing, geo DNS, geoproximity, and weighted round robin",
+        "C": "Automatic distribution of incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and AWS Lambda functions",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 334,
+      "question": "What helps a company provide a lower latency experience to its users globally?",
+      "options": {
+        "A": "Using an AWS Region that is central to all users",
+        "B": "Using a second Availability Zone in the AWS Region that is using used",
+        "C": "Enabling caching in the AWS Region that is being used",
+        "D": "Using edge locations to put content closer to all users"
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 336,
+      "question": "What is a benefit of loose coupling as a principle of cloud architecture design?",
+      "options": {
+        "A": "It facilitates low-latency request handling.",
+        "B": "It allows applications to have dependent workflows.",
+        "C": "It prevents cascading failures between different components.",
+        "D": "It allows companies to focus on their physical data center operations."
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 343,
+      "question": "What is an advantage of deploying an application across multiple Availability Zones?",
+      "options": {
+        "A": "There is a lower risk of service failure if a natural disaster causes a service disruption in a given AWS Region.",
+        "B": "The application will have higher availability because it can withstand a service disruption in one Availability Zone.",
+        "C": "There will be better coverage as Availability Zones are geographically distant and can serve a wider area.",
+        "D": "There will be decreased application latency that will improve the user experience."
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 345,
+      "question": "What is an Availability Zone in AWS?",
+      "options": {
+        "A": "One or more physical data centers",
+        "B": "A completely isolated geographic location",
+        "C": "One or more edge locations based around the world",
+        "D": "A data center location with a single source of power and networking"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 346,
+      "question": "What is an Availability Zone?",
+      "options": {
+        "A": "A location where users can deploy compute, storage, database, and other select AWS services where no AWS Region currently exists. B. One or more discrete data centers with redundant power, networking, and connectivity",
+        "B": "One or more clusters of servers where new workloads can be deployed",
+        "C": "A fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to users globally",
+        "D": ""
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 373,
+      "question": "What should a user do to deploy an application in geographically separate locations?",
+      "options": {
+        "A": "Deploy the application in different placement groups.",
+        "B": "Deploy the application to a VPC.",
+        "C": "Deploy the application to multiple AWS Regions.",
+        "D": "Deploy the application by using Amazon CloudFront."
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 410,
+      "question": "Which AWS benefit enables users to deploy cloud infrastructure that consists of multiple geographic regions connected by a network with low latency, high throughput, and redundancy?",
+      "options": {
+        "A": "Economies of scale",
+        "B": "Security",
+        "C": "Elasticity",
+        "D": "Global reach"
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 473,
+      "question": "Which AWS service is a content delivery network that securely delivers data, video, and applications to users globally with low latency and high speeds?",
+      "options": {
+        "A": "AWS CloudFormation",
+        "B": "AWS Direct Connect",
+        "C": "Amazon CloudFront",
+        "D": "Amazon Pinpoint"
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 476,
+      "question": "Which AWS service is a highly available and scalable DNS web service?",
+      "options": {
+        "A": "Amazon VPC",
+        "B": "Amazon CloudFront",
+        "C": "Amazon Route 53",
+        "D": "Amazon Connect"
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 492,
+      "question": "Which AWS service or feature allows a user to easily scale connectivity among thousands of VPCs?",
+      "options": {
+        "A": "VPC peering",
+        "B": "AWS Transit Gateway",
+        "C": "AWS Direct Connect",
+        "D": "AWS Global Accelerator"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 503,
+      "question": "Which AWS service or feature improves network performance by sending traffic through the AWS worldwide network infrastructure?",
+      "options": {
+        "A": "Route table",
+        "B": "AWS Transit Gateway",
+        "C": "AWS Global Accelerator",
+        "D": "Amazon VPC"
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 513,
+      "question": "Which AWS service or resource helps on-premises applications connect to AWS Cloud-based storage and caches the data locally for low-latency access?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "AWS Storage Gateway",
+        "C": "Amazon S3",
+        "D": "AWS Snowball Edge"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 541,
+      "question": "Which AWS service uses edge locations?",
+      "options": {
+        "A": "Amazon Aurora",
+        "B": "AWS Global Accelerator",
+        "C": "Amazon Connect",
+        "D": "AWS Outposts"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 546,
+      "question": "Which AWS service would a customer use with a static website to achieve lower latency and high transfer speeds?",
+      "options": {
+        "A": "AWS Lambda",
+        "B": "Amazon DynamoDB Accelerator",
+        "C": "Amazon Route 53",
+        "D": "Amazon CloudFront"
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 572,
+      "question": "Which element of the AWS global infrastructure consists of one or more discrete data centers, each with redundant power, networking, and connectivity, which are housed in separate facilities?",
+      "options": {
+        "A": "AWS Regions",
+        "B": "Availability Zones",
+        "C": "Edge locations",
+        "D": "Amazon CloudFront"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 575,
+      "question": "requirement for low latency to all of its customers?",
+      "options": {
+        "A": "Fault tolerance",
+        "B": "Global reach",
+        "C": "Pay-as-you-go pricing",
+        "D": "High availability"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 578,
+      "question": "Which is a recommended pattern for designing a highly available architecture on AWS?",
+      "options": {
+        "A": "Ensure that components have low-latency network connectivity.",
+        "B": "Run enough Amazon EC2 instances to operate at peak load.",
+        "C": "Ensure that the application is designed to accommodate failure of any single component.",
+        "D": "Use a monolithic application that handles all operations."
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 585,
+      "question": "Which of the AWS global infrastructure is used to cache copies of content for faster delivery to users across the globe?",
+      "options": {
+        "A": "AWS Regions",
+        "B": "Availability Zones",
+        "C": "Edge locations",
+        "D": "Data centers"
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 600,
+      "question": "Which of the following components of the AWS Global Infrastructure consists of one or more discrete data centers interconnected through low latency links?",
+      "options": {
+        "A": "Availability Zone",
+        "B": "Edge location",
+        "C": "Region",
+        "D": "Private networking"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 603,
+      "question": "Which of the following describes AWS Local Zones?",
+      "options": {
+        "A": "A cluster of data centers in one geographic location",
+        "B": "A site used by Amazon CloudFront to cache frequently accessed content",
+        "C": "An extension of an AWS Region to more granular locations",
+        "D": "One or more data centers with redundant power and networking"
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 613,
+      "question": "Which of the following is a correct relationship between regions, Availability Zones, and edge locations?",
+      "options": {
+        "A": "Data centers contain regions.",
+        "B": "Regions contain Availability Zones.",
+        "C": "Availability Zones contain edge locations.",
+        "D": "Edge locations contain regions."
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 692,
+      "question": "Which type of AWS infrastructure deployment puts AWS compute, storage, database, and other select services closer to end users to run latency sensitive applications?",
+      "options": {
+        "A": "AWS Regions",
+        "B": "Availability Zones",
+        "C": "Local Zones",
+        "D": "Edge locations"
+      },
+      "answer": "C",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 698,
+      "question": "Why should a company choose AWS instead of a traditional data center?",
+      "options": {
+        "A": "AWS provides users with full control over the underlying resources.",
+        "B": "AWS does not require long-term contracts and provides a pay-as-you-go model.",
+        "C": "AWS offers edge locations in every country, supporting global reach.",
+        "D": "AWS has no limits on the number of resources that can be created."
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 742,
+      "question": "",
+      "options": {
+        "A": "Availability Zone",
+        "B": "Region",
+        "C": "Edge location",
+        "D": "Server"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 745,
+      "question": "",
+      "options": {
+        "A": "Availability Zone",
+        "B": "Region",
+        "C": "Edge location",
+        "D": "Server"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 750,
+      "question": "Which statement below is correct regarding the components of the AWS Global Infrastructure?",
+      "options": {
+        "A": "An AWS Region contains multiple Availability Zones.",
+        "B": "An edge location contains multiple AWS Regions",
+        "C": "An Availability Zone contains edge locations.",
+        "D": "An Availability Zone contains multiple AWS Regions."
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 755,
+      "question": "What is the right arrangement of the AWS Global Infrastructure components according to their geographical coverage area size, in descending order?",
+      "options": {
+        "A": "Regions, Availability Zones, Edge Locations",
+        "B": "Regions, Edge Locations, Availability Zones",
+        "C": "Edge Locations, Availability Zones, Regions",
+        "D": "Availability Zones, Edge Locations, Regions"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 761,
+      "question": "What is the right arrangement of the AWS Global Infrastructure components according to their geographical coverage area size, in descending order?",
+      "options": {
+        "A": "Regions, Availability Zones, Edge Locations",
+        "B": "Regions, Edge Locations, Availability Zones",
+        "C": "Edge Locations, Availability Zones, Regions",
+        "D": "Availability Zones, Edge Locations, Regions"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 762,
+      "question": "Which of the following is not a part of the AWS Global Infrastructure?",
+      "options": {
+        "A": "Placement Groups",
+        "B": "Availability Zones",
+        "C": "Regions",
+        "D": "Edge Locations"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 765,
+      "question": "Which of the following is not a part of the AWS Global Infrastructure?",
+      "options": {
+        "A": "Placement Groups",
+        "B": "Availability Zones",
+        "C": "Regions",
+        "D": "Edge Locations"
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 772,
+      "question": "Which statement below is correct regarding the components of the AWS Global Infrastructure?",
+      "options": {
+        "A": "An AWS Region contains multiple Availability Zones.",
+        "B": "An edge location contains multiple AWS Regions",
+        "C": "An Availability Zone contains edge locations.",
+        "D": "An Availability Zone contains multiple AWS Regions."
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1009,
+      "question": "A characteristic of edge locations is that they:",
+      "options": {
+        "A": "host Amazon EC2 instances closer to users.",
+        "B": "help lower latency and improve performance for users.",
+        "C": "cache frequently changing data without reaching the origin server.",
+        "D": "refresh data changes daily."
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1010,
+      "question": "A characteristic of edge locations is that they:",
+      "options": {
+        "A": "host Amazon EC2 instances closer to users.",
+        "B": "help lower latency and improve performance for users.",
+        "C": "cache frequently changing data without reaching the origin server.",
+        "D": "refresh data changes daily."
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1017,
+      "question": "A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas. Which of the following meets these requirements?",
+      "options": {
+        "A": "AWS Accounts",
+        "B": "AWS Regions",
+        "C": "Availability Zones",
+        "D": "Edge locations"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1018,
+      "question": "A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas. Which of the following meets these requirements?",
+      "options": {
+        "A": "AWS Accounts",
+        "B": "AWS Regions",
+        "C": "Availability Zones",
+        "D": "Edge locations"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1039,
+      "question": "A company has a globally distributed user base. The company needs its application to be highly available and have low latency for end users. Which AWS architectural approach will MOST effectively support these requirements?",
+      "options": {
+        "A": "Single-Region, Multi-AZ architecture",
+        "B": "Multi-Region, active-active architecture",
+        "C": "Multi-Region, active-passive architecture",
+        "D": "Single-Region, Single-AZ architecture"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1040,
+      "question": "A company has a globally distributed user base. The company needs its application to be highly available and have low latency for end users. Which AWS architectural approach will MOST effectively support these requirements?",
+      "options": {
+        "A": "Single-Region, Multi-AZ architecture",
+        "B": "Multi-Region, active-active architecture",
+        "C": "Multi-Region, active-passive architecture",
+        "D": "Single-Region, Single-AZ architecture"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1049,
+      "question": "A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. What should the company do to reduce latency?",
+      "options": {
+        "A": "Implement AWS Direct Connect for users in Brazil",
+        "B": "Provision resources in the South America (São Paulo) Region in Brazil",
+        "C": "Use AWS Transit Gateway to quickly route users from Brazil to the application",
+        "D": "Launch additional Amazon EC2 instances in Sydney to handle the demand"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1050,
+      "question": "A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. What should the company do to reduce latency?",
+      "options": {
+        "A": "Implement AWS Direct Connect for users in Brazil",
+        "B": "Provision resources in the South America (São Paulo) Region in Brazil",
+        "C": "Use AWS Transit Gateway to quickly route users from Brazil to the application",
+        "D": "Launch additional Amazon EC2 instances in Sydney to handle the demand"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1085,
+      "question": "A company hosts its website on Amazon EC2 instances. The company needs to ensure that the website reaches a global audience and provides minimum latency to users. Which AWS service should the company use to meet these requirements?",
+      "options": {
+        "A": "Amazon Route 53",
+        "B": "Amazon CloudFront",
+        "C": "Elastic Load Balancing",
+        "D": "AWS Lambda"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1086,
+      "question": "A company hosts its website on Amazon EC2 instances. The company needs to ensure that the website reaches a global audience and provides minimum latency to users. Which AWS service should the company use to meet these requirements?",
+      "options": {
+        "A": "Amazon Route 53",
+        "B": "Amazon CloudFront",
+        "C": "Elastic Load Balancing",
+        "D": "AWS Lambda"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1089,
+      "question": "A company is based in the us-east-1 Region and has a satellite office in the eu-west-2 Region. The company wants to use Amazon WorkSpaces to host its internal web portal and virtual desktops for employees. What should the company do to minimize latency and ensure the best possible performance for employees?",
+      "options": {
+        "A": "Deploy the internal web portal and virtual desktops to us-east-1 only. Use an Amazon CloudFront distribution for the users in eu-west-2.",
+        "B": "Deploy the internal web portal to us-east-1 only. Deploy the virtual desktops to us-east-1 and eu-west-2.",
+        "C": "Deploy the internal web portal to us-east-1 and eu-west-2. Deploy the virtual desktops on network optimized Amazon EC2 instances to us-east-1 only.",
+        "D": "Deploy the internal web portal and virtual desktops to us-east-1 and eu-west-2."
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1090,
+      "question": "A company is based in the us-east-1 Region and has a satellite office in the eu-west-2 Region. The company wants to use Amazon WorkSpaces to host its internal web portal and virtual desktops for employees. What should the company do to minimize latency and ensure the best possible performance for employees?",
+      "options": {
+        "A": "Deploy the internal web portal and virtual desktops to us-east-1 only. Use an Amazon CloudFront distribution for the users in eu-west-2.",
+        "B": "Deploy the internal web portal to us-east-1 only. Deploy the virtual desktops to us-east-1 and eu-west-2.",
+        "C": "Deploy the internal web portal to us-east-1 and eu-west-2. Deploy the virtual desktops on network optimized Amazon EC2 instances to us-east-1 only.",
+        "D": "Deploy the internal web portal and virtual desktops to us-east-1 and eu-west-2."
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1097,
+      "question": "A company is building an application that needs to deliver images and videos globally with minimal latency. Which approach can the company use to accomplish this in a cost effective manner?",
+      "options": {
+        "A": "Deliver the content through Amazon CloudFront.",
+        "B": "Store the content on Amazon S3 and enable S3 cross-region replication.",
+        "C": "Implement a VPN across multiple AWS Regions.",
+        "D": "Deliver the content through AWS PrivateLink."
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1098,
+      "question": "A company is building an application that needs to deliver images and videos globally with minimal latency. Which approach can the company use to accomplish this in a cost effective manner?",
+      "options": {
+        "A": "Deliver the content through Amazon CloudFront.",
+        "B": "Store the content on Amazon S3 and enable S3 cross-region replication.",
+        "C": "Implement a VPN across multiple AWS Regions.",
+        "D": "Deliver the content through AWS PrivateLink."
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1107,
+      "question": "A characteristic of edge locations is that they:",
+      "options": {
+        "A": "host Amazon EC2 instances closer to users.",
+        "B": "help lower latency and improve performance for users.",
+        "C": "cache frequently changing data without reaching the origin server.",
+        "D": "refresh data changes daily."
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1111,
+      "question": "A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas. Which of the following meets these requirements?",
+      "options": {
+        "A": "AWS Accounts",
+        "B": "AWS Regions",
+        "C": "Availability Zones",
+        "D": "Edge locations"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1122,
+      "question": "A company has a globally distributed user base. The company needs its application to be highly available and have low latency for end users. Which AWS architectural approach will MOST effectively support these requirements?",
+      "options": {
+        "A": "Single-Region, Multi-AZ architecture",
+        "B": "Multi-Region, active-active architecture",
+        "C": "Multi-Region, active-passive architecture",
+        "D": "Single-Region, Single-AZ architecture"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1127,
+      "question": "A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. What should the company do to reduce latency?",
+      "options": {
+        "A": "Implement AWS Direct Connect for users in Brazil",
+        "B": "Provision resources in the South America (São Paulo) Region in Brazil",
+        "C": "Use AWS Transit Gateway to quickly route users from Brazil to the application",
+        "D": "Launch additional Amazon EC2 instances in Sydney to handle the demand"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1145,
+      "question": "A company hosts its website on Amazon EC2 instances. The company needs to ensure that the website reaches a global audience and provides minimum latency to users. Which AWS service should the company use to meet these requirements?",
+      "options": {
+        "A": "Amazon Route 53",
+        "B": "Amazon CloudFront",
+        "C": "Elastic Load Balancing",
+        "D": "AWS Lambda"
+      },
+      "answer": "B",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1147,
+      "question": "A company is based in the us-east-1 Region and has a satellite office in the eu-west-2 Region. The company wants to use Amazon WorkSpaces to host its internal web portal and virtual desktops for employees. What should the company do to minimize latency and ensure the best possible performance for employees?",
+      "options": {
+        "A": "Deploy the internal web portal and virtual desktops to us-east-1 only. Use an Amazon CloudFront distribution for the users in eu-west-2.",
+        "B": "Deploy the internal web portal to us-east-1 only. Deploy the virtual desktops to us-east-1 and eu-west-2.",
+        "C": "Deploy the internal web portal to us-east-1 and eu-west-2. Deploy the virtual desktops on network optimized Amazon EC2 instances to us-east-1 only.",
+        "D": "Deploy the internal web portal and virtual desktops to us-east-1 and eu-west-2."
+      },
+      "answer": "D",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1151,
+      "question": "A company is building an application that needs to deliver images and videos globally with minimal latency. Which approach can the company use to accomplish this in a cost effective manner?",
+      "options": {
+        "A": "Deliver the content through Amazon CloudFront.",
+        "B": "Store the content on Amazon S3 and enable S3 cross-region replication.",
+        "C": "Implement a VPN across multiple AWS Regions.",
+        "D": "Deliver the content through AWS PrivateLink."
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1156,
+      "question": "A company is designing a new cloud architecture for its mission-critical application in AWS which must be highly-available. Which of the following is the recommended pattern to meet this requirement?",
+      "options": {
+        "A": "Use multiple Availability Zones to ensure that the application can handle the failure of any single component.",
+        "B": "Adopt a monolithic application architecture.",
+        "C": "Deploy an Amazon EC2 Spot Fleet with a diversified allocation strategy.",
+        "D": "Make sure that each component of the application has high bandwidth and low-latency network connectivity using ENIs."
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    },
+    {
+      "sourceIndex": 1173,
+      "question": "Which statement below is correct regarding the components of the AWS Global Infrastructure?",
+      "options": {
+        "A": "An AWS Region contains multiple Availability Zones",
+        "B": "An edge location contains multiple AWS Regions.",
+        "C": "An Availability Zone contains edge locations.",
+        "D": "An Availability Zone contains multiple AWS Regions."
+      },
+      "answer": "A",
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)"
+    }
+  ]
+}

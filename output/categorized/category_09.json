@@ -1,0 +1,774 @@
+{
+  "categoryId": 9,
+  "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)",
+  "count": 59,
+  "items": [
+    {
+      "sourceIndex": 38,
+      "question": "A company hosts an application on an Amazon EC2 instance. The EC2 instance needs to access several AWS resources, including Amazon S3 and Amazon DynamoDB. What is the MOST operationally efficient solution to delegate permissions?",
+      "options": {
+        "A": "Create an IAM role with the required permissions. Attach the role to the EC2 instance.",
+        "B": "Create an IAM user and use its access key and secret access key in the application.",
+        "C": "Create an IAM user and use its access key and secret access key to create a CLI profile in the EC2 instance",
+        "D": "Create an IAM role with the required permissions. Attach the role to the administrative IAM user."
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 95,
+      "question": "A company needs to use AWS Identity and Access Management (IAM) to attach an IAM policy to all IAM users in an AWS account. Which solution meets this requirement?",
+      "options": {
+        "A": "Attach the IAM policy to each IAM user.",
+        "B": "Attach the IAM policy to the IAM group containing all the IAM users.",
+        "C": "Attach the IAM policy to the IAM role containing all the IAM users.",
+        "D": "Apply the IAM policy to the entire AWS account."
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 210,
+      "question": "Access keys in AWS Identity and Access Management (IAM) are used to:",
+      "options": {
+        "A": "log in to the AWS Management Console.",
+        "B": "make programmatic calls to AWS from AWS APIs.",
+        "C": "log in to Amazon EC2 instances.",
+        "D": "authenticate to AWS CodeCommit repositories."
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 276,
+      "question": "How would an AWS customer easily apply common access controls to a large set of users?",
+      "options": {
+        "A": "Apply an IAM policy to an IAM group.",
+        "B": "Apply an IAM policy to an IAM role.",
+        "C": "Apply the same IAM policy to all IAM users with access to the same workload.",
+        "D": "Apply an IAM policy to an Amazon Cognito user pool."
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 290,
+      "question": "The AWS IAM best practice for granting least privilege is to:",
+      "options": {
+        "A": "apply an IAM policy to an IAM group and limit the size of the group.",
+        "B": "require multi-factor authentication (MFA) for all IAM users.",
+        "C": "require each IAM user who has different permissions to have multiple passwords.",
+        "D": "apply an IAM policy only to IAM users who require it."
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 314,
+      "question": "Using AWS Identity and Access Management (IAM) to grant access only to the resources needed to perform a task is a concept known as:",
+      "options": {
+        "A": "restricted access.",
+        "B": "as-needed access.",
+        "C": "least privilege access.",
+        "D": "token access."
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 315,
+      "question": "Using AWS Identity and Access Management (IAM), what can be attached to an Amazon EC2 instance to make service requests?",
+      "options": {
+        "A": "Group",
+        "B": "Role",
+        "C": "Policy",
+        "D": "Access key"
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 329,
+      "question": "What does it mean to grant least privilege to AWS IAM users?",
+      "options": {
+        "A": "It is granting permissions to a single user only.",
+        "B": "It is granting permissions using AWS IAM policies only.",
+        "C": "It is granting AdministratorAccess policy permissions to trustworthy users.",
+        "D": "It is granting only the permissions required to perform a given task."
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 348,
+      "question": "What is an AWS Identity and Access Management (IAM) role?",
+      "options": {
+        "A": "A user associated with an AWS resource",
+        "B": "A group associated with an AWS resource",
+        "C": "An entity that defines a set of permissions for use with an AWS resource",
+        "D": "An authentication credential associated with a multi-factor authentication (MFA) token"
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 393,
+      "question": "Which action is consistent with the principle of least privilege in terms of AWS Cloud architecture?",
+      "options": {
+        "A": "Allow users the minimum access that is needed to do a task.",
+        "B": "Prevent managers from accessing important source code.",
+        "C": "Provide only the permissions that are needed for users to do their jobs in the current month.",
+        "D": "Assign permissions that are based on job titles."
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 422,
+      "question": "Which AWS feature grants temporary access to specific AWS resources?",
+      "options": {
+        "A": "AWS IAM Access Analyzer",
+        "B": "Service control policies (SCPs)",
+        "C": "Access control lists (ACLs)",
+        "D": "IAM roles"
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 428,
+      "question": "Which AWS IAM feature allows developers to access AWS services through the AWS CLI?",
+      "options": {
+        "A": "API keys",
+        "B": "Access keys",
+        "C": "User names/Passwords",
+        "D": "SSH keys"
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 429,
+      "question": "Which AWS IAM feature is used to associate a set of permissions with multiple users?",
+      "options": {
+        "A": "Multi-factor authentication",
+        "B": "Groups",
+        "C": "Password policies",
+        "D": "Access keys"
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 479,
+      "question": "Which AWS service is always free of charge for users?",
+      "options": {
+        "A": "Amazon S3",
+        "B": "Amazon Aurora",
+        "C": "Amazon EC2",
+        "D": "AWS Identity and Access Management (IAM)"
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 486,
+      "question": "Which AWS service makes it easy to create and manage AWS users and groups, and provide them with secure access to AWS resources at no charge?",
+      "options": {
+        "A": "AWS Direct Connect",
+        "B": "Amazon Connect",
+        "C": "AWS Identity and Access Management (IAM)",
+        "D": "AWS Firewall Manager"
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 526,
+      "question": "Which AWS service provides inbound and outbound network ACLs to harden external connectivity to Amazon EC2?",
+      "options": {
+        "A": "AWS IAM",
+        "B": "Amazon Connect",
+        "C": "Amazon VPC",
+        "D": "Amazon API Gateway"
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 586,
+      "question": "Which of the following acts as a virtual firewall at the Amazon EC2 instance level to control traffic for one or more instances?",
+      "options": {
+        "A": "Access keys",
+        "B": "Virtual private gateways",
+        "C": "Security groups",
+        "D": "Access Control Lists (ACL)"
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 602,
+      "question": "Which of the following describes a security best practice that can be implemented using AWS IAM?",
+      "options": {
+        "A": "Disable AWS Management Console access for all users",
+        "B": "Generate secret keys for every IAM user",
+        "C": "Grant permissions to users who are required to perform a given task only",
+        "D": "Store AWS credentials within Amazon EC2 instances"
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 605,
+      "question": "Which of the following Identity and Access Management (IAM) entities is associated with an access key ID and secret access key when using AWS Command Line Interface (AWS CLI)?",
+      "options": {
+        "A": "IAM group",
+        "B": "IAM user",
+        "C": "IAM role",
+        "D": "IAM policy"
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 608,
+      "question": "Which of the following is a best practice for creating policies for IAM users?",
+      "options": {
+        "A": "Start with a large set of permissions and remove the permissions that are not required.",
+        "B": "Use only Amazon managed policies.",
+        "C": "Start with a minimum set of permissions and grant additional permissions as necessary.",
+        "D": "Attach policies directly to each user individually."
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 633,
+      "question": "Which of the following is the responsibility of AWS?",
+      "options": {
+        "A": "Setting up AWS Identity and Access Management (IAM) users and groups",
+        "B": "Physically destroying storage media at end of life",
+        "C": "Patching guest operating systems",
+        "D": "Configuring security settings on Amazon EC2 instances"
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 673,
+      "question": "",
+      "options": {
+        "A": "Amazon CodeStar",
+        "B": "AWS Command Line Interface (AWS CLI)",
+        "C": "Amazon Cognito",
+        "D": "AWS CodeCommit"
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 674,
+      "question": "Which services are parts of the AWS serverless platform?",
+      "options": {
+        "A": "Amazon EC2, Amazon S3, Amazon Athena",
+        "B": "Amazon Kinesis, Amazon SQS, Amazon EMR",
+        "C": "AWS Step Functions, Amazon DynamoDB, Amazon SNS",
+        "D": "Amazon Athena, Amazon Cognito, Amazon EC2"
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 685,
+      "question": "Which task requires the use of AWS account root account user credentials?",
+      "options": {
+        "A": "Closing an AWS account",
+        "B": "Creating a log file",
+        "C": "Modifying IAM user permissions",
+        "D": "Deleting IAM users"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 804,
+      "question": "How does multi-factor authentication work?",
+      "options": {
+        "A": "Instead of an access password, users authenticate via a physical MFA device.",
+        "B": "In addition to an access password, users also authenticate via a physical MFA device.",
+        "C": "Users authenticate using tokens sent to at least two MFA devices.",
+        "D": "Users authenticate using a password and also either a physical or virtual MFA device"
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 805,
+      "question": "How does multi-factor authentication work?",
+      "options": {
+        "A": "Instead of an access password, users authenticate via a physical MFA device.",
+        "B": "In addition to an access password, users also authenticate via a physical MFA device.",
+        "C": "Users authenticate using tokens sent to at least two MFA devices.",
+        "D": "Users authenticate using a password and also either a physical or virtual MFA device"
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 808,
+      "question": "What information does the IAM credential report provide?",
+      "options": {
+        "A": "A record of API requests against your account resources",
+        "B": "A record of failed password account login attempts",
+        "C": "The current state of your account security settings access credentials",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 809,
+      "question": "What information does the IAM credential report provide?",
+      "options": {
+        "A": "A record of API requests against your account resources",
+        "B": "A record of failed password account login attempts",
+        "C": "The current state of your account security settings D",
+        "D": ""
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 810,
+      "question": "What is an IAM role?",
+      "options": {
+        "A": "A set of permissions allowing access to specified AWS resources",
+        "B": "A set of IAM users given permission to access specified AWS resources",
+        "C": "Permissions granted a trusted entity over specified AWS resources",
+        "D": "Permissions granted an IAM user over specified AWS resources"
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 811,
+      "question": "What is an IAM role?",
+      "options": {
+        "A": "A set of permissions allowing access to specified AWS resources",
+        "B": "A set of IAM users given permission to access specified AWS resources",
+        "C": "Permissions granted a trusted entity over specified AWS resources",
+        "D": "Permissions granted an IAM user over specified AWS resources"
+      },
+      "answer": "C",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 812,
+      "question": "What is the primary function of the AWS IAM service?",
+      "options": {
+        "A": "Identity and access management",
+        "B": "Access key management",
+        "C": "SSH key pair management",
+        "D": "Federated access management"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 813,
+      "question": "What is the primary function of the AWS IAM service?",
+      "options": {
+        "A": "Identity and access management",
+        "B": "Access key management",
+        "C": "SSH key pair management",
+        "D": "Federated access management"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 818,
+      "question": "What will IAM users with AWS Management Console access need to successfully log in?",
+      "options": {
+        "A": "Their username, account_number, and a password",
+        "B": "Their username and password",
+        "C": "Their account number and secret access key",
+        "D": "Their username, password, and secret access key"
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 819,
+      "question": "What will IAM users with AWS Management Console access need to successfully log in?",
+      "options": {
+        "A": "Their username, account_number, and a password",
+        "B": "Their username and password",
+        "C": "Their account number and secret access key",
+        "D": "Their username, password, and secret access key"
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 820,
+      "question": "What will you need to provide for a new IAM user y",
+      "options": {
+        "A": "A password",
+        "B": "A password and MFA",
+        "C": "An access key ID",
+        "D": "An access key ID and secret access key"
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 821,
+      "question": "",
+      "options": {
+        "A": "A password",
+        "B": "A password and MFA",
+        "C": "An access key ID",
+        "D": "An access key ID and secret access key"
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 822,
+      "question": "IAM users?",
+      "options": {
+        "A": "Assign users requiring similar permissions to IAM roles.",
+        "B": "Assign users requiring similar permissions to IAM groups.",
+        "C": "Assign IAM users permissions common to others with similar administration responsibilities.",
+        "D": "Create roles based on IAM policies, and assign them to IAM users."
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 823,
+      "question": "IAM users?",
+      "options": {
+        "A": "Assign users requiring similar permissions to IAM roles.",
+        "B": "Assign users requiring similar permissions to IAM groups.",
+        "C": "Assign IAM users permissions common to others with similar administration responsibilities.",
+        "D": "Create roles based on IAM policies, and assign them to IAM users."
+      },
+      "answer": "B",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 836,
+      "question": "Which of the following IAM identities is associated with the access keys that are used in managing your cloud resources via the AWS Command Line Interface (AWS CLI)?",
+      "options": {
+        "A": "IAM User",
+        "B": "IAM Policy",
+        "C": "IAM Group",
+        "D": "IAM Role"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 839,
+      "question": "Which of the following is part of the best practices in securing your AWS account?",
+      "options": {
+        "A": "Create an IAM user with admin privileges instead of using root",
+        "B": "Always manually define permissions to each and every individual IAM user",
+        "C": "Enable MFA only on the root account",
+        "D": "Grant Most Privilege"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 842,
+      "question": "Which of the following is needed to retrieve a list of your EC2 instances using the AWS CLI?",
+      "options": {
+        "A": "Access Keys",
+        "B": "SSH keys",
+        "C": "Username and password",
+        "D": "MFA"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 846,
+      "question": "What is the most secure way to provide applications temporary access to your AWS resources?",
+      "options": {
+        "A": "Create an IAM role and have the application assume the role",
+        "B": "Create an IAM policy that allows the application to access the resources, and attach the policy to the application",
+        "C": "Create an IAM group that has access to the resources, and add the application there",
+        "D": "Create an IAM user with access keys and assign it to the application"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 850,
+      "question": "Which of the following should you use if you need to provide temporary AWS credentials for users who have been authenticated via their social media logins as well as for guest users who do not require any authentication?",
+      "options": {
+        "A": "Amazon Cognito Identity Pool",
+        "B": "AWS AppSync",
+        "C": "Amazon Cognito User Pool",
+        "D": "AWS Single Sign-On"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 856,
+      "question": "There is an incident with your team where an S3 object was deleted using unauthorized deletion of your S3 objects?",
+      "options": {
+        "A": "Configure MFA delete on the S3 bucket.",
+        "B": "Set your S3 buckets to private so that objects are not publicly readable/writable",
+        "C": "Create access control policies so that only you can perform S3-related actions",
+        "D": "Set up stricter IAM policies that will prevent users from deleting S3 objects"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 859,
+      "question": "What is the most secure way to provide applications temporary access to your AWS resources?",
+      "options": {
+        "A": "Create an IAM role and have the application assume the role",
+        "B": "Create an IAM policy that allows the application to access the resources, and attach the policy to the application",
+        "C": "Create an IAM group that has access to the resources, and add the application there",
+        "D": "Create an IAM user with access keys and assign it to the application"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 861,
+      "question": "There is an incident with your team where an S3 object was deleted using unauthorized deletion of your S3 objects?",
+      "options": {
+        "A": "Configure MFA delete on the S3 bucket.",
+        "B": "Set your S3 buckets to private so that objects are not publicly readable/writable",
+        "C": "Create access control policies so that only you can perform S3-related actions",
+        "D": "Set up stricter IAM policies that will prevent users from deleting S3 objects"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 867,
+      "question": "Which of the following should you use if you need to provide temporary AWS credentials for users who have been authenticated via their social media logins as well as for guest users who do not require any authentication?",
+      "options": {
+        "A": "Amazon Cognito Identity Pool",
+        "B": "AWS AppSync",
+        "C": "Amazon Cognito User Pool",
+        "D": "AWS Single Sign-On"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 875,
+      "question": "Which of the following is needed to retrieve a list of your EC2 instances using the AWS CLI?",
+      "options": {
+        "A": "Access Keys",
+        "B": "SSH keys",
+        "C": "Username and password",
+        "D": "MFA"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 877,
+      "question": "Which of the following is part of the best practices in securing your AWS account?",
+      "options": {
+        "A": "Create an IAM user with admin privileges instead of using root",
+        "B": "Always manually define permissions to each and every individual IAM user",
+        "C": "Enable MFA only on the root account",
+        "D": "Grant Most Privilege"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 880,
+      "question": "Which of the following IAM identities is associated with the access keys that are used in managing your cloud resources via the AWS Command Line Interface (AWS CLI)?",
+      "options": {
+        "A": "IAM User",
+        "B": "IAM Policy",
+        "C": "IAM Group",
+        "D": "IAM Role"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 890,
+      "question": "Which service will allow you to group together users who perform a similar function and apply function-specific privileges?",
+      "options": {
+        "A": "AWS IAM",
+        "B": "Tagging",
+        "C": "Directory Service",
+        "D": "Resource Groups"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 921,
+      "question": "Which service will allow you to group together users who perform a similar function and apply function-specific privileges?",
+      "options": {
+        "A": "AWS IAM",
+        "B": "Tagging",
+        "C": "Directory Service",
+        "D": "Resource Groups"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 998,
+      "question": "Which of the following credentials can you use to log into the AWS Management Console?",
+      "options": {
+        "A": "Access key ID",
+        "B": "Account alias",
+        "C": "Account ID",
+        "D": "Identity and Access Management (IAM) username"
+      },
+      "answer": "D",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 999,
+      "question": "Which of the following is required to use the AWS Command Line Interface (CLI)?",
+      "options": {
+        "A": "A secret key",
+        "B": "An IAM user",
+        "C": "Outbound network access to TCP port 80",
+        "D": "Linux"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 1079,
+      "question": "A company hosts an application on an Amazon EC2 instance. The EC2 instance needs to access several AWS resources, including Amazon S3 and Amazon DynamoDB. What is the MOST operationally efficient solution to delegate permissions?",
+      "options": {
+        "A": "Create an IAM role with the required permissions. Attach the role to the EC2 instance.",
+        "B": "Create an IAM user and use its access key and secret access key in the application.",
+        "C": "Create an IAM user and use its access key and secret access key to create a CLI profile in the EC2 instance",
+        "D": "Create an IAM role with the required permissions. Attach the role to the administrative IAM user."
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 1080,
+      "question": "A company hosts an application on an Amazon EC2 instance. The EC2 instance needs to access several AWS resources, including Amazon S3 and Amazon DynamoDB. What is the MOST operationally efficient solution to delegate permissions?",
+      "options": {
+        "A": "Create an IAM role with the required permissions. Attach the role to the EC2 instance.",
+        "B": "Create an IAM user and use its access key and secret access key in the application.",
+        "C": "Create an IAM user and use its access key and secret access key to create a CLI profile in the EC2 instance",
+        "D": "Create an IAM role with the required permissions. Attach the role to the administrative IAM user."
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 1142,
+      "question": "A company hosts an application on an Amazon EC2 instance. The EC2 instance needs to access several AWS resources, including Amazon S3 and Amazon DynamoDB. What is the MOST operationally efficient solution to delegate permissions?",
+      "options": {
+        "A": "Create an IAM role with the required permissions. Attach the role to the EC2 instance.",
+        "B": "Create an IAM user and use its access key and secret access key in the application.",
+        "C": "Create an IAM user and use its access key and secret access key to create a CLI profile in the EC2 instance",
+        "D": "Create an IAM role with the required permissions. Attach the role to the administrative IAM user."
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 1164,
+      "question": "Which AWS service helps identify resources shared with an external entity and generates policies based on access activity?",
+      "options": {
+        "A": "AWS IAM Access Analyzer",
+        "B": "AWS Systems Manager Parameter Store",
+        "C": "AWS Proton",
+        "D": "AWS License Manager"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    },
+    {
+      "sourceIndex": 1169,
+      "question": "Which of the following IAM identities is associated with the access keys that are used in managing your cloud resources via the AWS Command Line Interface (AWS CLI)?",
+      "options": {
+        "A": "IAM User",
+        "B": "IAM Role",
+        "C": "IAM Policy",
+        "D": "IAM Group"
+      },
+      "answer": "A",
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "totalQuestions": 1174,
+  "malformedCount": 55,
+  "perCategoryCounts": [
+    {
+      "categoryId": 1,
+      "categoryName": "Cloud Concepts and Value Proposition",
+      "count": 127
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "AWS Global Infrastructure (Regions, AZs, Edge, Local Zones, Outposts)",
+      "count": 26
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Compute and EC2 Fundamentals",
+      "count": 61
+    },
+    {
+      "categoryId": 4,
+      "categoryName": "EC2 Pricing and Cost Optimization (On-Demand, RI, Spot, Dedicated)",
+      "count": 67
+    },
+    {
+      "categoryId": 5,
+      "categoryName": "Storage Services and Data Lifecycle (S3, EBS, EFS, Glacier, Storage Gateway, Snow Family)",
+      "count": 62
+    },
+    {
+      "categoryId": 6,
+      "categoryName": "Database Services (RDS, Aurora, DynamoDB, Redshift, Neptune, ElastiCache)",
+      "count": 103
+    },
+    {
+      "categoryId": 7,
+      "categoryName": "Networking and Connectivity (VPC, Subnets, NACL, SG, Route 53, Direct Connect, VPN, Transit Gateway, PrivateLink)",
+      "count": 72
+    },
+    {
+      "categoryId": 8,
+      "categoryName": "Content Delivery and Global Performance (CloudFront, Global Accelerator, latency patterns)",
+      "count": 83
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "Identity and Access Management (IAM users, roles, policies, least privilege, MFA, access keys, Cognito)",
+      "count": 59
+    },
+    {
+      "categoryId": 10,
+      "categoryName": "Security, Compliance, and Shared Responsibility (WAF, Shield, GuardDuty, Macie, Inspector, Artifact, KMS, PCI/SOC)",
+      "count": 130
+    },
+    {
+      "categoryId": 11,
+      "categoryName": "Monitoring, Logging, and Governance (CloudWatch, CloudTrail, Config, Trusted Advisor, Health dashboards)",
+      "count": 163
+    },
+    {
+      "categoryId": 12,
+      "categoryName": "Billing, Budgets, Organizations, and Support Plans (Cost Explorer, CUR, Budgets, consolidated billing, support tiers, TAM/Concierge)",
+      "count": 221
+    }
+  ]
+}
